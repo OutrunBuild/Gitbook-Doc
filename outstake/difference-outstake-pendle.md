@@ -21,3 +21,8 @@ Currently, Pendle is the most popular native yield staking protocol on the marke
 
 * **Pendle:** Pendle does not generate real external yields; its fixed-rate yields essentially come from the losses of staking users. Previously, Pendle’s high fixed-rate yields were driven by airdrop incentives from various restaking protocols, leading users to bear losses in exchange for airdrop rewards, which were short-lived.
 * **Outstake:** Through the Outrun ecosystem, which supports multiple assets, Outstake creates a rich arbitrage market and multiple income sources. Users can earn native yields, fixed-rate returns from trading **POT**, and numerous arbitrage opportunities based on Outstake assets, enhancing the overall profitability and scalability of the protocol.
+
+5. **Originality**
+
+* **Pendle:** The **PT/YT** model used by Pendle is not original. It is derived from the fixed-rate lending model by **Element Finance**. Pendle expanded the use cases of the model created by **Element Finance**.
+* **Outstake:** The **PT/YT** model used by Outstake is an entirely new and **original** model.
