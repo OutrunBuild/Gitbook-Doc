@@ -1,6 +1,6 @@
 # 质押非 Rebase 原生收益代币
 
-**非 Rebase 原生收益代币**的原生收益内置于原生收益代币本身，燃烧**非 Rebase 原生收益代币**可以同时赎回本金以及原生收益。例如 **slisBNB (Lista),  STONE (Stakestone)**。
+**非 Rebase 原生收益代币**的原生收益内置于原生收益代币本身，燃烧**非 Rebase 原生收益代币**可以同时赎回本金以及原生收益。例如 **slisBNB (Lista), STONE (Stakestone) 等等**。
 
 对于质押**非 Rebase 原生收益代币**，**Outrun** 生态系统会铸造两种 **ERC20** 代币:
 
