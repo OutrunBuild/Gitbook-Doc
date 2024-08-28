@@ -1,6 +1,6 @@
-# Stake Rebase Native Yield Tokens
+# Staking Rebase Native Yield Tokens
 
-**Rebase native yield tokens** refer to native yield tokens that require manual claim of the yield or automatically rebase, such as **Blast ETH** and **Lido stETH**.
+**Rebase native yield tokens** refer to native yield tokens that require manual claim of the yield or automatically rebase, such as **Blast ETH, Lido stETH, DAI (RWA stablecoin), Blast USD (USDB), lisUSD (Lista), numerous protocol governance tokens**, etc.
 
 When staking **Rebase native yield tokens**, the Outrun ecosystem mints three types of ERC20 tokens:
 

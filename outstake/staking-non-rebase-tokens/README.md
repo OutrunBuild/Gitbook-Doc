@@ -1,6 +1,6 @@
 # Staking Non-Rebase Native Yield Tokens
 
-**Non-Rebase native yield tokens** have their native yield built into the tokens themselves. Burning **Non-Rebase native yield tokens** allows for the redemption of both the principal and the native yield. Examples include **slisBNB (Lista)** and **STONE (Stakestone).**
+**Non-Rebase native yield tokens** have their native yield built into the tokens themselves. Burning **Non-Rebase native yield tokens** allows for the redemption of both the principal and the native yield. Examples include **slisBNB (Lista)** and **STONE (Stakestone)**, etc.
 
 For staking **Non-Rebase native yield tokens**, the Outrun ecosystem mints two types of ERC20 tokens:
 
