@@ -1,8 +1,10 @@
 ---
-description: 真正社区驱动的代币融资新范式
+description: 创业团队融资
 ---
 
 # ⚖️ FFLaunch（创业团队融资）
+
+### **真正社区驱动的代币融资新范式**
 
 首个 **Fair\&Free Launch** 标准，灵感来自于铭文。
 
