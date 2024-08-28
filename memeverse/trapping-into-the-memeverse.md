@@ -1,6 +1,6 @@
 # Trapping into the Memeverse
 
-Alright, let's trap into the Memeverse.
+Alright, let's trapping into the Memeverse.
 
 Inspired by FFLaunch, Memeverse shares many similarities and can be seen as the public version of FFLaunch, specifically designed as a protocol for Memecoin, while inheriting all the advantages of FFLaunch. Compared to the entry barriers of FFLaunch, anyone can create their own Memecoin on Memeverse, adhering to the principles of Fair & Free. Due to the no entry barriers for Memeverse, and for security reasons, Memeverse has removed the customizable token generator interface. Instead, a generic token template is used to create Memecoins, allowing users to deploy them effortlessly through our website UI without any programming knowledge required.
 
