@@ -4,7 +4,7 @@
 
 对于**非 Rebase 原生收益代币，PT** 数量也不是按质押的**原生收益代币** 1 : 1 铸造的，而是与质押的时间（铸造的 **YT** 数量）以及**非 Rebase 原生收益代币**相对于**原生代币**的赎回比率相关，简单讲，先将**非 Rebase 原生收益代币**的数量转换为对应的**原生代币**的数量，然后再使用以下算法计算：
 
-<figure><img src="../../.gitbook/assets/latex.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PTAmount.png" alt=""><figcaption></figcaption></figure>
 
 **YT redeemable value**（**YT** 可兑现价值）：销毁一个 YT 能赎回的原生收益。
 

@@ -8,18 +8,18 @@
 
 在 **t** 天之后
 
-<figure><img src="../../.gitbook/assets/1.jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Profit.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 用实际收益除以预期收益再减 1 可以得出无常盈亏率 **(IPnLR)**\
 _**IPnLR**_** = (Actual Earnings / Expected Earnings) - 1**
 
-<figure><img src="../../.gitbook/assets/1709647700208.jpg" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IPnLR.jpg" alt="" width="342"><figcaption></figcaption></figure>
 
 再用 _**IPnLR**_ 乘以各自的实际收益 _**aty**_ 与 _**bty**_ 可得各自的无常盈亏 _**IPnL**_\
 _**IPnLa = IPnLRa \* Expected Profit\_A**_\
 _**IPnLb = IPnLRb \* Expected Profit\_B**_
 
-<figure><img src="../../.gitbook/assets/1709648075123.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IPnL.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 从上图可以得出，用户 **A** 的与用户 **B** 的无常盈亏守恒，如果用户 **A** 与 **B** 锁定的时间相同，则双方都没有无常盈亏。也就是说一个用户的无常盈亏和质押池中其他用户的加权平均天数相关。
 

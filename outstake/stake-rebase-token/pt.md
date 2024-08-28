@@ -4,7 +4,7 @@
 
 用户质押 **WT** 时需要指定一个锁定时间从而铸造 **PT** 与 **YT**，**PT** 数量并不是按质押的 **WT** 来 1 : 1 铸造的，而是与质押的时间相关，或者说与铸造的 **YT** 数量相关，**Rebase 原生收益代币**的数量等于可转换的**原生代币的数量 (Native token amount)**，具体算法为：
 
-<figure><img src="../../.gitbook/assets/latex.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PTAmount.png" alt=""><figcaption></figcaption></figure>
 
 **YT redeemable value**（YT 可兑现价值）：销毁一个 YT 能赎回的原生收益。
 
