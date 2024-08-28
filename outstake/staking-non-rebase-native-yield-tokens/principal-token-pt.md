@@ -4,7 +4,7 @@
 
 For **Non-Rebase native yield tokens**, the quantity of **PT** is not minted on a 1:1 basis with the staked **Non-Rebase native yield tokens** but is related to the staking duration (number of **YT** minted) and the redemption ratio of the **Non-Rebase native yield token** relative to the native token. In simple terms, first convert the amount of **Non-Rebase native yield tokens** to the corresponding amount of native tokens, and then use the following algorithm to calculate:
 
-<figure><img src="../../.gitbook/assets/latex.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PTAmount.png" alt=""><figcaption></figcaption></figure>
 
 **YT Redeemable Value:** The native yield that can be redeemed by burning one **YT**.
 

@@ -8,6 +8,3 @@
 * **Memeverse** is a Memecoin launchpad built on the concept of **FFLaunch**. Unlike FFLaunch, Memeverse has no entry barriers and eliminates customizable token generator interfaces, instead using a universal token template to create Memecoins. Users can deploy everything with a single click through the website UI without any programming knowledge. Memecoin creators can earn ongoing **liquidity provider fee** revenue to support the community's operations and the development of utility features. Memeverse completely disrupts the traditional Memecoin issuance model.
 
 These products are not independent of each other, they complement and closely intertwine in functionality, linking **liquidity staking derivatives**, **decentralized exchanges**, **next-generation token financing methods**, and **Memecoins**. Through their design and **interoperability**, they construct a **complete closed-loop** Outrun ecosystem, providing users with diverse DeFi and Web3 experiences.
-
-
-

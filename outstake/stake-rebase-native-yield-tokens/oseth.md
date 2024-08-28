@@ -4,7 +4,7 @@
 
 When users stake **WT**, they need to specify a lock-up period to mint **PT** and **YT**. The quantity of **PT** minted is not on a 1:1 basis with the staked **WT** but is related to the **staking duration or the number of YT minted**. The quantity of **Rebase native yield token** equals the amount of **native tokens convertible** (Native token amount). The specific algorithm is:
 
-<figure><img src="../../.gitbook/assets/latex.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PTAmount.png" alt=""><figcaption></figcaption></figure>
 
 **YT Redeemable Value:** The native yield that can be redeemed by burning one **YT**.
 
