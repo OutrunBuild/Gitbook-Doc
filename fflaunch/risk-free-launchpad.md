@@ -8,7 +8,7 @@ During the LP lock period, **the fees generated from the trading pair accrue to 
 
 ### New tokens cannot be released during the liquidity lock period
 
-Here’s the key point: under our supervision, all projects launched on FFLaunch **cannot mint or release new tokens during the LP lock period**. New tokens can only be released one week after the lock period expires. This means that even if all users simultaneously sell their tokens at the end of the FFLaunch event, in this closed system with no new tokens being added, when the LP lock period expires, **they will regain their sold tokens and part of the staked token**. The scenario mentioned above only applies if no one buys tokens during the LP lock period. If new users do purchase tokens, all early participants will be rewarded.
+Under our audit of the **token smart contract**, all projects launched on FFLaunch **cannot mint or release new tokens** during the **LP locking period**. New tokens can only be released one week **after the lock period ends**. This means that even if no new buyers purchase the tokens and all investors participating in FFLaunch sell all their tokens after receiving them, within this closed system with no new tokens added, when the LP lock period expires, **investors will regain the tokens they sold**. FFLaunch can completely **prevent Rug Pulls** and allow investors to receive these tokens for **free**.
 
 ### A win-win situation for Web3 users and project teams
 
