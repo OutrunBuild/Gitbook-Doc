@@ -1,6 +1,6 @@
 # 质押 Rebase 原生收益代币
 
-**Rebase 原生收益代币**是指需要手动领取原生收益或者自动 **Rebase** 的原生收益代币，例如 **Blast ETH**, **Lido stETH**。
+**Rebase 原生收益代币**是指需要手动领取原生收益或者自动 **Rebase** 的原生收益代币，例如 **Blast ETH**, **Lido stETH, DAI (RWA稳定币), lisUSD (Lista), 大量协议治理代币等等**。
 
 对于质押 **Rebase 原生收益代币**，**Outrun** 生态系统会铸造三种 **ERC20** 代币:
 
