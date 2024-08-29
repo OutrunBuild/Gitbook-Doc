@@ -2,13 +2,15 @@
 
 Alright, let's trapping into the Memeverse.
 
-Inspired by FFLaunch, Memeverse shares many similarities and can be seen as the public version of FFLaunch, specifically designed as a protocol for Memecoin, while inheriting all the advantages of FFLaunch. Compared to the entry barriers of FFLaunch, anyone can create their own Memecoin on Memeverse, adhering to the principles of Fair & Free. Due to the no entry barriers for Memeverse, and for security reasons, Memeverse has removed the customizable token generator interface. Instead, a generic token template is used to create Memecoins, allowing users to deploy them effortlessly through our website UI without any programming knowledge required.
+Inspired by **FFLaunch**, Memeverse shares many similarities and can be seen as the **public version** of FFLaunch, specifically designed as a protocol for **Memecoin**, while inheriting all the advantages of FFLaunch. Compared to the entry barriers of FFLaunch, anyone can create their own Memecoin on Memeverse, adhering to the principles of Fair & Free. Due to the no entry barriers for Memeverse, and for security reasons, Memeverse has removed the customizable token generator interface. Instead, a generic token template is used to create Memecoins, allowing users to deploy them effortlessly through our website UI without any programming knowledge required.
 
 For details regarding FFLaunch features, please refer to the comprehensive FFLaunch documentation.
 
 ### Why choose Memeverse?
 
 Currently, there are many ways to issue Memecoins on the market, but these methods are often primitive and lack innovation. They also pose significant risks such as insider trading, rug pulls and has a serious gambling nature, creating no new value. In contrast to competitors in the market, Memeverse offers the following advantages:
+
+Currently, there are many Memecoins launch methods in the market, but these methods are quite **primitive and lack innovation**. They also face **significant risks**, such as **insider trading** (Some platforms even promote **“immediate purchase within the same transaction as the token issuance”** as a major selling point.), **Rug Pulls**, and a **strong element of gambling**, without creating any new value. Compared to its competitors in the market, Memeverse offers the following advantages:
 
 * **Unique Symbol Ensures Scarcity**: Each Memecoin's symbol in Memeverse is unique, ensuring naming scarcity. This helps Memecoins (especially those created for news-driven trading) to have stronger recognition and appeal in the market.
 * **FFLaunch Style Launch**: Memeverse launches through FFLaunch to avoid common risks such as fraud, insider trading, and rug pulls in traditional Memecoin issuance. This method ensures that all participants start on an equal footing, reducing their risk and providing a relatively safe way to participate.
