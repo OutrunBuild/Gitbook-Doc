@@ -4,7 +4,9 @@ Alright, let's trapping into the Memeverse.
 
 Inspired by **FFLaunch**, Memeverse shares many similarities and can be seen as the **public version** of FFLaunch, specifically designed as a protocol for **Memecoin**, while inheriting all the advantages of FFLaunch. Compared to the entry barriers of FFLaunch, anyone can create their own Memecoin on Memeverse, adhering to the principles of Fair & Free. Due to the no entry barriers for Memeverse, and for security reasons, Memeverse has removed the customizable token generator interface. Instead, a generic token template is used to create Memecoins, allowing users to deploy them effortlessly through our website UI without any programming knowledge required.
 
-For details regarding FFLaunch features, please refer to the comprehensive FFLaunch documentation.
+Unlike FFLaunch, the tokens deployed on FFLaunch are primarily utility tokens with intrinsic value and good liquidity. In contrast, most Memecoins lack utility value, and their **price volatility is significantly influenced by token liquidity**. Therefore, a portion of the liquidity for Memecoins deployed on Memeverse will be **permanently locked** to support their sustained liquidity.
+
+For details regarding FFLaunch features, please refer to the comprehensive FFLaunch [documentation](../fflaunch/).
 
 ### Why choose Memeverse?
 
