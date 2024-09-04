@@ -12,7 +12,7 @@ In the lifecycle of the FFLaunch event, there are a total of 3 entities and 6 st
 
 **1. Apply Stage**
 
-* The project team develops **TokenGenerator, Token, and TimeLockVault contracts**. The TokenGenerator contract must **implement the ITokenGenerator interface**, and the Token contract **inherits from the FFT contract (override certain methods)**. The TimeLockVault contract serves as a **treasury for leftover tokens outside LaunchPool** (can be updated before the remaining token generation stage by applying to the Outrun Audit Team).
+* The project team develops TokenGenerator, Token, and TimeLockVault contracts. The TokenGenerator contract must **implement the ITokenGenerator interface**, and the Token contract **inherits from the FFT contract (override certain methods)**. The TimeLockVault contract serves as a **treasury for leftover tokens outside LaunchPool** (can be updated before the remaining token generation stage by applying to the Outrun Audit Team).
 * The project team applies to the Outrun team for FFLaunch listing, submitting detailed project and team information along with TokenGenerator, Token, and TimeLockVault contracts, and maintains ongoing communication with the Outrun Audit Team.
 
 **2. Audit Stage**
@@ -25,12 +25,12 @@ In the lifecycle of the FFLaunch event, there are a total of 3 entities and 6 st
 
 **3. Deposit Stage**
 
-* When the block time is between the registered LaunchPool's startTime and endTime, investors can call the deposit method of the FFLauncher contract to deposit **native yield token** into that LaunchPool. The native yield tokens will be staked in Outstake to obtain **PT(LST)** and **YT**. Simultaneously, the TokenGenerator contract registered by the project team will be called to generate the corresponding number of tokens. **A portion of these tokens** will be added to liquidity on Outrun AMM along with the **PT(LST)**, with the LP being locked in the FFLauncher contract, while the **remaining tokens will be sent directly to the user**. At the same time, **LiquidProof token** will be minted as proof of the liquidity added by the user, and these tokens can also be **freely traded**.
+* When the block time is between the registered LaunchPool's startTime and endTime, investors can call the deposit method of the FFLauncher contract to deposit **native yield token** into that LaunchPool. The native yield tokens will be staked in Outstake to obtain [**PT**](https://outrun.gitbook.io/doc/outstake/yield-tokenization/pt) and **YT**. Simultaneously, the TokenGenerator contract registered by the project team will be called to generate the corresponding number of tokens. **A portion of these tokens** will be added to liquidity on Outrun AMM along with the PT(LST), with the LP being locked in the FFLauncher contract, while the **remaining tokens will be sent directly to the user**. At the same time, **LiquidProof token** will be minted as proof of the liquidity added by the user, and these tokens can also be **freely traded**.
 * After the block time reaches the endTime of the registered LaunchPool, it enters the **liquidity lock-up phase**, during which users can no longer stake native yield tokens to mint new tokens.
 
-**4. Liquidity  Lock Stage**
+**4. Liquidity Lock Stage**
 
-* Following the conclusion of the deposit stage, **anyone can call the FFLauncher contract's enablePoolTokenTransfer method to enable token trading**. Tokens can now be freely traded.
+* Following the conclusion of the deposit stage, **anyone** can call the FFLauncher contract's enablePoolTokenTransfer method to enable token trading. Tokens can now be freely traded.
 * During this stage, the liquidity provider (LP) earnings locked in the FFLauncher contract **accrue to the project team**, providing continuous cash flow from the funds raised.
 
 **5. Liquidity Unlock Stage**
