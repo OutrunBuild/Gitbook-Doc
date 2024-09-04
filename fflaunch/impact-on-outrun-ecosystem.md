@@ -4,15 +4,15 @@
 
 参与 **FFLaunch** 的用户将其原生收益代币质押在 **Outstake** 协议中。这些质押资产会与预留的代币组成流动性池 **(LP)**，并锁定与质押相同的时间。
 
-* 用户在质押原生收益代币后，将获得相应的 **YT** 代币。
+* 用户在质押原生收益代币后，将获得相应的 [**YT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/yt) 代币。
 * 由于质押的资产增加，**Outstake** 的总锁定价值 **(TVL)** 也会显著提高。
 
 **提高 LST 的需求**
 
-参与 **FFLaunch** 时，**Outstake** 协议会铸造 **LST**，这些代币会被锁定在 **Outswap** 中。用户在购买代币时需要使用 **LST**。
+参与 FFLaunch 时，Outstake 协议会铸造 [**PT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/pt)，这些代币会被锁定在 **Outswap** 中。用户在购买代币时需要使用 **PT**。
 
-* 这会直接增加市场对 **LST**的需求。
-* 用户为获取 **LST**，可以选择质押更多的原生收益代币，或者直接从 **Outswap** 上购买这些代币。
+* 这会直接增加市场对 **PT** 的需求。
+* 用户为获取 **PT**，可以选择质押更多的原生收益代币，或者直接从 **Outswap** 上购买这些代币。
 * 因此，**Outswap** 的 **TVL** 和交易量都会相应增加。
 
 **培养用户使用习惯**
