@@ -2,7 +2,7 @@
 
 ### Increasing Outstake's TVL
 
-Users participating in FFLaunch will stake their **Native Yield Tokens** in the Outstake protocol. These staked assets will form liquidity pools (LPs) along with reserved tokens and will be locked for the same duration as the Outstake.
+Users participating in FFLaunch will stake their **Native Yield Tokens** in the Outstake protocol. These staked assets will form liquidity pools along with reserved tokens and will be locked for the same duration as the Outstake.
 
 * Users will receive corresponding [**YT**](https://outrun.gitbook.io/doc/outstake/yield-tokenization/yt) after staking Native Yield Tokens.
 * The total locked value (TVL) of Outstake will significantly increase due to the increase in staked assets.
