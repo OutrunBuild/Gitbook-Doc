@@ -4,17 +4,17 @@ Outrun 生态系统通过其独特的模块化设计和创新的商业模式,正
 
 ### **模块化与互操作性**
 
-Outrun 生态系统由四个核心模块组成：OutStake、OutSwap、FFLaunch 和 Memeverse。这些模块通过互补的方式共同构建了一个强大的 DeFi 基础设施。
+Outrun 生态系统由四个相互组合的模块组成：OutStake、OutSwap、FFLaunch 和 Memeverse。每个模块都有其独特的功能和价值主张。
 
-**OutStake: 底层资产基础设施**
+#### **OutStake: 底层资产基础设施**
 
 * 作为收益率代币化的模块，OutStake 是整个 Outrun 生态系统的基石。通过 OutStake 铸造的资产被广泛部署于 OutSwap 平台上，不仅为其提供了更多的流动性，还间接提高了 OutSwap 的交易手续费收入。
 
-**OutSwap: 流动性枢纽**
+#### **OutSwap: 流动性枢纽**
 
 * 是 Outrun 生态系统的流动性中心，支持 OutStake、FFLaunch 和 Memeverse 的资产交易。OutSwap 的独特之处在于其链上推荐返佣引擎，该机制能够引导更多的交易和流动性，从而进一步增加手续费收入。
 
-**FFLaunch 和 Memeverse: 流量入口**
+#### **FFLaunch 和 Memeverse: 流量入口**
 
 * 这两个模块是 Outrun 生态系统的主要流量入口，虽然目前不直接产生收入，但它们作为 Outrun 生态系统的重要组成部分，其创新的设计理念能够吸引大量用户，并显著提高用户粘性。用户通过 OutStake 铸造大量资产，并为 OutSwap 提供流动性，从而提升 Outrun 生态系统的网络效应与潜在收入。
 
