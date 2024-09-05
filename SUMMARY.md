@@ -1,7 +1,7 @@
 # Table of contents
 
 * [💸 Outrun](README.md)
-* [🏦 OutStake（原生收益质押）](outstake/README.md)
+* [🏦 OutStake（收益率代币化）](outstake/README.md)
   * [词汇表](outstake/glossary.md)
   * [收益率代币化](outstake/yield-tokenization/README.md)
     * [SY](outstake/yield-tokenization/sy.md)
@@ -31,3 +31,4 @@
   * [社交绑定（构筑中）](memeverse/social-binding.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
 * [🔜 去中心化社交（未来）](desocial.md)
+* [商业模式](shang-ye-mo-shi.md)
