@@ -31,4 +31,4 @@
   * [社交绑定（构筑中）](memeverse/social-binding.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
 * [🔜 去中心化社交（未来）](desocial.md)
-* [商业模式](shang-ye-mo-shi.md)
+* [Outrun 商业模式](outrun-shang-ye-mo-shi.md)
