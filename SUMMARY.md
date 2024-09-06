@@ -31,4 +31,5 @@
   * [Social Bonding (Under Construction)](memeverse/social-bonding.md)
   * [Impact of Memeverse on the Outrun Ecosystem](memeverse/impact-on-outrun-ecosystem.md)
 * [🔜 DeSocial (Future)](desocial.md)
+* [Targets Audience](targets-audience.md)
 * [Business Model](business-model.md)
