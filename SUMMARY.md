@@ -31,5 +31,5 @@
   * [社交绑定（构筑中）](memeverse/social-binding.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
 * [🔜 去中心化社交（未来）](desocial.md)
-* [Outrun 的目标用户](outrun-de-mu-biao-yong-hu.md)
+* [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
