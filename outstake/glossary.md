@@ -14,15 +14,9 @@ SY is a vault token based on the [ERC5115](https://eips.ethereum.org/EIPS/eip-51
 
 In OutStake, staking SY and specifying a lock-up period will mint three types of tokens: **POT (Position Option Token)**, **PT (Principal Token)**, and **YT (Yield Token)**.
 
-### **POT = Position Option Token**
-
-POT is an option token based on the [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) standard that is used to encapsulate a user's staked position. Holding a POT represents the right to redeem a position upon maturity. After the POT lock-up period expires, the POT can be burned along with the corresponding PT to redeem the staked Native Yield Tokens. Since POT is based on the [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) standard, it supports partial redemption of the position.
-
-POT records the amount of staked Native Yield Tokens, the fixed principal value, and the number of minted PTs. Upon maturity, there is a fixed relationship between the amount of POT burned, the number of PTs, and the value of the principal being redeemed, thereby establishing a fixed interest rate. Trading POT allows one to trade the right to obtain a fixed interest rate.
-
 ### **PT = Principal Token**
 
-PT is the principal component separated from the Native Yield Token. Holding PT represents ownership of the principal, which can be redeemed for the Native Yield Token upon the maturity of the POT.
+PT is the principal component separated from the Native Yield Token. Holding PT represents ownership of the principal, which can be redeemed for the Native Yield Token upon the maturity of the [POT](glossary.md#pot-position-option-token) (Position Option Token).
 
 Unlike other protocols, OutStake's PT is a generic ERC20 token with no expiration date. It is also a universal asset principal token; staking Native Yield Tokens of the same asset type will mint the same universal asset principal token. Simply put, staking **stETH**, **rETH**, or **Stone** will mint the same PT token (with the same token contract address), rather than three different PT tokens.
 
@@ -33,3 +27,9 @@ YT is the yield component separated from the Native Yield Token. Holding YT repr
 Unlike other protocols, OutStake's YT is a universal ERC20 token with no expiration date, and YTs minted from different staking times are the same token (with the same token contract address). Unlike PT, each type of Native Yield Token mints a corresponding YT.
 
 The redeemable value of YT (the native yield redeemable by burning YT) starts at zero. Over time, the yield pool will continuously accumulate the native yield of the staked assets, and the redeemable value of YT will continuously grow until it reaches a dynamic equilibrium state, fluctuating around the native yield rate of the Native Yield Token.
+
+### **POT = Position Option Token**
+
+POT is an option token based on the [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) standard that is used to encapsulate a user's staked position. Holding a POT represents the right to redeem a position upon maturity. After the POT lock-up period expires, the POT can be burned along with the corresponding PT to redeem the staked Native Yield Tokens. Since POT is based on the [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) standard, it supports partial redemption of the position.
+
+POT records the amount of staked Native Yield Tokens, the fixed principal value, and the number of minted PTs. Upon maturity, there is a fixed relationship between the amount of POT burned, the number of PTs, and the value of the principal being redeemed, thereby establishing a fixed interest rate. Trading POT allows one to trade the right to obtain a fixed interest rate.
