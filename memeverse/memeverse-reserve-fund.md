@@ -1,6 +1,6 @@
 # Memeverse 储备基金
 
-Memeverse 储备基金在 Memecoin 的创世阶段中构建，所以每一个 Memecoin 都有自己的储备基金。投资者在创世阶段质押铸造的 [**PT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/pt) 会有 **20%** 存入储备基金，在储备基金构建完成时，初始资金只有流动性质押代币，没有 Memecoin，储备基金里的设定的 Memecoin 基准价格锚定开放交易时的初始价格。
+Memeverse 储备基金在 Memecoin 的创世阶段中构建，所以每一个 Memecoin 都有自己的储备基金。投资者在创世阶段质押铸造的 [**UPT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/pt) 会有 **20%** 存入储备基金，在储备基金构建完成时，初始资金只有流动性质押代币，没有 Memecoin，储备基金里的设定的 Memecoin 基准价格锚定开放交易时的初始价格。
 
 储备基金是面向所有人的，任何人都可以调用储备基金里的资金，用户可以使用储备基金以初始价格回购自己的 Memecoin，或者卖出储备基金中的 Memecoin。需要注意的是使用储备基金回购你的 **Memecoin** 时会先燃烧掉 **20%** 的 Memecoin，而购买储备基金里的 Memecoin 会折损 **20%** 的 Memecoin ，或者说要花费额外 **25%** 的资金代币来购买 Memecoin。储备基金具备以下多种用途，是 Memeverse 生态中不可或缺的一部分。
 
