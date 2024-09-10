@@ -14,11 +14,11 @@ SY 是一种基于 [ERC5115](https://eips.ethereum.org/EIPS/eip-5115) 标准的�
 
 在 OutStake 种，质押 SY 并指定一个锁定时间会铸造 **POT**，**PT**，**YT** 三种代币。
 
-### **PT = 本金代币 (Principal Token)**
+### **UPT = 通用本金代币 (Universal Principal Token)**
 
-PT 是由原生收益代币分拆出来的本金的组成部份。持有 PT 代表你握有本金的拥有权、并于 [POT](glossary.md#pot-cang-wei-qi-quan-dai-bi-position-option-token) (仓位期权代币) 到期后可兑换赎回原生收益代币。
+UPT 是由原生收益代币分拆出来的本金的组成部份。持有 UPT 代表你握有本金的拥有权、并于 [POT](glossary.md#pot-cang-wei-qi-quan-dai-bi-position-option-token) (仓位期权代币) 到期后可兑换赎回原生收益代币。
 
-不同于其他协议，OutStake 的 PT 是通用 ERC20 代币，没有过期时间。同时也是通用资产本金代币，质押相同资产类型的原生收益代币会铸造同一种通用资产本金代币，简单讲 质押 stETH，rETH，stone 会铸造同一种 PT 代币（相同代币合约地址），而非三种 PT 代币。
+不同于其他协议，OutStake 的 UPT 是通用 ERC20 代币，没有过期时间。同时质押相同资产类型的原生收益代币会铸造同一种 UPT，简单讲质押 stETH，rETH，stone 会铸造同一种 PT 代币（相同代币合约地址），而非三种 PT 代币。
 
 ### **YT = 收益代币 (Yield Token)**
 
