@@ -2,13 +2,13 @@
 
 **Impact on TVL of the Outrun Ecosystem**
 
-In this aspect, Memeverse has a similar impact on the Outrun ecosystem as **FFLaunch**, but to an even greater extent, due to the higher activity in **Memecoin** trading. With the presence of the Memeverse Reserve Fund and the permanent locking of a portion of liquidity, **the circulation of** [**PT**](../outstake/yield-tokenization/pt.md) **will be significantly lower than the amount of staked native yield tokens**.
+In this aspect, Memeverse has a similar impact on the Outrun ecosystem as **FFLaunch**, but to an even greater extent, due to the higher activity in **Memecoin** trading. With the presence of the Memeverse Reserve Fund and the permanent locking of a portion of liquidity, **the circulation of** [**UPT**](../outstake/yield-tokenization/upt.md) **will be significantly lower than the amount of staked native yield tokens**.
 
-The increasing demand for PT combined with reduced circulation will lead to a price increase, which in turn attracts more people to stake native yield tokens for arbitrage. The **dual growth flywheel** created by PT and YT will result in a continuously increasing amount of native yield tokens staked. This scenario represents the **dream vision** for **LSD** protocols like **Lido**.
+The increasing demand for UPT combined with reduced circulation will lead to a price increase, which in turn attracts more people to stake native yield tokens for arbitrage. The **dual growth flywheel** created by UPT and YT will result in a continuously increasing amount of native yield tokens staked. This scenario represents the **dream vision** for **LSD** protocols like **Lido**.
 
 **Use Cases for LST and User Habits**
 
-Memecoins have the potential to bring a large number of users into DeFi, fostering the habit of using LST (PT) among them. This represents the dream scenario for many project teams dissatisfied with Memecoins, as they often struggle to find ways to integrate Memecoins with traditional **DeFi**.
+Memecoins have the potential to bring a large number of users into DeFi, fostering the habit of using LST (UPT) among them. This represents the dream scenario for many project teams dissatisfied with Memecoins, as they often struggle to find ways to integrate Memecoins with traditional **DeFi**.
 
 Moreover, traditional DeFi investors often shy away from the perceived risks associated with Memecoins. However, Memeverse provides an opportunity to invest in Memecoins with extremely **low and manageable risk**. This opens a stable, **bidirectional channel** between DeFi and Memecoin users, allowing for **mutual conversion**.
 

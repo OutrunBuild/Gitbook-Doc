@@ -23,7 +23,7 @@ Initially, the redeemable value of YT (the native yield that can be redeemed by 
 However, in practice, some users may burn YT before the lock-up period of their staked native yield token expires, leading to a reduction in YT’s circulation while native yield continues to accumulate in the yield pool. This can eventually cause YT’s **redeemable value to exceed its theoretical value cap**, resulting in two possible outcomes:
 
 1. In the future, burning YT will allow for the redemption of more yield, increasing the returns for long-term stakers.
-2. Users can stake more Native Yield Tokens to mint new YT and immediately burn it to redeem native yield for arbitrage. However, this will provide more fuel for the next value breakthrough. Additionally, the number of PT minted from new staking will slightly decrease, leading to a higher implied fixed interest rate for the minted POT.
+2. Users can stake more Native Yield Tokens to mint new YT and immediately burn it to redeem native yield for arbitrage. However, this will provide more fuel for the next value breakthrough. Additionally, the number of UPT minted from new staking will slightly decrease, leading to a higher implied fixed interest rate for the minted POT.
 
 ### **Broader prospects**
 
