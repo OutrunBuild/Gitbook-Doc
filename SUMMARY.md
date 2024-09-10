@@ -29,6 +29,7 @@
   * [Memeverse 储备基金](memeverse/memeverse-reserve-fund.md)
   * [推广服务](memeverse/referral-service.md)
   * [事件生命周期](memeverse/event-lifecycle.md)
+  * [全链Memeverse（构筑中）](memeverse/quan-lian-memeverse-gou-zhu-zhong.md)
   * [社交绑定（构筑中）](memeverse/social-binding.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
 * [🔜 去中心化社交（未来）](desocial.md)
