@@ -26,10 +26,14 @@ _Examples: wstETH, Stone, slisBNB_
 
 **It is important to note**: For reward-bearing non-rebase Native Yield Tokens, the quantity of staked Native Yield Tokens in the position does not change after the lock-up period expires. However, their value (relative to the Native Asset Token's exchange ratio) will increase with the accumulation of native yield. Thus, burning UPT does not redeem the same quantity of non-rebase Native Yield Tokens as initially staked; instead, it will be slightly less because part of the value is attributed to YT.
 
-**Universal Asset Principal Token**
+### **Universal Asset Principal Token**
 
 OutStake’s UPT is a universal asset principal token. Staking Native Yield Tokens of the same asset type mints the same universal asset principal token. Simply put, staking stETH, rETH, or Stone will mint the same UPT token, rather than different UPT tokens. This design allows Native Yield Tokens of the same category to share UPT liquidity and enhances their composability.
 
 For example, with ETH, there are currently many LSTs (Liquid Staking Tokens) related to ETH in the market. The liquidity of these tokens is fragmented, with some having ample liquidity and others having less. The liquidity of an LST is often related to its adoption in DeFi programs, such as the depth of liquidity pools like LST/ETH or LST/USDT. The liquidity accumulation process for each LST can be challenging.
 
 Introducing a universal asset principal token (UETH) can reduce these redundant processes. Suppose there is a liquidity-scarce LST called xETH. The market would only need liquidity pools such as UETH/ETH and UETH/USDT. By staking xETH through Outstake to mint UETH, it can connect to the existing liquidity in the market. As more market-validated LSTs are added, liquidity will become increasingly ample.
+
+### Omnichain Standard
+
+UPT will be built using LayerZero's OFT standard, making it an omnichain token that can be seamlessly transferred to any blockchain, thereby amplifying its network effects.
