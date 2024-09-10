@@ -9,7 +9,7 @@
 
 **提高 LST 的需求**
 
-参与 FFLaunch 时，Outstake 协议会铸造 [**UPT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/upt)，这些代币会被锁定在 Outswap 中。用户在购买代币时需要使用 UPT。
+参与 FFLaunch 时，Outstake 协议会铸造 [**UPT**](../outstake/yield-tokenization/upt.md)，这些代币会被锁定在 Outswap 中。用户在购买代币时需要使用 UPT。
 
 * 这会直接增加市场对 UPT 的需求。
 * 用户为获取 UPT，可以选择质押更多的原生收益代币，或者直接从 Outswap 上购买这些代币。

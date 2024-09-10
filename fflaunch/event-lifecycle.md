@@ -13,7 +13,7 @@
 **1. 申请阶段**
 
 * 项目团队编写 TokenGenerator, Token 以及 TimeLockVault 合约，TokenGenerator 合约需要实现 ITokenGenerator 接口，Token 合约需要继承 FFT 合约（可重写部分方法），TimeLockVault 合约为 LaunchPool 之外的剩余代币的锁定金库合约（剩余 Token 生成阶段之前可以向 Outrun 审核团队申请更新 **TimeLockVault** 合约地址）。
-* 项目团队向 Outrun 团队申请上线 FFLauncher，需要提交项目与团队详细资料以及 TokenGenerator**,** Token**,** TimeLockVault 合约，并持续与 Outrun 审核团队交流。
+* 项目团队向 Outrun 团队申请上线 FFLauncher，需要提交项目与团队详细资料以及 TokenGenerator\*\*,\*\* Token\*\*,\*\* TimeLockVault 合约，并持续与 Outrun 审核团队交流。
 
 **2. 审核阶段**
 
@@ -25,7 +25,7 @@
 
 **3. Deposit 阶段**
 
-* 当区块时间在已注册的 LaunchPool 的 startTime 与 endTime 之间时，投资者可以调用 FFLauncher 合约的 **deposit** 方法，向该 LaunchPool 存入**原生收益代币**，原生收益代币将质押到 **Outstake** 中以获取 [**UPT**](../outstake/yield-tokenization/pt.md)，同时会调用项目团队注册的 **TokenGenerator** 合约生成对应数量的 Token，一部分 Token 会与 UPT 在 **Outrun AMM** 上添加流动性，LP 将会锁定在 FFLauncher 合约中，**另一部分 Token 会直接发送给用户**。与此同时，还会铸造**流动性证明代币**作为用户添加的流动性的证明代币，该代币也可以**自由交易**。
+* 当区块时间在已注册的 LaunchPool 的 startTime 与 endTime 之间时，投资者可以调用 FFLauncher 合约的 **deposit** 方法，向该 LaunchPool 存入**原生收益代币**，原生收益代币将质押到 **Outstake** 中以获取 [**UPT**](../outstake/yield-tokenization/upt.md)，同时会调用项目团队注册的 **TokenGenerator** 合约生成对应数量的 Token，一部分 Token 会与 UPT 在 **Outrun AMM** 上添加流动性，LP 将会锁定在 FFLauncher 合约中，**另一部分 Token 会直接发送给用户**。与此同时，还会铸造**流动性证明代币**作为用户添加的流动性的证明代币，该代币也可以**自由交易**。
 * 当区块时间在已注册的 LaunchPool 的 endTime 之后时，此时已经是**流动性锁定阶段**，用户无法再通过质押原生收益代币铸造 Token。
 
 **4. 流动性锁定阶段**
