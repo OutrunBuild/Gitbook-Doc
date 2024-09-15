@@ -4,7 +4,7 @@
 
 During the lock-up period, the value of the locked liquidity fluctuates with the price of the project tokens, exposing investors to the risks associated with the project tokens, thereby increasing the opportunity cost of holding the position. With the introduction of LPT, investors have the option to sell their LPT on the market before the liquidity unlocks, allowing them to lock in current profits and reduce the opportunity cost of holding their position.
 
-The quantities of the two assets in the liquidity pool are dynamic and change with other users' trades, but the share represented by the LPT always corresponds to the same proportion of the liquidity pool. Therefore, the asset amount represented by each LPT can be calculated based on the total assets in the pool and the number of LPT held, which is its nominal value (with the actual value being determined upon final burn).
+The quantities of the two assets in the liquidity pool are dynamic and change with other users' trades, but the share represented by the LPT always corresponds to the same proportion of the liquidity pool. Therefore, the asset amount represented by each LPT can be calculated based on the total assets in the pool and the number of LPT held, which is its **nominal value** (with the actual value being determined upon final burn).
 
 ### **LPT Trading Channels**
 
