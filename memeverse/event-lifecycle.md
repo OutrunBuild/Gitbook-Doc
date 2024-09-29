@@ -15,7 +15,7 @@
 
 **2. 创世阶段**
 
-* 在 Memeverse 的创世阶段，投资者可调用 Memeverse 合约的存款方法，将资金质押到 **Outstake** 中以铸造 [**UPT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/pt), 并且铸造对应数量的 Memecoin，其中 **2/3** 的 Memecoin 会与 **80%** 的 UPT 在 **Outrun AMM** 上添加流动性，LP 将会锁定在 Memeverse 合约中（其中 **50%** 的 LP 会**永久锁定**），同时为投资者铸造可以交易的流动性证明代币。剩余的另外 **1/3** 的 Memecoin 会直接发送给用户，而剩余的 **20%** 的 UPT 会加入 Memeverse 储备基金。
+* 在 Memeverse 的创世阶段，投资者可调用 Memeverse 合约的存款方法，将资金质押到 **Outstake** 中以铸造 [**PT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/pt), 并且铸造对应数量的 Memecoin，其中 **2/3** 的 Memecoin 会与 **80%** 的 PT 在 **Outrun AMM** 上添加流动性，LP 将会锁定在 Memeverse 合约中（其中 **50%** 的 LP 会**永久锁定**），同时为投资者铸造可以交易的流动性证明代币。剩余的另外 **1/3** 的 Memecoin 会直接发送给用户，而剩余的 **20%** 的 PT 会加入 Memeverse 储备基金。
 * 为了防止 Memeverse 的创世泛滥，创世阶段所积攒的流动性必须达到某个阈值才能进入下个阶段，否则将会一直持续直到积攒到足够的流动性。
 
 **3. 流动性锁定阶段**

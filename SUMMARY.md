@@ -6,7 +6,7 @@
   * [收益率代币化](outstake/yield-tokenization/README.md)
     * [SY](outstake/yield-tokenization/sy.md)
     * [铸造](outstake/yield-tokenization/minting.md)
-    * [UPT](outstake/yield-tokenization/upt.md)
+    * [PT](outstake/yield-tokenization/pt.md)
     * [YT](outstake/yield-tokenization/yt.md)
     * [POT](outstake/yield-tokenization/pot.md)
   * [Outstake 与 Pendle 的区别](outstake/difference-outstake-pendle.md)
