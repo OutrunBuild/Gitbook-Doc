@@ -23,7 +23,7 @@ YT 同时也是一种与原生收益率挂钩的非美元算法稳定币，理�
 然而在实际运行中，会有部分用户在其质押的原生收益代币锁定时间未到期时提前燃烧 YT，导致 YT 的流通量减少，而收益池中仍然在积累原生收益，**最终导致 YT 的可兑现价值突破理论价值上限**，从而导致后续出现两种可能情况：
 
 1. 在未来，燃烧 YT 能赎回的收益更多，长期质押者的收益增多。
-2. 用户可以质押更多原生收益代币以铸造新的 YT 并立即燃烧赎回原生收益完成套利，但是这会为下一次价值突破提供更多燃料，同时新质押所铸造的 UPT 数量略微减少，导致所铸造的 POT 的隐含固定利率提高。
+2. 用户可以质押更多原生收益代币以铸造新的 YT 并立即燃烧赎回原生收益完成套利，但是这会为下一次价值突破提供更多燃料，同时新质押所铸造的 PT 数量略微减少，导致所铸造的 POT 的隐含固定利率提高。
 
 ### **更广阔的前景**
 
@@ -39,18 +39,18 @@ YT 的机制虽然看起来很简洁，但是由于 YT 可以自由交易，并�
 
 在 _**t**_ 天之后
 
-<figure><img src="../../.gitbook/assets/Profit.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 用实际收益除以预期收益再减 1 可以得出无常盈亏率 **(IPnLR)**\
-_**IPnLR**_** = (Actual Earnings / Expected Earnings) - 1**
+&#xNAN;_**IPnLR**_\*\* = (Actual Earnings / Expected Earnings) - 1\*\*
 
-<figure><img src="../../.gitbook/assets/IPnLR.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1709647700208.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 再用 _**IPnLR**_ 乘以各自的实际收益 _**aty**_ 与 _**bty**_ 可得各自的无常盈亏 _**IPnL**_\
-_**IPnLa = IPnLRa \* Expected Profit\_A**_\
-_**IPnLb = IPnLRb \* Expected Profit\_B**_
+&#xNAN;_**IPnLa = IPnLRa \* Expected Profit\_A**_\
+&#xNAN;_**IPnLb = IPnLRb \* Expected Profit\_B**_
 
-<figure><img src="../../.gitbook/assets/IPnL.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1709648075123.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 从上图可以得出，用户 A 的与用户 B 的无常盈亏守恒，如果用户 A 与 B 锁定的时间相同，则双方都没有无常盈亏。也就是说一个用户的无常盈亏和质押池中其他用户的加权平均天数相关。
 

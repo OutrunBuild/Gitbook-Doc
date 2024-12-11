@@ -1,6 +1,6 @@
 # 铸造
 
-当用户在将资金存入收益来源时，会获得原生收益资产 (生息资产)。例如，在 Lista 中抵押的 BNB 将得到 _slisBNB，_在 StakeStone 中质押的 ETH 将得到 _Stone_。
+当用户在将资金存入收益来源时，会获得原生收益资产 (生息资产)。例如，在 Lista 中抵押的 BNB 将得到 _slisBNB，_&#x5728; StakeStone 中质押的 ETH 将得到 _Stone_。
 
 _slisBNB_ 和 _Stone_ 就是**原生收益代币**的示例。
 

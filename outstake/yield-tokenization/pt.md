@@ -6,7 +6,7 @@ description: 本金代币
 
 PT 是质押 SY 而铸造的质押本金代币，旨在释放质押代币的流动性。用户质押 SY 时需要指定一个锁定时间从而铸造 PT，YT 以及 POT，PT 的数量并不是按质押的 SY 来 1 : 1 铸造的，而是与质押的时间（铸造的 YT 数量）以及原生收益代币相对于原生资产代币的**交换比率**相关，简单讲，先将原生收益代币的数量转换为对应价值的原生资产代币的数量，然后再使用以下算法计算：
 
-<figure><img src="../../.gitbook/assets/PTAmount.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/latex.png" alt=""><figcaption></figcaption></figure>
 
 > **YT redeemable value**（YT 可兑现价值）：销毁一个 YT 能赎回的原生收益。
 
@@ -28,7 +28,7 @@ _示例：wstETH, stone, slisBNB_
 
 ### **通用资产本金代币**
 
-OutStake 的 UPT 是通用资产本金代币（**UPT**），质押相同资产类型的原生收益代币会铸造同一种通用资产本金代币，简单讲 质押 stETH，rETH，stone 会铸造同一种 UPT 代币，而非不同的 PT 代币。这样的设计可以使相同类别的原生收益代币共享 UPT 的流动性，并提高其可组合性。
+OutStake 的 UPT 是通用资产本金代币（**UPT**），质押相同资产类型的原生收益代币会铸造同一种通用资产本金代币，简单讲 质押 stETH，rETH，stone 会铸造同一种 UPT 代币，而非不同的 UPT 代币。这样的设计可以使相同类别的原生收益代币共享 UPT 的流动性，并提高其可组合性。
 
 以 ETH 为例，当前市场上有许多与 ETH 相关的 LST，这些代币的流动性是碎片化的，并且有些代币的流动性很充足，有些代币的流动性却有些不足。一个 LST 的流动性往往与其在 DeFi 程序里的采用相关，比如 LST/ETH，LST/USDT 这些流动性池的深度。
 
