@@ -23,7 +23,7 @@ Initially, the redeemable value of YT (the native yield that can be redeemed by 
 However, in practice, some users may burn YT before the lock-up period of their staked native yield token expires, leading to a reduction in YT’s circulation while native yield continues to accumulate in the yield pool. This can eventually cause YT’s **redeemable value to exceed its theoretical value cap**, resulting in two possible outcomes:
 
 1. In the future, burning YT will allow for the redemption of more yield, increasing the returns for long-term stakers.
-2. Users can stake more Native Yield Tokens to mint new YT and immediately burn it to redeem native yield for arbitrage. However, this will provide more fuel for the next value breakthrough. Additionally, the number of UPT minted from new staking will slightly decrease, leading to a higher implied fixed interest rate for the minted POT.
+2. Users can stake more Native Yield Tokens to mint new YT and immediately burn it to redeem native yield for arbitrage. However, this will provide more fuel for the next value breakthrough. Additionally, the number of PT minted from new staking will slightly decrease, leading to a higher implied fixed interest rate for the minted POT.
 
 ### **Broader prospects**
 
@@ -41,18 +41,18 @@ User A stakes **𝑎** native yield tokens and locks them for **𝑚** days, whi
 
 After **𝑡** days:
 
-<figure><img src="../../.gitbook/assets/Profit.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 The **Impermanent Profit and Loss Ratio (**_**IPnLR**_**)** can be obtained by dividing the actual earnings by the expected earnings and then subtracting 1.\
-_**IPnLR = (Actual Earnings / Expected Earnings) - 1**_
+&#xNAN;_**IPnLR = (Actual Earnings / Expected Earnings) - 1**_
 
-<figure><img src="../../.gitbook/assets/IPnLR.jpg" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1709647700208.jpg" alt="" width="342"><figcaption></figcaption></figure>
 
 The **impermanent profit and loss (**_**IPnL**_**)** can be obtained by multiplying each user's **impermanent profit and loss ratio (**_**IPnLR**_**)** by their respective expected earnings.\
-_**IPnLa = IPnLRa \* Expected Profit\_A**_\
-_**IPnLb = IPnLRb \* Expected Profit\_B**_
+&#xNAN;_**IPnLa = IPnLRa \* Expected Profit\_A**_\
+&#xNAN;_**IPnLb = IPnLRb \* Expected Profit\_B**_
 
-<figure><img src="../../.gitbook/assets/IPnL.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1709648075123.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 From the above figure, we can deduce that there is an impermanent profit and loss conservation between User _A_ and User _B_. If User _A_ and User _B_ lock up their assets for the same duration, both parties would experience no impermanent profit or loss. In other words, an individual user's impermanent profit and loss are correlated with the weighted average duration of other users in the staking pool.
 

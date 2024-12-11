@@ -14,11 +14,17 @@ SY is a vault token based on the [ERC5115](https://eips.ethereum.org/EIPS/eip-51
 
 In OutStake, staking SY and specifying a lock-up period will mint three types of tokens: **POT (Position Option Token)**, **UPT (Principal Token)**, and **YT (Yield Token)**.
 
+### **PT = Principal Token**
+
+PT is the principal component separated from the Native Yield Token. Holding PT represents ownership of the principal, which can be redeemed for the Native Yield Token upon the maturity of the [POT](glossary.md#pot-position-option-token) (Position Option Token).
+
+Unlike other protocols, OutStake's PT is a standard ERC20 token with no expiration date. When staking for different durations of SY, the same PT token is minted, but the quantity minted will vary slightly depending on the staking period. Each native yield token will have a corresponding PT token.
+
 ### **UPT = Universal Principal Token**
 
-UPT is the principal component separated from the Native Yield Token. Holding UPT represents ownership of the principal, which can be redeemed for the Native Yield Token upon the maturity of the [POT](glossary.md#pot-position-option-token) (Position Option Token).
+Upon obtaining community governance approval, staking native yield tokens allows the minting of UPT. Unlike PT, UPT can be minted by staking multiple types of native yield tokens backed by the same native asset, such as different LSTs and LRTs of ETH. These tokens can share the same UPT.
 
-Unlike other protocols, OutStake's UPT is a generic ERC20 token with no expiration date. It is also a universal asset principal token; staking Native Yield Tokens of the same asset type will mint the same universal asset principal token. Simply put, staking **stETH**, **rETH**, or **Stone** will mint the same UPT token (with the same token contract address), rather than three different PT tokens.
+To ensure security, the right to mint UPT requires approval through community governance. Additionally, Outrun will collaborate with the community to establish monitoring mechanisms to mitigate potential risks.
 
 ### **YT = Yield Token**
 

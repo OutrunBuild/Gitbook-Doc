@@ -30,11 +30,10 @@ Outrun's business model is built on diversified revenue streams, ensuring the lo
 
 The network effects of the Outrun ecosystem are reflected in several aspects:
 
-* **Liquidity Connectivity:** OutStake's universal asset principal token ([**UPT**](/outstake/yield-tokenization/upt.md)) bridges the liquidity of different native yield tokens of the same native asset type, enhancing liquidity across the entire LSD (Liquidity Staking Derivatives) ecosystem and creating a significant network effect.
+* **Liquidity Connectivity:** OutStake's universal asset principal token ([**UPT**](outstake/yield-tokenization/pt.md)) bridges the liquidity of different native yield tokens of the same native asset type, enhancing liquidity across the entire LSD (Liquidity Staking Derivatives) ecosystem and creating a significant network effect.
 * **Referral Commission Engine:** OutSwap's on-chain referral commission engine boosts liquidity support and drives more transactions, increasing trading volume and fee revenue while also generating greater social influence.
 * **User Attraction:** The design philosophy of FFLaunch and Memeverse is aimed at attracting a large number of users and significantly increasing user engagement, meeting the needs of all stakeholders and fostering a win-win situation, thereby enhancing the network effects and revenue potential of the entire ecosystem.
 
 ## **Comprehensive Impact**
 
 Through its unique modular design, interoperability, diversified revenue streams, and powerful network effects, the Outrun ecosystem is pioneering a new era of DeFi 2.0. The ecosystem encompasses yield tokenization, liquidity staking derivatives, decentralized exchanges, next-generation token financing methods, and Memecoins, offering users a diverse Web3 experience. Its innovative business model ensures long-term sustainability and self-reinforcement. As Outrun continues to grow and expand, it has the potential to become a leader in the DeFi space, setting new standards for the entire industry.
-
