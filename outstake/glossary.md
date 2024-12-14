@@ -20,11 +20,9 @@ PT 是由原生收益代币分拆出来的本金的组成部份。持有 PT 代�
 
 不同于其他协议，OutStake 的 PT 是通用 ERC20 代币，没有过期时间，锁定不同时间的SY都会铸造相同的 PT 代币，只是铸造的数量会有微小的差异。每一种原生收益代币都会有对应的 PT 代币
 
-### **UPT = 通用本金代币 (Universal Principal Token)**
+### **UPT = 通用本金代币 (Omnichain Universal Principal Token)**
 
-在获得社区治理许可后，质押原生收益代币可以铸造 UPT。与 PT 不同，UPT 可以通过质押多种相同原生资产支撑的原生收益代币铸造，例如 ETH 的不同 LST 和 LRT。这些代币可以共用同一种 UPT。
-
-为确保安全，铸造 UPT 的权利需经社区治理批准，同时 Outrun 也将与社区共同建立监控机制，以防范潜在风险。
+UPT 是由 LayerZero 协议支持的全链通用本金代币，与每一种原生收益代币对应一种 PT 不同，UPT 可以是通过 PT 直接转换。每一种 UPT 都可以通过多种相同原生资产支撑的 PT 转换，例如将 PT-Stone、PT-stETH、PT-BETH 转换为 UETH。UPT 通过白名单来管理哪些 PT 代币可以转换为自己。
 
 ### **YT = 收益代币 (Yield Token)**
 
