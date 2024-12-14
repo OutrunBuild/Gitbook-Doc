@@ -12,7 +12,7 @@ FFLaunch 上部署的代币基本都是实用代币，本身是具有内在价�
 
 Memeverse 不仅仅是代币发射平台，同时也是 **Memecoin Staking** 协议，将 Memecoin 与 **DeFi** 完美结合，为 Memecoin 持有者带来更多收益。每一种 Memecoin 在创世链上都有对应的 ERC4626 标准的收益金库，Memecoin 持有者可以将 Memecoin 存入金库从而铸造基于 Memecoin 的原生收益代币，**金库的收益主要来源于锁定的流动性的做市收入的 Memecoin 部分（金库收入只能是 Memecoin, UPT 部分归属于代币创建者）**，同时 Memecoin 金库还开放其可组合性，**允许社区引入更多的收入来源（例如为 Memecoin 开发实用功能获取收入）**。一些成熟的 Memecoin, 其原生收益代币可以直接加入 OutStake 生态系统，进一步开发其 DeFi 潜力.
 
-锁定流动性的做市收入分为两部分，一部分为 Memecoin，归属于收益金库，一部分为 UPT，归属于代币创建者。这样设计的好处是，代币创建者获得的持续收入是 UPT 而不是 Memecoin，从而避免了代币创建者作为单一实体获取到大量 Memecoin，而导致其对市场的操纵，Memecoin 应属于社区。而持有 Memecoin 的社区成员可以通过质押获取更多的 Memecoin，帮助社区 Holder 建立更强的共识。
+锁定流动性的做市收入分为两部分，**一部分为 Memecoin，归属于收益金库，一部分为 UPT，归属于代币创建者**。这样设计的好处是，代币创建者获得的持续收入是 UPT 而不是 Memecoin，从而**避免了代币创建者作为单一实体获取到大量 Memecoin，而导致其对市场的操纵**。Memecoin 应属于社区。而持有 Memecoin 的社区成员可以通过质押获取更多的 Memecoin，帮助社区 Holder 建立更强的共识。
 
 关于 **FFLaunch** 的特性请参见 **FFLaunch** 的[详细说明](https://outrun.gitbook.io/doc/v/zh/fflaunch)。
 
