@@ -1,8 +1,9 @@
 ---
 description: Not Only Native Yield Stake Protocol
+icon: piggy-bank
 ---
 
-# 🏦 OutStake
+# OutStake
 
 **OutStake** is a protocol entirely built around **native yield tokens**, introducing the first **non-USD stablecoin model** tied to **native yield rates**. Compared to other yield token protocols in the market, such as **Pendle**, OutStake offers **greater flexibility, enhanced composability**, and provides **higher returns along with multiple sources of income**. The assets supported by OutStake form the foundational support for the Outrun ecosystem, providing a stable base for the entire system. Specifically, OutStake operates as follows:
 

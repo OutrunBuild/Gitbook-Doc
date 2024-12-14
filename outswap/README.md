@@ -1,2 +1,6 @@
-# 💱 OutSwap
+---
+icon: shuffle
+---
+
+# OutSwap
 

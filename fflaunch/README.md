@@ -1,8 +1,9 @@
 ---
 description: Startup Team Fundraising
+icon: scale-balanced
 ---
 
-# ⚖️ FFLaunch
+# FFLaunch
 
 ### A truly community-driven token financing paradigm
 
