@@ -1,8 +1,9 @@
 ---
 description: 创业团队融资
+icon: scale-balanced
 ---
 
-# ⚖️ FFLaunch（创业团队融资）
+# FFLaunch（创业团队融资）
 
 ### **真正社区驱动的代币融资新范式**
 
