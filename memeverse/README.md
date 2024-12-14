@@ -1,6 +1,6 @@
 ---
+icon: planet-ringed
 description: Everything is Meme
-icon: comet
 ---
 
 # Memeverse

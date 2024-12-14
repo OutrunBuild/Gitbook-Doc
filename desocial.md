@@ -1,6 +1,6 @@
 ---
+icon: threads
 description: 找到你存在的地方
-icon: waveform-lines
 ---
 
 # 去中心化社交（未来）
