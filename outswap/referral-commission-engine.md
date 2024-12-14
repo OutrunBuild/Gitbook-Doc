@@ -65,3 +65,7 @@ Designing a referral commission program for a decentralized exchange (DEX) requi
 
 * **Source of Referral Fees:** Referral fees comes from a portion(**20%**) of the protocol fee, not from the market makers' due fees. This ensures that the referral commission mechanism does not harm the interests of market makers.
 * **Increasing Market Makers' Earnings:** The referral engine helps increase trading activity, attracting more trading volume, and thereby increasing the earnings of market makers.
+
+**Enhancing Liquidity Bootstrapping**
+
+Currently, at least 50% of the trading volume on decentralized exchanges (DEXs) in the market comes from aggregator trading protocols such as 1inch, Jupiter, and ParaSwap. Their guidance on liquidity is crucial. Compared with the traditional slippage earnings of aggregator trading protocols, the referral commission engine can provide these aggregator trading protocols with more stable income. Meanwhile, these aggregator trading protocols can also bring more trading volume to OutSwap, thus achieving a win-win situation.

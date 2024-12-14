@@ -16,7 +16,7 @@ OutSwap serves as the liquidity center of the Outrun ecosystem, supporting asset
 
 **FFLaunch and Memeverse: Traffic Entrances**
 
-These two modules act as the primary traffic entrances for the Outrun ecosystem. Although they currently do not generate direct revenue, their innovative design attracts a large number of users and significantly increases user engagement. Users mint a substantial number of assets through OutStake and provide liquidity to OutSwap, enhancing the network effects and potential revenue of the Outrun ecosystem.
+These two modules are the main traffic entrances of the Outrun ecosystem and important components of it. Their innovative design concepts can attract a large number of users and significantly enhance user stickiness. Users can mint a large number of assets by participating in FFLaunch and Memeverse and provide liquidity for OutSwap, thereby boosting the network effect and potential revenue of the Outrun ecosystem.
 
 ## **Diversified Revenue Streams: Ensuring Sustainable Growth**
 
@@ -24,7 +24,7 @@ Outrun's business model is built on diversified revenue streams, ensuring the lo
 
 * **OutStake:** Revenue primarily comes from commissions on the staking of native yield tokens and transaction fees for POT (Position Option Tokens).
 * **OutSwap:** Revenue is mainly derived from trading fees, which increase with liquidity and trading volume.
-* **FFLaunch and Memeverse:** Although they currently do not have direct revenue sources, they contribute indirectly by driving traffic and increasing user engagement, which boosts the total value locked (TVL) and potential revenue for OutStake and OutSwap.
+* **FFLaunch and Memeverse:** The revenue mainly comes from the transaction fee income of liquidity proof tokens and the fee income of Memecoin Staking. However, its main positioning is as traffic entrances and for asset issuance, aiming to increase the Total Value Locked (TVL) and potential revenue of the Outrun ecosystem.
 
 ## **Network Effects: Catalysts for Outrun's Growth**
 
@@ -36,4 +36,4 @@ The network effects of the Outrun ecosystem are reflected in several aspects:
 
 ## **Comprehensive Impact**
 
-Through its unique modular design, interoperability, diversified revenue streams, and powerful network effects, the Outrun ecosystem is pioneering a new era of DeFi 2.0. The ecosystem encompasses yield tokenization, liquidity staking derivatives, decentralized exchanges, next-generation token financing methods, and Memecoins, offering users a diverse Web3 experience. Its innovative business model ensures long-term sustainability and self-reinforcement. As Outrun continues to grow and expand, it has the potential to become a leader in the DeFi space, setting new standards for the entire industry.
+The Outrun ecosystem ushers in a new era of DeFi through its **unique modular design**, **interoperability**, **diversified revenue sources** and **powerful network effects**. This ecosystem encompasses **yield tokenization**, **liquid staking derivatives**, **decentralized exchanges**, **next-generation token financing paradigm** and **Memecoins**, bringing users a diversified Web3 experience. Through its innovative business model, it ensures the long-term sustainable development and self-reinforcement of the ecosystem. As Outrun continues to develop and expand, it has the potential to become a leader in the DeFi field and set new standards for the entire industry.

@@ -22,9 +22,7 @@ Unlike other protocols, OutStake's PT is a standard ERC20 token with no expirati
 
 ### **UPT = Universal Principal Token**
 
-Upon obtaining community governance approval, staking native yield tokens allows the minting of UPT. Unlike PT, UPT can be minted by staking multiple types of native yield tokens backed by the same native asset, such as different LSTs and LRTs of ETH. These tokens can share the same UPT.
-
-To ensure security, the right to mint UPT requires approval through community governance. Additionally, Outrun will collaborate with the community to establish monitoring mechanisms to mitigate potential risks.
+The Universal Principal Token (UPT) is an omnichain universal principal token supported by the LayerZero protocol. Unlike the situation where there is one Principal Token (PT) corresponding to each native yield token, UPT can be directly converted from PT. Each type of UPT can be converted from multiple PTs supported by the same native asset. For example, PT-Stone, PT-stETH, and PT-BETH can be converted into UETH. UPT manages which PT tokens can be converted into itself through a whitelist.
 
 ### **YT = Yield Token**
 
