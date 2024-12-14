@@ -21,10 +21,10 @@
 * **创业团队**：希望通过获得高额社区融资（持续收入流）的创业团队。
 * **项目空投计划**：希望通过 FFLaunch 的方式发放空投并保持用户粘性的项目方。
 
-### **Memeverse（Meme Launch and Staking）**
+### **Memeverse（Memecoin 发行与质押）**
 
 * **低风险 Memecoin 投资者**：厌倦了传统 Memecoin 的高风险，希望以可控且较低的风险投资 MemeCoin 的用户。
-* **获取原生收益的 Memecoin 玩家**：希望在参与 Memecoin 玩法的同时获取 DeFi 原生收益的用户。
+* **获取 DeFi 收益的 Memecoin 玩家**：希望在参与 Memecoin 玩法的同时获取 DeFi 收益的用户。
 * **Memecoin 社区创建者**：希望获取持续收入以支持 Memecoin 社区运营的创建者。
 * **返佣推荐者**：希望通过推广 MemeCoin 交易获取佣金的用户，可以利用 Memeverse 提供的推广链接和奖励机制。
 

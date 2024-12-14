@@ -10,12 +10,12 @@
 
 #### 阶段
 
-从创世阶段开始，链上的每次阶段转换需要手动调用 FFLauncher 合约的 **changeStage** 方法
+从**创世阶段**开始，**LaunchPool** 的每次阶段转换需要手动调用 **FFLauncher** 合约的 **changeStage** 方法
 
 **1. 申请阶段**
 
 * 项目团队编写 TokenGenerator, Token 以及 TimeLockVault 合约，TokenGenerator 合约需要实现 ITokenGenerator 接口，Token 合约需要继承 FFT 合约（可重写部分方法），TimeLockVault 合约为 LaunchPool 之外的剩余代币的锁定金库合约（剩余 Token 生成阶段之前可以向 Outrun 审核团队申请更新 **TimeLockVault** 合约地址）。
-* 项目团队向 Outrun 团队申请上线 FFLauncher，需要提交项目与团队详细资料以及 TokenGenerator\*\*,\*\* Token\*\*,\*\* TimeLockVault 合约，并持续与 Outrun 审核团队交流。
+* 项目团队向 Outrun 团队申请上线 FFLauncher，需要提交项目与团队详细资料以及 **Token**, **TokenGenerator**, **TimeLockVault** 合约，并持续与 Outrun 审核团队交流。
 
 **2. 审核阶段**
 
@@ -28,17 +28,17 @@
 **3. 创世阶段**
 
 * 当前区块时间处于 LaunchPool 的 startTime 与 endTime 之间时，任何人可以调用 changeStage 方法进入创世阶段。
-* 在创世阶段，投资者可以向正在进行中的 LaunchPool 存入 **UPT**，FFLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 1/3 为 **liquidProofFunds**, 2/3为 **tokenFund**，会分别累加到 **totalTokenFunds** 以及 **totalLiquidProofFunds**.
+* 在创世阶段，投资者可以向正在进行中的 LaunchPool 存入 [**UPT**](../outstake/yield-tokenization/pt.md)，FFLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/3** 为 **liquidProofFunds**, **2/3** 为 **tokenFund**，会分别累加到 **totalTokenFunds** 以及 **totalLiquidProofFunds**.
 
 **4. 流动性锁定阶段**
 
-* 当前阶段为创世阶段且区块时间处于 LaunchPool 的 endTime 与 unlockedTime 之间时，任何人都可以调用 changeStage 方法进入流动性锁定阶段。同时会调用项目团队注册的**代币生成器**根据 totalTokenFunds 铸造对应的项目代币，这些项目代币将会和 totalTokenFunds 数量的 UPT 在 **OutrunAMM** 上组成交易对，LP 将被锁定直到 unlockedTime，同时铸造与 LP 数量一样的**流动性证明代币**，1/4 数量的流动性证明代币会与 totalLiquidProofFunds 数量的 UPT 组成交易对，并锁定流动性直到 unlockedTime，剩余 3/4 的流动性证明代币用户将可以手动领取。
-* 在流动性锁定阶段，锁定的项目代币交易对流动性产生的做市收益归项目团队所有，即项目团队募集到的持续现金流。而流动性证明代币的交易手续费收入则归属于协议收入。
+* 当前阶段为创世阶段且区块时间处于 LaunchPool 的 endTime 与 unlockedTime 之间时，任何人都可以调用 changeStage 方法进入流动性锁定阶段。同时会调用项目团队注册的**代币生成器**根据 totalTokenFunds 铸造对应的项目代币，这些项目代币将会和数量等同于 totalTokenFunds 的 UPT 组成交易对并部署在 **Outrun AMM** 上，LP 将被锁定直到 **unlockedTime**，同时铸造与 LP 数量一样的**流动性证明代币**，**1/4** 数量的流动性证明代币会与数量等同于 totalLiquidProofFunds 的 UPT 组成交易对，并锁定流动性直到 unlockedTime，剩余 **3/4** 的流动性证明代币用户将可以手动领取。
+* 在流动性锁定阶段，锁定的项目代币交易对流动性产生的做市收益归项目团队所有，即项目团队募集到的持续现金流。而锁定的流动性证明代币交易对流动性产生的做市收益则归属于协议收入。
 
 **5. 流动性解锁阶段**
 
 * 当前阶段为流动性锁定阶段且区块时间大于 LaunchPool 的 unlockedTime 时，任何人都可以调用 changeStage 方法进入流动性解锁阶段。
-* 在流动性解锁阶段，投资者可以按自己在创世阶段存入资金的比例赎回 LiquidProofToken / UPT 交易对的流动性，同时还可以燃烧流动性证明代币以赎回相同数量的 ProjectToken / UPT 交易对的 LP 代币。
+* 在流动性解锁阶段，投资者可以按自己在创世阶段存入资金的比例赎回 **LiquidProofToken / UPT** 交易对的流动性，同时还可以燃烧流动性证明代币以赎回相同数量的 **ProjectToken / UPT** 交易对的 LP 代币。
 
 **6. 剩余代币生成阶段**
 

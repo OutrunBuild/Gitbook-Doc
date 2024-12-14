@@ -22,7 +22,7 @@ PT 是由原生收益代币分拆出来的本金的组成部份。持有 PT 代�
 
 ### **UPT = 全链通用本金代币 (Omnichain Universal Principal Token)**
 
-UPT 是由 LayerZero 协议支持的全链通用本金代币，与每一种原生收益代币对应一种 PT 不同，UPT 可以是通过 PT 直接转换。每一种 UPT 都可以通过多种相同原生资产支撑的 PT 转换，例如将 PT-Stone、PT-stETH、PT-BETH 转换为 UETH。UPT 通过白名单来管理哪些 PT 代币可以转换为自己。
+UPT 是由 LayerZero 协议支持的全链通用本金代币，与每一种原生收益代币对应一种 PT 不同，UPT 可以直接从 PT 转换而来。每种 UPT 都可以从同一种原生资产支持的多种 PT 转换而来，例如将 PT-Stone、PT-stETH、PT-BETH 转换为 UETH。UPT 通过白名单来管理哪些 PT 代币可以转换为自己。
 
 ### **YT = 收益代币 (Yield Token)**
 
