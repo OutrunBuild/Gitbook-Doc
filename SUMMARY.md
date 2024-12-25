@@ -32,7 +32,7 @@
   * [推广服务](memeverse/referral-service.md)
   * [事件生命周期](memeverse/event-lifecycle.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
-  * [与 Pump.fun 对比](memeverse/yu-pump.fun-dui-bi.md)
+  * [与 Pump.fun 对比](memeverse/difference-with-pumpfun.md)
 * [去中心化社交（未来）](desocial.md)
 * [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
