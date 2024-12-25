@@ -6,6 +6,6 @@ During the lock-up period, the value of the locked liquidity fluctuates with the
 
 The quantities of the two assets in the liquidity pool are dynamic and change with other users' trades, but the share represented by the LPT always corresponds to the same proportion of the liquidity pool. Therefore, the asset amount represented by each LPT can be calculated based on the total assets in the pool and the number of LPT held, which is its **nominal value** (with the actual value being determined upon final burn).
 
-### **Trading Liquidity Proof Tokens (LPT)**
+## **Trading Liquidity Proof Tokens (LPT)**
 
 At the end of the genesis phase of FFLaunch, **1/3** of the genesis funds will form a trading pair with **1/4** of the LPTs, and investors can claim the remaining **3/4** of the LPTs. Therefore, the LPT has half the liquidity of the project tokens. For a special token that has no pricing power of its own and whose price tracks that of the project tokens, this level of liquidity is completely sufficient. Investors can trade LPTs at their own psychological price levels or conduct arbitrage around the market price and nominal value of the LPTs.
