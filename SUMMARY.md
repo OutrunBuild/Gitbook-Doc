@@ -29,6 +29,7 @@
 * [Memeverse](memeverse/README.md)
   * [一切都是 Meme](memeverse/everything-is-meme.md)
   * [坠入 Meme 宇宙](memeverse/trapping-into-the-memeverse.md)
+  * [MemeFi](memeverse/memefi.md)
   * [推广服务](memeverse/referral-service.md)
   * [事件生命周期](memeverse/event-lifecycle.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
