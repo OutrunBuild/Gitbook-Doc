@@ -29,6 +29,7 @@
 * [Memeverse](memeverse/README.md)
   * [Everything is meme](memeverse/everything-is-meme.md)
   * [Trapping into the Memeverse](memeverse/trapping-into-the-memeverse.md)
+  * [MemeFi](memeverse/memefi.md)
   * [Referral service](memeverse/referral-service.md)
   * [Event lifecycle](memeverse/event-lifecycle.md)
   * [Impact of Memeverse on the Outrun Ecosystem](memeverse/impact-on-outrun-ecosystem.md)
