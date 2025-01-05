@@ -24,7 +24,7 @@ Outrun 的商业模式建立在多元化的收入来源之上，确保了生态�
 
 * **OutStake**: 收入主要来自于质押原生收益代币的收益佣金和 POT 的交易手续费。
 * **OutSwap**: 收入主要来源于交易手续费，随着流动性和交易量的增加而增强。
-* **FFLaunch 和 Memeverse**: 收入主要来源于流动性证明代币的交易手续费收入以及 Memecoin Staking 手续费收入，不过其主要定位是流量入口与资产发行，以提升 Outrun 生态系统的 TVL 及潜在收入。
+* **FFLaunch 和 Memeverse**: 收入主要来源于 POL 代币交易对的交易手续费收入以及 Memecoin Staking 手续费收入，不过其主要定位是流量入口与资产发行，以提升 Outrun 生态系统的 TVL 及潜在收入。
 
 ### **网络效应: Outrun 的增长催化剂**
 
