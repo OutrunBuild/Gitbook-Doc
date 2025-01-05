@@ -2,9 +2,9 @@
 
 **增加 Outstake 的 TVL**
 
-参与 FFLaunch 的用户将其原生收益代币质押在 Outstake 协议中。这些质押资产会与预留的代币组成流动性池 (LP)，并锁定与质押相同的时间。
+参与 FFLaunch 的用户将其生息代币质押在 OutStake 协议中。这些质押资产会与预留的代币组成流动性池 (LP)，并锁定与质押相同的时间。
 
-* 用户在质押原生收益代币后，将获得相应的 [**YT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/yt) 代币。
+* 用户在质押生息代币后，将获得相应的 [**YT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/yt) 代币。
 * 由于质押的资产增加，Outstake 的总锁定价值 (TVL) 也会显著提高。
 
 **提高 LST 的需求**
@@ -12,7 +12,7 @@
 参与 FFLaunch 时，Outstake 协议会铸造 [**UPT**](../outstake/yield-tokenization/pt.md)，这些代币会被锁定在 Outswap 中。用户在购买代币时需要使用 UPT。
 
 * 这会直接增加市场对 UPT 的需求。
-* 用户为获取 UPT，可以选择质押更多的原生收益代币，或者直接从 Outswap 上购买这些代币。
+* 用户为获取 UPT，可以选择质押更多的生息代币，或者直接从 Outswap 上购买这些代币。
 * 因此，Outswap 的 TVL 和交易量都会相应增加。
 
 **培养用户使用习惯**
@@ -31,4 +31,4 @@
 
 **总结**
 
-FFLaunch 通过质押原生收益代币来提高 Outstake 的 TVL，增强 UPT 的市场需求，并通过长期锁定 LP 来培养用户的交易习惯。这一系列措施将促进 Outrun 生态系统的繁荣，并打破当前 LST 使用场景的限制，为用户提供更多元化和有吸引力的选择。
+FFLaunch 通过质押生息代币来提高 Outstake 的 TVL，增强 UPT 的市场需求，并通过长期锁定 LP 来培养用户的交易习惯。这一系列措施将促进 Outrun 生态系统的繁荣，并打破当前 LST 使用场景的限制，为用户提供更多元化和有吸引力的选择。
