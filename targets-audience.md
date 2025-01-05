@@ -2,18 +2,18 @@
 
 In the Outrun ecosystem, each module targets different user groups with specific needs. Below is a detailed introduction:
 
-### **Outstake (Yield Tokenization):**
+### **OutStake (Yield Tokenization):**
 
-* **Native Yield Token Holders:** Users who want to amplify the native yield of their tokens.
-* **Users with Liquidity Needs:** Users looking to gain more liquidity support for their native yield tokens.
+* **Yield-bearing Token Holders:** Users who want to amplify the yield of their tokens.
+* **Users with Liquidity Needs:** Users looking to gain more liquidity support for their yield-bearing tokens.
 * **Fixed Income Seekers:** Users who want to obtain fixed interest rate yields by trading POT (Position Option Token) for fixed-rate returns.
-* **Yield Traders:** Users who trade the yields of native yield tokens.
+* **Yield Traders:** Users who trade the yields of yield-bearing tokens.
 
-### **Outswap (Decentralized Exchange):**
+### **OutSwap (Decentralized Exchange):**
 
 * **ERC20 Token Traders:** Users who want to trade any ERC20 tokens on a decentralized exchange.
-* **Referral Promoters:** Users who earn commission income by referring other users to register and trade on Outswap.
-* **Third-Party Dapps:** Dapps that integrate the referral commission engine to guide liquidity to Outswap and earn commissions.
+* **Referral Promoters:** Users who earn commission income by referring other users to register and trade on OutSwap.
+* **Third-Party Dapps:** Dapps that integrate the referral commission engine to guide liquidity to OutSwap and earn commissions.
 
 ### **FFLaunch (Risk-Free Launch Platform):**
 

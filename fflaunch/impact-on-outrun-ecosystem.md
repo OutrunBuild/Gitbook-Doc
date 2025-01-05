@@ -2,9 +2,9 @@
 
 ### Increasing Outstake's TVL
 
-Users participating in FFLaunch will stake their **Native Yield Tokens** in the Outstake protocol. These staked assets will form liquidity pools along with reserved tokens and will be locked for the same duration as the Outstake.
+Users participating in FFLaunch will stake their **Yield-bearing Tokens** in the Outstake protocol. These staked assets will form liquidity pools along with reserved tokens and will be locked for the same duration as the Outstake.
 
-* Users will receive corresponding [**YT**](../outstake/yield-tokenization/yt.md) after staking Native Yield Tokens.
+* Users will receive corresponding [**YT**](../outstake/yield-tokenization/yt.md) after staking Yield-bearing Tokens.
 * The total locked value (TVL) of Outstake will significantly increase due to the increase in staked assets.
 
 ### Boosting Demand for LSTs
@@ -12,7 +12,7 @@ Users participating in FFLaunch will stake their **Native Yield Tokens** in the 
 When participating in FFLaunch, the Outstake protocol will mint [**PT**](../outstake/yield-tokenization/pt.md), which will be locked in **Outrun AMM**. Users will need to use PTs when purchasing tokens.
 
 * This will directly increase the demand for PT in the market.
-* Users may stake more Native Yield Tokens to mint PT, or directly purchase these tokens from Outswap.
+* Users may stake more Yield-bearing Tokens to mint PT, or directly purchase these tokens from Outswap.
 * Consequently, the TVL and trading volume of Outswap will increase.
 
 ### Cultivating User Usage Habits
@@ -31,4 +31,4 @@ Many Liquidity Staking Tokens (LSTs) face limitations in their usage scenarios, 
 
 ### Summary
 
-FFLaunch increases Outstake's TVL by staking Native Yield Tokens, boosting the market demand for PT, and fostering user trading habits through long-term locked LPs. These measures will promote the prosperity of the Outrun ecosystem and break the current limitations of LST use cases, offering users more diverse and attractive options.
+FFLaunch increases Outstake's TVL by staking Yield-bearing Tokens, boosting the market demand for PT, and fostering user trading habits through long-term locked LPs. These measures will promote the prosperity of the Outrun ecosystem and break the current limitations of LST use cases, offering users more diverse and attractive options.

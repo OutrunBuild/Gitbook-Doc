@@ -22,7 +22,7 @@ These two modules are the main traffic entrances of the Outrun ecosystem and imp
 
 Outrun's business model is built on diversified revenue streams, ensuring the long-term sustainability of the ecosystem:
 
-* **OutStake:** Revenue primarily comes from commissions on the staking of native yield tokens and transaction fees for [**POT**](outstake/yield-tokenization/pot.md).
+* **OutStake:** Revenue primarily comes from commissions on the staking of yield-bearing tokens and transaction fees for [**POT**](outstake/yield-tokenization/pot.md).
 * **OutSwap:** Revenue is mainly derived from trading fees, which increase with liquidity and trading volume.
 * **FFLaunch and Memeverse:** The main sources of revenue are transaction fees from the [**POL**](fflaunch/proof-of-liquidity-token.md) token trading pair and fees from Memecoin Staking. However, its primary positioning is as a traffic entry point and asset issuance platform, aimed at increasing the TVL (Total Value Locked) and potential revenue of the Outrun ecosystem.
 
@@ -30,7 +30,7 @@ Outrun's business model is built on diversified revenue streams, ensuring the lo
 
 The network effects of the Outrun ecosystem are reflected in several aspects:
 
-* **Liquidity Connectivity:** OutStake's universal asset principal token ([**UPT**](outstake/yield-tokenization/pt.md)) bridges the liquidity of different native yield tokens of the same native asset type, enhancing liquidity across the entire LSD (Liquidity Staking Derivatives) ecosystem and creating a significant network effect.
+* **Liquidity Connectivity:** OutStake's universal asset principal token ([**UPT**](outstake/yield-tokenization/pt.md)) bridges the liquidity of different yield-bearing tokens of the same underlying asset type, enhancing liquidity across the entire LSD (Liquidity Staking Derivatives) ecosystem and creating a significant network effect.
 * **Referral Commission Engine:** OutSwap's on-chain referral commission engine boosts liquidity support and drives more transactions, increasing trading volume and fee revenue while also generating greater social influence.
 * **User Attraction:** The design philosophy of FFLaunch and Memeverse is aimed at attracting a large number of users and significantly increasing user engagement, meeting the needs of all stakeholders and fostering a win-win situation, thereby enhancing the network effects and revenue potential of the entire ecosystem.
 
