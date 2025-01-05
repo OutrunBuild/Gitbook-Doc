@@ -17,7 +17,7 @@
   * [推荐返佣引擎](outswap/referral-commission-engine.md)
 * [FFLaunch（创业团队融资）](fflaunch/README.md)
   * [无风险 LaunchPad](fflaunch/risk-free-launchpad.md)
-  * [流动性证明代币](fflaunch/liquid-proof-token.md)
+  * [流动性证明代币](fflaunch/proof-of-liquidity-token.md)
   * [Moving like meme](fflaunch/moving-like-meme/README.md)
     * [Meme 化运营的优势](fflaunch/moving-like-meme/advantages-of-meme-based-operations.md)
   * [参与方利益](fflaunch/benefits-for-participants/README.md)
