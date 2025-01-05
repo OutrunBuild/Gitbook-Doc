@@ -4,7 +4,7 @@ Alright, let's trapping into the Memeverse.
 
 **Memeverse** was inspired by **FFLaunch**. They have many similarities, but Memeverse has more functions. It is a protocol specifically designed for Memecoin and also incorporates all the advantages of FFLaunch.
 
-Memeverse is built based on LayerZero. Users can choose to deploy Memecoins, Memecoin LiquidProof and their liquidity on multiple blockchains simultaneously. These tokens can be transferred seamlessly across chains, which helps Memecoins reach more potential users and gain more liquidity. This is of great significance for the spread and community building of Memecoins.
+Memeverse is built based on LayerZero. Users can choose to deploy Memecoins, [**POL**](../fflaunch/proof-of-liquidity-token.md) of Memecoin and their liquidity on multiple blockchains simultaneously. These tokens can be transferred seamlessly across chains, which helps Memecoins reach more potential users and gain more liquidity. This is of great significance for the spread and community building of Memecoins.
 
 Compared with the access threshold of FFLaunch, anyone can create their own Memecoins on Memeverse. All these tokens adhere to the **Fair&Free** concept. Due to the absence of an access threshold on Memeverse, for security considerations, Memeverse has removed the customizable token generator interface and uses a universal token template to create Memecoins. Users don't need any programming knowledge. They can complete all the deployments with just one click using our website UI.
 
