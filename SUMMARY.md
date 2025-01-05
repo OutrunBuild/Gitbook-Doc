@@ -17,7 +17,7 @@
   * [Referral Commission Engine](outswap/referral-commission-engine.md)
 * [FFLaunch](fflaunch/README.md)
   * [Risk-Free LaunchPad](fflaunch/risk-free-launchpad.md)
-  * [Liquid Proof Token](fflaunch/liquid-proof-token.md)
+  * [Proof Of Liquidity Token](fflaunch/proof-of-liquidity-token.md)
   * [Moving like meme](fflaunch/moving-like-meme/README.md)
     * [Advantages of Meme-Based Operations](fflaunch/moving-like-meme/advantages-of-meme-based-operations.md)
   * [Benefits for Participants](fflaunch/benefits-for-participants/README.md)

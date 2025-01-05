@@ -22,9 +22,9 @@ These two modules are the main traffic entrances of the Outrun ecosystem and imp
 
 Outrun's business model is built on diversified revenue streams, ensuring the long-term sustainability of the ecosystem:
 
-* **OutStake:** Revenue primarily comes from commissions on the staking of native yield tokens and transaction fees for POT (Position Option Tokens).
+* **OutStake:** Revenue primarily comes from commissions on the staking of native yield tokens and transaction fees for [**POT**](outstake/yield-tokenization/pot.md).
 * **OutSwap:** Revenue is mainly derived from trading fees, which increase with liquidity and trading volume.
-* **FFLaunch and Memeverse:** The revenue mainly comes from the transaction fee income of liquidity proof tokens and the fee income of Memecoin Staking. However, its main positioning is as traffic entrances and for asset issuance, aiming to increase the Total Value Locked (TVL) and potential revenue of the Outrun ecosystem.
+* **FFLaunch and Memeverse:** The main sources of revenue are transaction fees from the [**POL**](fflaunch/proof-of-liquidity-token.md) token trading pair and fees from Memecoin Staking. However, its primary positioning is as a traffic entry point and asset issuance platform, aimed at increasing the TVL (Total Value Locked) and potential revenue of the Outrun ecosystem.
 
 ## **Network Effects: Catalysts for Outrun's Growth**
 

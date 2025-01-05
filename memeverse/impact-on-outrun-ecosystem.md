@@ -10,10 +10,10 @@ Memeverse enables the entire Outrun ecosystem to possess **extremely high capita
 
 For example, stake 150 ETH to mint (nearly) **150 UETH**, and then by participating in the **Genesis** of Memeverse, the 150 UETH will be divided into two parts.
 
-1. **100 UETH** will form trading pairs with newly minted Memecoins worth 100 UETH, thus minting liquidity proof tokens worth **200 UETH**.
-2. **50 UETH** will form trading pairs with liquidity proof tokens worth 50 UETH, thereby creating liquidity worth **100 UETH**.
+1. **100 UETH** will form trading pairs with newly minted Memecoins worth 100 UETH, thus minting [**POL**](../fflaunch/proof-of-liquidity-token.md) tokens worth **200 UETH**.
+2. **50 UETH** will form trading pairs with POL tokens worth 50 UETH, thereby creating liquidity worth **100 UETH**.
 
-Finally, users will obtain liquidity proof tokens worth **150 UETH**. The whole process has created a Total Value Locked (TVL) and liquidity worth 600 ETH in total. Moreover, as transactions take place and the price of Memecoins goes up, the TVL will also increase accordingly.
+Finally, users will obtain POL tokens worth **150 UETH**. The whole process has created a Total Value Locked (TVL) and liquidity worth 600 ETH in total. Moreover, as transactions take place and the price of Memecoins goes up, the TVL will also increase accordingly.
 
 If Memecoin holders continue to conduct **Memecoin Staking**, they will also mint native yield tokens of **Staked Memecoins**. Then, by restaking the native yield tokens of Memecoins on OutStake, they will also mint [**YT**](../outstake/yield-tokenization/yt.md), [**PT**](../outstake/yield-tokenization/pt.md), and [**POT**](../outstake/yield-tokenization/pot.md) that are associated with Memecoins. All of these **newly added capitals** will bring **more potential income** to the Outrun ecosystem and its users, while also **enhancing the composability** of the Outrun ecosystem.
 
