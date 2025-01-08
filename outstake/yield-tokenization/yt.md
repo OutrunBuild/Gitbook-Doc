@@ -27,7 +27,7 @@ However, in practice, some users may burn YT before the lock-up period of their 
 
 ### **Broader prospects**
 
-YT is not only a tool for helping long-term stakers earn more yield but also a truly fungible, universal yield token. Additionally, it represents **Web3's first decentralized algorithmic stablecoin anchored to yield rates**. In the competitive market, YT remains connected to these yield rates. Looking ahead, Outrun will utilize YT’s unique features and community to develop even more innovative products.
+YT is not only a tool for helping long-term stakers earn more yield but also a truly fungible, universal yield token. Additionally, it represents **Web3's first decentralized algorithmic stablecoin anchored to yield rate(inflation rate)**. In the competitive market, YT remains connected to these yield rates. Looking ahead, Outrun will utilize YT’s unique features and community to develop even more innovative products.
 
 ### **The mathematical model of YT**
 
@@ -44,13 +44,13 @@ After **𝑡** days:
 <figure><img src="../../.gitbook/assets/1.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 The **Impermanent Profit and Loss Ratio (**_**IPnLR**_**)** can be obtained by dividing the actual earnings by the expected earnings and then subtracting 1.\
-&#xNAN;_**IPnLR = (Actual Earnings / Expected Earnings) - 1**_
+\&#xNAN;_**IPnLR = (Actual Earnings / Expected Earnings) - 1**_
 
 <figure><img src="../../.gitbook/assets/1709647700208.jpg" alt="" width="342"><figcaption></figcaption></figure>
 
 The **impermanent profit and loss (**_**IPnL**_**)** can be obtained by multiplying each user's **impermanent profit and loss ratio (**_**IPnLR**_**)** by their respective expected earnings.\
-&#xNAN;_**IPnLa = IPnLRa \* Expected Profit\_A**_\
-&#xNAN;_**IPnLb = IPnLRb \* Expected Profit\_B**_
+\&#xNAN;_**IPnLa = IPnLRa \* Expected Profit\_A**_\
+\&#xNAN;_**IPnLb = IPnLRb \* Expected Profit\_B**_
 
 <figure><img src="../../.gitbook/assets/1709648075123.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
