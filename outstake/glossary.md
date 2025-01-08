@@ -34,6 +34,6 @@ The redeemable value of YT (the staking yields redeemable by burning YT) starts 
 
 ### **POT = Position Option Token**
 
-POT is an option token based on the [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) standard that is used to encapsulate a user's staked position. Holding a POT represents the right to redeem a position upon maturity. After the POT lock-up period expires, the POT can be burned along with the corresponding UPT to redeem the staked Yield-bearing Tokens. Since POT is based on the [ERC1155](https://eips.ethereum.org/EIPS/eip-1155) standard, it supports partial redemption of the position.
+POT is an option token based on the [ERC6909](https://eips.ethereum.org/EIPS/eip-6909) standard that is used to encapsulate a user's staked position. Holding a POT represents the right to redeem a position upon maturity. After the POT lock-up period expires, the POT can be burned along with the corresponding UPT to redeem the staked Yield-bearing Tokens. Since POT is based on the ERC6909 standard, it supports partial redemption of the position.
 
 POT records the amount of staked Yield-bearing Tokens, the fixed principal value, and the number of minted PTs. Upon maturity, there is a fixed relationship between the amount of POT burned, the number of PTs, and the value of the principal being redeemed, thereby establishing a fixed interest rate. Trading POT allows one to trade the right to obtain a fixed interest rate.
