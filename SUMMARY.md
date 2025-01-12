@@ -32,7 +32,7 @@
   * [MemeFi](memeverse/memefi.md)
   * [Referral service](memeverse/referral-service.md)
   * [Event lifecycle](memeverse/event-lifecycle/README.md)
-    * [Omnichain interoperability](memeverse/event-lifecycle/omnichain-interoperability.md)
+    * [Omnichain Interoperability](memeverse/event-lifecycle/omnichain-interoperability.md)
   * [Impact of Memeverse on the Outrun Ecosystem](memeverse/impact-on-outrun-ecosystem.md)
   * [Compared with Pump.fun](memeverse/compared-with-pump.fun.md)
 * [DeSocial (Future)](desocial.md)
