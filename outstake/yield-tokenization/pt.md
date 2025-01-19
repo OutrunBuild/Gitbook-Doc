@@ -34,6 +34,8 @@ For example, with ETH, there are currently many LSTs (Liquid Staking Tokens) rel
 
 Introducing a universal asset principal token (UETH) can reduce these redundant processes. Suppose there is a liquidity-scarce LST called xETH. The market would only need liquidity pools such as UETH/ETH and UETH/USDT. By staking xETH through OutStake to mint UETH, it can connect to the existing liquidity in the market. As more market-validated LSTs are added, liquidity will become increasingly ample.
 
+It is important to note that not all PTs can be converted to UPTs. This requires the underlying yield-bearing assets to pass a series of rigorous reviews, including aspects such as security, stability, and degree of decentralization.
+
 ### Omnichain Standard
 
 The Universal Principal Token (UPT) is built using LayerZero's Omnichain Fungible Token (OFT) standard, making it an omnichain token that can be seamlessly transferred to any blockchain and amplify its network effect.
