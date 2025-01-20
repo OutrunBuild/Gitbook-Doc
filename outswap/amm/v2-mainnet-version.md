@@ -1,0 +1,21 @@
+# V2 (Mainnet Version)
+
+**Outrun AMM V2** remains a Constant Product AMM, but we will continue to make improvements to Outrun AMM V1. These improvements are inspired by Uniswap V4. However, Uniswap V4's AMM model is a Concentrated Liquidity AMM, which is not friendly to long-tail assets. Therefore, Outrun AMM V2 will introduce the following main improvements based on the Constant Product AMM：
+
+1. **Architecture Optimization**
+   * **Singleton Pool**: V2 will introduce a singleton pattern, where all liquidity pools are integrated into a single smart contract (PoolManager), rather than deploying each pool as an independent contract as in V1. This design significantly reduces the gas costs associated with creating pools and executing trades.
+   * **Flash Accounting**: This feature allows users to complete multiple transactions within a single trade and settle them all at once, reducing gas consumption from intermediate steps.
+2. **Hooks Functionality**
+   * V2 will introduce Hooks, which allow developers to execute custom code before and after trades. This supports features such as limit orders, dynamic fee adjustments, and automated liquidity strategies.
+3. **Fee Management**
+   * **Dynamic Fee Adjustment**: V2 allows liquidity pools to customize their fee structures, rather than being limited to the fixed rates in V1.
+   * **Fee Reinvestment**: When adding liquidity, fee income can be directly converted into additional liquidity. When removing liquidity, unclaimed fees will be automatically withdrawn.
+4. **Enhanced User Experience**
+   * **Native ETH Support**: V2 allows direct trading with native ETH, eliminating the need for Wrapped ETH (WETH) and simplifying the trading process.
+   * **Liquidity Salt**: When creating liquidity, the `salt` parameter can be used to distinguish between different positions in the same pool, facilitating the management of multiple liquidity positions by funds and other institutions.
+5. **Performance Optimization**
+   * **Code Optimization**: V2 has undergone extensive code optimization, such as using branchless functions and inline assembly to reduce gas consumption.
+   * **Transient Storage**: By leveraging Ethereum’s transient storage mechanism, temporary data is only stored within a single transaction, further reducing gas costs.
+
+Since Outrun AMM V2 includes all the features of V1, when we launch on the mainnet, we will directly deploy V2 and skip V1. V1 will only be used as a **beta version** for internal testing.
+
