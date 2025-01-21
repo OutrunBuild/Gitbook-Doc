@@ -38,5 +38,6 @@
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
   * [与 Pump.fun 对比](memeverse/compared-with-pump.fun.md)
 * [去中心化社交（未来）](desocial.md)
+* [FAQ](faq.md)
 * [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
