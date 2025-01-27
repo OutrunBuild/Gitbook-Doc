@@ -10,7 +10,7 @@ Memeverse 不仅仅是代币发射平台，同时也是 **Memecoin Staking** 协
 
 **为了进一步去中心化，创建者收入（锁定流动性做市收入中的 UPT 部分）在未来将归属于对应的 Memecoin DAO 国库，社区通过 Memecoin 生息代币参与治理，控制国库收入的再分配，从而激励社区为Memecoin 构建更多的实用用例，甚至裂变出更多的 Memecoin SubDAO，并将其产生的收入引入 Memecoin 收益金库。**
 
-更多信息请查看[**可行性研究报告**](feasibility-study.md)
+更多信息请查看 [**MemeFi 可行性研究**](feasibility-study.md)**。**
 
 ## **Memecoin Restaking**
 
