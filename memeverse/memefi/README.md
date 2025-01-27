@@ -10,7 +10,7 @@ Additionally, Memecoin yield vaults possess strong composability, **allowing the
 
 **To further decentralize, the creator's income (the UPT portion of locked liquidity market-making income) will eventually belong to the corresponding Memecoin DAO treasury. The community will participate in governance through Memecoin yield-bearing tokens, controlling the redistribution of treasury income, thereby incentivizing the community to build more practical use cases for Memecoin, and even create more Memecoin SubDAOs, redirecting the income generated into the Memecoin revenue treasury.**
 
-For more information, please refer to the[ **Feasibility Study Report**](feasibility-study-of-memefi.md).
+For more information, please refer to the [**Feasibility Study Of MemeFi**](feasibility-study-of-memefi.md).
 
 ### **Memecoin Restaking**
 
