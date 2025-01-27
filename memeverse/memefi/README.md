@@ -10,7 +10,7 @@ Additionally, Memecoin yield vaults possess strong composability, **allowing the
 
 ### **Memecoin Restaking**
 
-By depositing Memecoins into their corresponding revenue treasuries, yield-bearing tokens based on Memecoins — **Staked Memecoins** — can be minted. As tokens compliant with the ERC4626 standard, Staked Memecoins can be **Restaking** on [**OutStake**](../outstake/), further amplifying their DeFi potential and network effects, enhancing capital efficiency, and bringing higher returns to Memecoin holders.
+By depositing Memecoins into their corresponding revenue treasuries, yield-bearing tokens based on Memecoins — **Staked Memecoins** — can be minted. As tokens compliant with the ERC4626 standard, Staked Memecoins can be **Restaking** on [**OutStake**](../../outstake/), further amplifying their DeFi potential and network effects, enhancing capital efficiency, and bringing higher returns to Memecoin holders.
 
 ### **Summary**
 
