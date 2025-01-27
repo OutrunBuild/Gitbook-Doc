@@ -39,7 +39,7 @@ The **Memecoin Yield Vault**, built on ERC4626, restructures value flows:
 | **Factor**                  | **Traditional Memecoin** | **Traditional AMM LP** | **Memeverse Vault**               |
 | --------------------------- | ------------------------ | ---------------------- | --------------------------------- |
 | **Revenue Source**          | Price appreciation       | Trading fees           | Trading fees + token appreciation |
-| **Risk**                    | Rug/zero risk            | High impermanent loss  | Only token volatility             |
+| **Risk**                    | Rug / token volatility   | High impermanent loss  | Only token volatility             |
 | **Capital Efficiency**      | 100% spot exposure       | 50% idle capital       | 100% earning yield                |
 | **Sustainability**          | None                     | Requires liquidity     | Tied to volume (high turnover)    |
 | **Community Value Capture** | Zero                     | Partial                | Full fee redistribution           |
