@@ -4,9 +4,13 @@
 
 Memeverse 不仅仅是代币发射平台，同时也是 **Memecoin Staking** 协议，将 Memecoin 与 **DeFi** 完美结合，为 Memecoin 持有者开辟了新的收益渠道。
 
-每种 Memecoin 在创世链上都有对应的符合 **ERC4626** 标准的收益金库，Memecoin 持有者可以通过将代币存入这些金库来铸造基于 Memecoin 的**生息代币**，金库的收益主要来源于[**锁定流动性做市收入中的 Memecoin 部分**](broken-reference)（ERC4626 金库收入仅限于 Memecoin 底层资产，而 UPT 部分则归属于代币创建者）。
+每种 Memecoin 在创世链上都有对应的符合 **ERC4626** 标准的收益金库，Memecoin 持有者可以通过将代币存入这些金库来铸造基于 Memecoin 的**生息代币**，金库的收益主要来源于**锁定流动性做市收入中的 Memecoin 部分**（ERC4626 金库收入仅限于 Memecoin 底层资产，而 UPT 部分则归属于代币创建者）。
 
 此外，Memecoin 收益金库具备出强大的可组合性，**允许社区引入额外的收入来源**。例如，通过开发基于 Memecoin 的实用程序（社交，游戏，AI Agent等等）来创造更多收入，进一步增强金库的收益潜力。
+
+**为了进一步去中心化，创建者收入（锁定流动性做市收入中的 UPT 部分）在未来将归属于对应的 Memecoin DAO 国库，社区通过 Memecoin 生息代币参与治理，控制国库收入的再分配，从而激励社区为Memecoin 构建更多的实用用例，甚至裂变出更多的 Memecoin SubDAO，并将其产生的收入引入 Memecoin 收益金库。**
+
+更多信息请查看[**可行性研究报告**](feasibility-study.md)
 
 ## **Memecoin Restaking**
 
