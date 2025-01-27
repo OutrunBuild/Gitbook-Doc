@@ -2,7 +2,7 @@
 
 ## **Memecoin 市场困境：投机狂欢下的收益工具以及 DAO 治理缺失**
 
-当前 Memecoin 生态呈现几大困境（不讨论内幕交易，Rug Pull，欺诈交易等风险，这在FFLaunch中得到了解决）：
+当前 Memecoin 生态呈现几大困境（不讨论内幕交易，Rug Pull，欺诈交易等风险，这在 [**FFLaunch**](../../fflaunch/) 中得到了解决）：
 
 1. **收益方式单一：**&#x6295;资者仅能通过低买高卖获利，但暴涨暴跌行情中多数人沦为「接盘侠」，巨幅波动下多数人成为亏损者（CoinGecko 数据显示**Top 100 Memecoin 平均回撤达 80%**）；
 2. **流动性陷阱：**&#x4F20;统 Memecoin LaunchPad 为锁定流动性将 LP 代币销毁，导致**做市收入永久丢失**，社区无法利用这部分价值；
@@ -36,7 +36,7 @@ _**Memecoin 收益金库**通过 ERC4626 标准重构 Memecoin 价值流：_
 
 ### **核心优势：为什么这是最佳选择？**
 
-<table data-header-hidden><thead><tr><th width="145"></th><th width="185"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td>对比项</td><td>传统 Memecoin 投资</td><td>传统 AMM 做市</td><td><strong>Memeverse 收益金库</strong></td></tr><tr><td>收益来源</td><td>仅靠价格上涨</td><td>交易手续费</td><td><strong>交易手续费 + 代币增值</strong></td></tr><tr><td>风险</td><td>归零风险/接盘侠</td><td>极高无常损失</td><td><strong>仅代币价格波动，金库收益可对冲币价下跌</strong></td></tr><tr><td>资金效率</td><td>100%暴露于现货</td><td>50% 资金闲置（配对资产占用）</td><td><strong>100% 资金用于赚取收益</strong></td></tr><tr><td>收益可持续性</td><td>无</td><td>依赖持续流动性注入</td><td><strong>依赖交易量（Memecoin 天然高换手）</strong></td></tr><tr><td>社区价值捕获</td><td>零捕获</td><td>部分捕获</td><td><strong>做市及社区收入反哺持币者</strong></td></tr><tr><td>持币者行为</td><td>被动持有</td><td>主动管理，风险控制</td><td><strong>被动持有并获得利息</strong></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="145"></th><th width="185"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td>对比项</td><td>传统 Memecoin 投资</td><td>传统 AMM 做市</td><td><strong>Memeverse 收益金库</strong></td></tr><tr><td>收益来源</td><td>仅靠价格上涨</td><td>交易手续费</td><td><strong>交易手续费 + 代币增值</strong></td></tr><tr><td>风险</td><td>归零风险/接盘侠</td><td>极高无常损失</td><td><strong>仅代币价格波动，金库收益可对冲币价下跌</strong></td></tr><tr><td>资金效率</td><td>100% 暴露于现货</td><td>50% 资金闲置（配对资产占用）</td><td><strong>100% 资金用于赚取收益</strong></td></tr><tr><td>收益可持续性</td><td>无</td><td>依赖持续流动性注入</td><td><strong>依赖交易量（Memecoin 天然高换手）</strong></td></tr><tr><td>社区价值捕获</td><td>零捕获</td><td>部分捕获</td><td><strong>做市及社区收入反哺持币者</strong></td></tr><tr><td>持币者行为</td><td>被动持有</td><td>主动管理，风险控制</td><td><strong>被动持有并获得利息</strong></td></tr></tbody></table>
 
 ***
 
@@ -64,7 +64,7 @@ _**Memecoin 收益金库**通过 ERC4626 标准重构 Memecoin 价值流：_
 
 未来 **OutSwap** 将引入动态手续费机制，**根据链上交易频率实时调控手续费率**，从而提高收益金库收入：
 
-* 当交易量激增时，手续费率自动提升（如 1%→3%），收益非线性增长；
+* 当交易量激增时，手续费率自动提升（如 1% → 3%），收益非线性增长；
 * 价格剧烈波动期（通常伴随交易量暴增）自动捕获更高价值
 
 ***
@@ -101,7 +101,7 @@ Memeverse 收益金库本质上将 Memecoin 转化为：
 用户心智转移过程：
 
 * 用户不再将 Memecoin 视为单纯的价格筹码，而是能**自我增值的生息资产**，持有即产生收益，彻底改变“不涨就亏”的焦虑心态。
-* 用户从 “**因风险放弃收益**” 转向 “**用机制管理风险**”，Outrun 通过技术手段将无常损失风险封装并转移到黑洞（并且FFLaunch杜绝了内幕交易以及Rug Pull等欺诈风险），让用户通过简单的质押即可捕获生态收益。
+* 用户从 “**因风险放弃收益**” 转向 “**用机制管理风险**”，Outrun 通过技术手段将无常损失风险封装并转移到黑洞（并且 FFLaunch 杜绝了内幕交易以及 Rug Pull 等欺诈风险），让用户通过简单的质押即可捕获生态价值。
 * 用户从 “**短期投机者**” 进化为 “**生态共建者**”，通过持有生息质押代币参与 Memecoin 社区治理，引导社区价值观的走向以及 Memecoin DAO 国库收入分配，持币时间越长，收益越高，话语权越大，最后社区治理所产生的收入又反哺 Memecoin 收益金库，形成**生态共建利益共同体**。
 
 **最终目标**：让 Memecoin 脱离「纯赌博工具」标签，成为可持续，可长期持有的价值捕获实用代币。
