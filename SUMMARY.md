@@ -34,6 +34,7 @@
   * [MemeFi](memeverse/memefi/README.md)
     * [Staking 可行性研究](memeverse/memefi/feasibility-study-of-staking.md)
     * [Staking 可行性研究（煽动版）](memeverse/memefi/staking-ke-xing-xing-yan-jiu-shan-dong-ban.md)
+    * [Staking 可行性研究](memeverse/memefi/staking-ke-xing-xing-yan-jiu.md)
   * [推广服务](memeverse/referral-service.md)
   * [事件生命周期](memeverse/event-lifecycle/README.md)
     * [全链互操作](memeverse/event-lifecycle/quan-lian-hu-cao-zuo.md)

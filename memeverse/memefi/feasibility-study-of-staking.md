@@ -2,7 +2,7 @@
 
 Memecoin 收益金库具有多种收入来源，其中基本收入来源是**锁定创世流动性做市收入中的 Memecoin 部分**，因此我们对这部分收益来源做了可行性研究。
 
-<figure><img src="../../.gitbook/assets/gmgn.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gmgn (1).png" alt=""><figcaption></figcaption></figure>
 
 我们分析了大量市场上热门的 Memecoin，和我们预想的一样，Memecoin 是一种换手率极高的代币，其每日交易额往往数倍甚至十倍，百倍于其市值，因此在 AMM 上为其做市往往年化 APR 会非常高，但是Memecoin 的价格波动性也非常高，做市商往往会面临极高的无常损失与做市风险，最终导致亏损，因此许多人对 Memecoin 做市望而却步。而传统 Memecoin LaunchPad 单纯地将流动性池地 LP 代币销毁，这样流动性池产生的做市收入并未被利用到，对于 Memecoin 社区来说，这是一种浪费。
 
