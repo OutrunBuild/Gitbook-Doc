@@ -53,7 +53,7 @@ The **Memecoin Yield Vault**, built on ERC4626, restructures value flows:
 
 * **Revenue sources**: The **Memecoin portio**n of the market-making income from the genesis liquidity pool (after protocol fees, 0.35% of the 0.7% transaction fee goes to the vault, and **the UPT portion is guided by the corresponding Memecoin DAO governance**). Since the genesis liquidity pool initially holds all of the Memecoin, the primary on-chain market-making income for Memecoin in the future will be captured by the genesis liquidity pool. (The introduction of additional income sources by the community through governance, such as developing practical applications based on Memecoin like social platforms, games, AI agents, etc., to generate more revenue, **is not discussed for now**.)
 * **APR Formula: APR = Daily Turnover Rate × 0.35% × 365 ÷ Staking Rate**
-  * _Daily Turnover_: **Volume ÷ Market Cap**
+  * _Daily Turnover Rate_: **Volume ÷ Market Cap**
   * _Staking Rate_: **Staked token amount ÷ Total supply**
 
 <figure><img src="../../.gitbook/assets/gmgn.png" alt=""><figcaption><p>The daily trading volume of Memecoin is often several times, or even hundreds of times, its market capitalization.</p></figcaption></figure>
@@ -95,7 +95,7 @@ In the future, **OutSwap** will introduce a dynamic fee mechanism that **adjusts
 
 * **Liquid Staking**: Vault tokens integrate with DeFi (lending, liquidity pools), unlocking capital efficiency.
 * **Auto-Compounding**: Yield reinvestment for compound growth.
-* **Governance Expansion**: Stakers participate in Memecoin community governance, controlling the allocation of corresponding Memeverse DAO treasury income (the UPT portion of market-making income, not the staking treasury income), incentivizing the community to develop more practical features for Memecoin.
+* **Governance Expansion**: Stakers participate in Memecoin community governance, controlling the allocation of corresponding **Memeverse DAO treasury** income (**the UPT portion of market-making income**, not the Memecoin Yield Vault income), incentivizing the community to develop more practical features for Memecoin.
 
 ***
 
