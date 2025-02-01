@@ -33,6 +33,8 @@
   * [Trapping into the Memeverse](memeverse/trapping-into-the-memeverse.md)
   * [MemeFi](memeverse/memefi/README.md)
     * [Feasibility Study Of MemeFi](memeverse/memefi/feasibility-study-of-memefi.md)
+    * [Memecoin Staking](memeverse/memefi/memecoin-staking.md)
+    * [Memecoin DAO Governance](memeverse/memefi/memecoin-dao-governance.md)
   * [Referral service](memeverse/referral-service.md)
   * [Event lifecycle](memeverse/event-lifecycle/README.md)
     * [Omnichain Interoperability](memeverse/event-lifecycle/omnichain-interoperability.md)
