@@ -42,6 +42,6 @@
   * [Compared with Pump.fun](memeverse/compared-with-pump.fun.md)
 * [DeSocial (Future)](desocial.md)
 * [FAQ](faq.md)
-* [Business Model](business-model.md)
 * [Targets Audience](targets-audience.md)
+* [Business Model](business-model.md)
 * [Github](github.md)
