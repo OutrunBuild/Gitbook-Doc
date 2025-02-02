@@ -34,7 +34,7 @@
   * [MemeFi(DAO)](memeverse/memefi/README.md)
     * [MemeFi(DAO) 可行性研究](memeverse/memefi/feasibility-study.md)
     * [Memecoin Staking](memeverse/memefi/memecoin-staking.md)
-    * [Memecoin Dao 治理](memeverse/memefi/memecoin-dao-zhi-li.md)
+    * [Memecoin Dao 治理](memeverse/memefi/memecoin-dao-governance.md)
   * [推广服务](memeverse/referral-service.md)
   * [事件生命周期](memeverse/event-lifecycle/README.md)
     * [全链互操作](memeverse/event-lifecycle/quan-lian-hu-cao-zuo.md)
