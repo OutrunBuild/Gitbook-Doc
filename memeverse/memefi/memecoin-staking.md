@@ -8,7 +8,7 @@ Each Memecoin has a corresponding yield vault on the Genesis chain that complies
 
 Additionally, Memecoin yield vaults possess strong composability, **allowing the community to introduce additional sources of revenue**. For instance, by developing utilities based on Memecoin (such as social, gaming, AI Agents, etc.), more income can be generated, further enhancing the vaults' revenue potential.
 
-**To further decentralize, the creator's income (the UPT portion of locked liquidity market-making income) will eventually belong to the corresponding Memecoin DAO treasury. The community will participate in governance through Memecoin yield-bearing tokens, controlling the redistribution of treasury income, thereby incentivizing the community to build more practical use cases for Memecoin, and even create more Memecoin SubDAOs, redirecting the income generated into the Memecoin revenue treasury.**
+**To further decentralize, the UPT portion of locked liquidity market-making income will eventually belong to the corresponding Memecoin DAO treasury. The community will participate in governance through Memecoin yield-bearing tokens, controlling the redistribution of treasury income, thereby incentivizing the community to build more practical use cases for Memecoin, and even create more Memecoin SubDAOs, redirecting the income generated into the Memecoin revenue treasury.**
 
 ### **Memecoin Restaking**
 
