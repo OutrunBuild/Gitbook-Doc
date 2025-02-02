@@ -8,7 +8,7 @@ Memeverse 不仅仅是代币发射平台，同时也是 **Memecoin Staking** 协
 
 此外，Memecoin 收益金库具备出强大的可组合性，**允许社区引入额外的收入来源**。例如，通过开发基于 Memecoin 的实用程序（社交，游戏，AI Agent等等）来创造更多收入，进一步增强金库的收益潜力。
 
-**为了进一步去中心化，创建者收入（锁定流动性做市收入中的 UPT 部分）在未来将归属于对应的 Memecoin DAO 国库，社区通过 Memecoin 生息代币参与治理，控制国库收入的再分配，从而激励社区为Memecoin 构建更多的实用用例，甚至裂变出更多的 Memecoin SubDAO，并将其产生的收入引入 Memecoin 收益金库。**
+**为了进一步去中心化，锁定流动性做市收入中的 UPT 部分将归属于对应的 Memecoin DAO 国库，社区通过 Memecoin 生息代币参与治理，控制国库收入的再分配，从而激励社区为Memecoin 构建更多的实用用例，甚至裂变出更多的 Memecoin SubDAO，并将其产生的收入引入 Memecoin 收益金库。**
 
 ## **Memecoin Restaking**
 
