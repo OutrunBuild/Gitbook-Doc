@@ -35,7 +35,7 @@
     * [MemeFi(DAO) 可行性研究](memeverse/memefi/feasibility-study.md)
     * [Memecoin Staking](memeverse/memefi/memecoin-staking.md)
     * [Memecoin Dao 治理](memeverse/memefi/memecoin-dao-governance/README.md)
-      * [动态演进的投票权分配机制](memeverse/memefi/memecoin-dao-governance/dong-tai-yan-jin-de-tou-piao-quan-fen-pei-ji-zhi.md)
+      * [动态演进的投票权分配机制](memeverse/memefi/memecoin-dao-governance/dynamic-evolving-voting-rights-allocation-mechanism.md)
   * [推广服务](memeverse/referral-service.md)
   * [事件生命周期](memeverse/event-lifecycle/README.md)
     * [全链互操作](memeverse/event-lifecycle/quan-lian-hu-cao-zuo.md)
