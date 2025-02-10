@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/Memeverse架构图.png" alt=""><figcaption><p>Memeverse 全链架构图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Memeverse架构图.png" alt=""><figcaption><p>Memeverse 简化全链架构图</p></figcaption></figure>
 
 Memeverse 是一个由 **LayerZero** 提供支持的全链模块，允许用户在任意已部署该模块的区块链上进行注册或参与创世。
 
