@@ -4,7 +4,7 @@
 
 **Memeverse** 的灵感来自 **FFLaunch**，他们有着很多相似的地方，但是 Memeverse 具有更多的功能，是专为 Memecoin 而生的协议，同时具备了 FFLaunch 的所有优势。
 
-Memeverse 基于 LayerZero 构建，用户可以选择同时在多个区块链部署 Memecoin 以及流动性，这些 Memecoin 可以在链间无缝转移，从而帮助 Memecoin 接触更多的潜在用户，获取更多的流动性，这对于 Memecoin 的传播性以及社区构建非常重要。
+Memeverse 基于 **LayerZero** 构建，用户可以选择同时在多个区块链部署 Memecoin 以及流动性，这些 Memecoin 可以在链间无缝转移，从而帮助 Memecoin 接触更多的潜在用户，获取更多的流动性，这对于 Memecoin 的传播性以及社区构建非常重要。
 
 相比 FFLaunch 的准入门槛，任何人都可以在 Memeverse 创建自己的 Memecoin，这些代币全部遵守 **Fair\&Free** 的理念。由于 Memeverse 的无准入门槛，所以基于安全的考量，Memeverse 移除了可定制化的代币生成器接口，使用通用的代币模板来创建 Memecoin，用户无需任何编程知识，只需要使用我们的网站 UI 就可以一键完成所有的部署。
 
