@@ -6,7 +6,7 @@
 
 然而，iPhone 凭借其不断迭代的创新，带来了全新的用户交互体验，彻底改变了用户的心智，让大众意识到手机可以是一个功能强大的移动计算平台，而不仅仅是通话工具，最终智能手机取代了传统手机，移动互联网也超越了 PC 互联网。
 
-如今，在Memecoin领域，Memeverse正以其独特的创新，有望迎来属于 Memecoin 的 iPhone 时刻，改变用户对Memecoin 的认知与心智。
+如今，在 Memecoin 领域，Memeverse 正以其独特的创新，有望迎来属于 Memecoin 的 iPhone 时刻，改变用户对 Memecoin 的认知与心智。
 
 ### **Memeverse的创新：改变 Memecoin 领域的游戏规则**
 
