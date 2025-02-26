@@ -12,7 +12,7 @@ Underlying Asset Token refers to the underlying asset token of a Yield-bearing T
 
 SY is a vault token based on the [ERC5115](https://eips.ethereum.org/EIPS/eip-5115) standard designed to encapsulate yield-bearing tokens. It can wrap any yield-bearing token and provides a standardized interface for interacting with the yield-generating mechanisms of any yield-bearing token.
 
-In OutStake, staking SY and specifying a lock-up period will mint three types of tokens: **POT (Position Option Token)**, **UPT (Principal Token)**, and **YT (Yield Token)**.
+In OutStake, staking SY and specifying a lock-up period will mint three types of tokens: **POT (Position Option Token)**, **PT (Principal Token)**, and **YT (Yield Rate Token)**.
 
 ### **PT = Principal Token**
 
