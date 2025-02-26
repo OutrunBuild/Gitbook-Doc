@@ -41,7 +41,7 @@ $$
 * $$POL_{\text {total}}$$：POL 代币总供应量
 * $$Q_{Gen}$$：创世流动性持有的 Memecoin 数量
 * $$Q_i$$：该地址直接持有的 Memecoin 数量
-* $$\alpha, \beta$$：权重系数（默认 $$\alpha = \beta = 1$$ ，可通过 DAO 投票调整）
+* $$\alpha, \beta$$：权重系数（默认 $$\alpha = 2，\beta = 1$$ ，可通过 DAO 治理投票调整）
 
 该设计确保治理权始终锚定生态的真实价值分布。
 
