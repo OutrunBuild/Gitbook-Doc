@@ -38,7 +38,7 @@ Based on the Proof-of-Liquidity (POL) mechanism of FFLaunch, a dynamic voting ri
 * $$POL_{\text {total}}$$：Total Supply of POL Tokens
 * $$Q_{Gen}$$：Amount of Memecoin Held in the Genesis Liquidity
 * $$Q_i$$：Amount of Memecoin Directly Held by the Address
-* $$\alpha, \beta$$：Weighting coefficient（Default $$\alpha = \beta = 1$$ α = β = 1，can be adjusted through DAO Governance）
+* $$\alpha, \beta$$：Weighting coefficient（Default $$\alpha = 2,\beta = 1$$，can be adjusted through DAO Governance）
 
 This design ensures that governance rights are always anchored to the real value distribution within the ecosystem.
 

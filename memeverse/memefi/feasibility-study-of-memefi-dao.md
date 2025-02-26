@@ -1,4 +1,4 @@
-# Feasibility Study Of MemeFi
+# Feasibility Study Of MemeFi(DAO)
 
 ## **Memecoin Market Dilemmas:** The Absence of Yield Tools and DAO Governance Amidst a Speculative Frenzy
 
@@ -24,7 +24,7 @@ The **Memecoin Yield Vault**, built on ERC4626, restructures value flows:
   * Outrun directs all Memecoins into a Genesis Liquidity Pool, locking LP tokens and channeling fees into the vault → **Market-making fees become staker rewards**.
 * **Risk Isolation**:
   * Users **stake Memecoins alone**, avoiding paired assets and impermanent loss.
-  * Rewards 100% sourced from trader-paid fees, **independent of token price**.
+  * Rewards sourced from trader-paid fees, **independent of token price**.
 * **Anti-Selloff Design**:
   * Stakers earn token rewards daily, reducing the incentive for short-term selling.
   * Vault income scales with trading volume: **more speculation = higher staker APR**.

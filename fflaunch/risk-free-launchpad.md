@@ -16,4 +16,4 @@ Under the audit of the token smart contract, all projects launched on FFLaunch *
 
 ### A win-win situation for Web3 users and project teams
 
-In this **"Risk-Free"** scenario, the participation funds will exceed those of ordinary LaunchPads. The tokens will receive **ample liquidity support and market attention**, and the project team will earn sufficient fee income, achieving a **win-win situation**. This is the true primary market, not those fake IDOs. This is the true essence of Web3!!!
+In this **"Risk-Free"** scenario, the participation funds will exceed those of ordinary LaunchPads. The tokens will receive **ample liquidity support and market attention**, and the project team will earn sufficient fee income, achieving a **win-win situation**.&#x20;
