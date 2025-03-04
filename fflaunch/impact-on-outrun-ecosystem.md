@@ -9,11 +9,13 @@
 
 **提高 LST 的需求**
 
-参与 FFLaunch 时，Outstake 协议会铸造 [**UPT**](../outstake/yield-tokenization/pt.md)，这些代币会被锁定在 Outswap 中。用户在购买代币时需要使用 UPT。
+参与 FFLaunch 需要使用 [**UPT**](../outstake/yield-tokenization/pt.md)，可以选择质押更多的生息代币，也可以直接从 Outswap 上购买，这些代币会被锁定在 Outswap 中，用户在交易代币时也需要使用 UPT。
 
-* 这会直接增加市场对 UPT 的需求。
-* 用户为获取 UPT，可以选择质押更多的生息代币，或者直接从 Outswap 上购买这些代币。
-* 因此，Outswap 的 TVL 和交易量都会相应增加。
+* 这会直接增加市场对 UPT 的需求，从而提高 UPT 的采用。
+* POL 流动性池的做市收入被永久销毁，这将永久减少 UPT 的总供应量。
+* UPT 被永久销毁会导致相关生息代币会被永久质押从而增加所有质押者的收益。
+* UPT 的稀缺性增强，其价值上升会产生套利空间，从而吸引更多人在 Oustake 上质押。
+* Outswap 的 TVL 和交易量都会相应增加。
 
 **培养用户使用习惯**
 
