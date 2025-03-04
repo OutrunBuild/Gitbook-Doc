@@ -24,7 +24,7 @@ Outrun's business model is built on diversified revenue streams, ensuring the lo
 
 * **OutStake:** Revenue primarily comes from commissions on the staking of yield-bearing tokens and transaction fees for [**POT**](outstake/yield-tokenization/pot.md).
 * **OutSwap:** Revenue is mainly derived from trading fees, which increase with liquidity and trading volume.
-* **FFLaunch and Memeverse:** The main sources of revenue are transaction fees from the [**POL**](fflaunch/proof-of-liquidity-token.md) token trading pair and fees from Memecoin Staking. However, its primary positioning is as a traffic entry point and asset issuance platform, aimed at increasing the TVL (Total Value Locked) and potential revenue of the Outrun ecosystem.
+* **FFLaunch and Memeverse:** Its primary positioning is as a traffic entry point and asset issuance platform, aimed at increasing the TVL (Total Value Locked) and potential revenue of the Outrun ecosystem.
 
 ## **Network Effects: Catalysts for Outrun's Growth**
 
@@ -32,7 +32,7 @@ The network effects of the Outrun ecosystem are reflected in several aspects:
 
 * **Liquidity Connectivity:** OutStake's universal asset principal token ([**UPT**](outstake/yield-tokenization/pt.md)) bridges the liquidity of different yield-bearing tokens of the same underlying asset type, enhancing liquidity across the entire LSD (Liquidity Staking Derivatives) ecosystem and creating a significant network effect.
 * **Referral Commission Engine:** OutSwap's on-chain referral commission engine boosts liquidity support and drives more transactions, increasing trading volume and fee revenue while also generating greater social influence.
-* **User Attraction:** The design philosophy of FFLaunch and Memeverse is aimed at attracting a large number of users and significantly increasing user engagement, meeting the needs of all stakeholders and fostering a win-win situation, thereby enhancing the network effects and revenue potential of the entire ecosystem.
+* **User Attraction:** The design philosophy of FFLaunch and Memeverse aims to attract a large number of users, significantly enhance user retention, and meet the needs of all stakeholders, thereby creating a win-win situation. This approach is intended to boost the network effect and revenue potential of the entire ecosystem. Additionally, it helps to burn UPT, which in turn increases demand for OutStake, attracts more participants to the Outrun ecosystem, and forms a virtuous cycle of growth.
 
 ## **Comprehensive Impact**
 
