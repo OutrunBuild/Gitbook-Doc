@@ -7,13 +7,15 @@ Users participating in FFLaunch will stake their **Yield-bearing Tokens** in the
 * Users will receive corresponding [**YT**](../outstake/yield-tokenization/yt.md) after staking Yield-bearing Tokens.
 * The total locked value (TVL) of Outstake will significantly increase due to the increase in staked assets.
 
-### Boosting Demand for LSTs
+### Boosting Demand for UPTs
 
-When participating in FFLaunch, the Outstake protocol will mint [**PT**](../outstake/yield-tokenization/pt.md), which will be locked in **Outrun AMM**. Users will need to use PTs when purchasing tokens.
+Participating in FFLaunch requires the use of UPT, which can be obtained either by staking more yield-bearing tokens or by purchasing directly on Outswap. These tokens will be locked within Outswap, and users will also need to use UPT when trading tokens.
 
-* This will directly increase the demand for PT in the market.
-* Users may stake more Yield-bearing Tokens to mint PT, or directly purchase these tokens from Outswap.
-* Consequently, the TVL and trading volume of Outswap will increase.
+* This directly increases market demand for UPT, thereby enhancing its adoption.
+* The market-making revenue from the POL liquidity pool is permanently burned, which will permanently reduce the total supply of UPT.
+* The permanent burning of UPT leads to the permanent staking of related yield-bearing tokens, thereby increasing the returns for all stakers.
+* As the scarcity of UPT increases and its value rises, arbitrage opportunities are created, which will attract more people to stake on Oustake.
+* Consequently, the TVL (Total Value Locked) and trading volume on Outswap will correspondingly increase.
 
 ### Cultivating User Usage Habits
 
