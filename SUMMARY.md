@@ -29,7 +29,7 @@
 * [Memeverse](memeverse/README.md)
   * [一切都是 Meme](memeverse/everything-is-meme.md)
   * [坠入 Meme 宇宙](memeverse/trapping-into-the-memeverse.md)
-  * [全链互操作](memeverse/quan-lian-hu-cao-zuo.md)
+  * [全链互操作](memeverse/omnichain-interoperability.md)
   * [MemeFi(DAO)](memeverse/memefi/README.md)
     * [MemeFi(DAO) 可行性研究](memeverse/memefi/feasibility-study.md)
     * [Memecoin Staking](memeverse/memefi/memecoin-staking.md)
