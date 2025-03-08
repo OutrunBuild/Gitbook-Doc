@@ -9,3 +9,11 @@ The quantities of the two assets in the liquidity pool are dynamically changing,
 ## **Trading Proof Of Liquidity Token**
 
 At the end of the FFLaunch Genesis phase, **1/3** of the Genesis funds will be paired with **1/4** of the POT to form a trading pair, and investors can claim the remaining **3/4** of the POL. As a result, POL has liquidity equivalent to half of the project token's liquidity, which is more than sufficient for a special token that does not have its own pricing power and whose price is linked to the project token. Investors can trade POL at their own set psychological price, or they can arbitrage using the difference between the market price and the nominal value of POL.
+
+## Liquidity Protection Period
+
+The Liquidity Protection Period is an essential mechanism for safeguarding token liquidity and price stability.&#x20;
+
+When the block time reaches the unlock time, some POL token holders may **rush to redeem their liquidity and immediately sell the redeemed tokens**. Without a Liquidity Protection Period, this behavior can lead to a gradual decrease in the value of subsequent redemptions, violating the principle of fairness and triggering panic redemptions and sales, which can destabilize the market.&#x20;
+
+By implementing a 24-hour Liquidity Protection Period immediately after the block time reaches the liquidity unlock time, only token transfers from the liquidity pool are permitted during this interval. This means that **only the purchase of tokens and the redemption of liquidity can be executed**. This ensures **consistency** in the value of liquidity redeemed by burning POL tokens within this 24-hour window and provides users who redeem liquidity with a period to consider their next steps, preventing panic-induced stampedes and severe market fluctuations.
