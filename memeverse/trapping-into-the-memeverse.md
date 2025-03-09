@@ -2,7 +2,7 @@
 
 > "A finite game is played for the purpose of winning. An infinite game for the purpose of continuing the play."&#x20;
 
-**Memeverse** was inspired by **FFLaunch**. They have many similarities, but Memeverse has more functions. It is a protocol specifically designed for Memecoin and also incorporates all the advantages of FFLaunch.
+Inspired by **FFLaunch**, "**sustainability**" is at the core of **Memeverse**’s design philosophy. Born for Memecoins, Memeverse aims to completely reshape the Memecoin space. It incorporates all the strengths of FFLaunch while introducing unique features such as **Memecoin Staking** and **Memecoin DAO governance**, thereby expanding the potential of Memecoins into **DeFi** and any possible **real-world use cases**.
 
 Memeverse is built based on **LayerZero**. Users can choose to deploy Memecoins and their liquidity on multiple blockchains simultaneously. These tokens can be transferred seamlessly across chains, which helps Memecoins reach more potential users and gain more liquidity. This is of great significance for the spread and community building of Memecoins.
 
