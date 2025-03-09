@@ -2,7 +2,7 @@
 
 > “有限游戏是为了赢。无限游戏是为了继续游戏。— James P. Carse”
 
-**Memeverse** 的灵感来自于 **FFLaunch**，“**可持续**”是其核心设计哲学，Memeverse 专为 Memecoin 而生，旨在彻底重塑 Memecoin 领域，它具备了 FFLaunch 的所有优势，同时还引入了 Memecoin Staking，Memecoin DAO 治理等独特设计，从而将 Memecoin 的潜力扩展到 DeFi 以及任何潜在的现实用例中。
+**Memeverse** 的灵感来自于 **FFLaunch**，“**可持续性**”是其设计理念的核心。Memeverse 专为 Memecoin 而生，旨在彻底重塑 Memecoin 领域。它融合了 FFLaunch 的所有优势，同时引入了 **Memecoin Staking** 和 **Memecoin DAO 治理**等独特功能，从而将 Memecoin 的潜力扩展到 DeFi 以及任何潜在的现实世界用例中。
 
 Memeverse 基于 **LayerZero** 构建，用户可以选择同时在多个区块链部署 Memecoin 以及流动性，这些 Memecoin 可以在链间无缝转移，从而帮助 Memecoin 接触更多的潜在用户，获取更多的流动性，这对于 Memecoin 的传播性以及社区构建非常重要。
 
