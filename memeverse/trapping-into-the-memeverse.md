@@ -1,6 +1,6 @@
 # Trapping into the Memeverse
 
-Alright, let's trapping into the Memeverse.
+> "A finite game is played for the purpose of winning. An infinite game for the purpose of continuing the play."&#x20;
 
 **Memeverse** was inspired by **FFLaunch**. They have many similarities, but Memeverse has more functions. It is a protocol specifically designed for Memecoin and also incorporates all the advantages of FFLaunch.
 
