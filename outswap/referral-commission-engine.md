@@ -28,6 +28,8 @@ The importance of referral commission for cryptocurrency exchanges cannot be ove
 
 Many well-known exchanges like **Binance**, **Coinbase**, and **KuCoin** have experienced rapid growth through referral commission programs. For instance, Binance's referral commission program not only attracted a large number of new users but also significantly increased platform trading volume and activity, becoming a critical factor in its rapid rise.
 
+***
+
 ### The former promotion mechanism of decentralized exchanges
 
 There have been two strategies in the market:
@@ -41,6 +43,8 @@ This strategy was once very popular, but it had significant drawbacks. Strictly 
 This strategy has been more frequently used recently, but it is fundamentally no different from trade mining since points are eventually exchanged for project tokens. The only difference is that it is executed off-chain, allowing the project team to maintain better control. However, its efficiency in user growth is not even as good as that of trade mining from a few years ago, and it also suffers from issues such as lack of transparency. In comparison, liquidity staking protocols are more suitable for points mining strategies.
 
 However, neither of these strategies promotes with real profits, and both have been phased out by both CEXs and DEXs. They focus on promoting from the trader’s perspective, resulting in a large amount of fake trading data, rather than spreading through users organically promoting to other users. Outrun AMM adopts a completely different on-chain referral rebate engine, **introducing new stakeholders**.
+
+***
 
 ### Referral commission design for Outrun AMM
 

@@ -6,6 +6,9 @@ Outrun AMM V1 is built based on the design philosophy of the Constant Product AM
 * **Separation of Liquidity and Market-Making Fees**: Outrun AMM improves the management of market-making fees by separating liquidity from fee collection. This allows users to collect fees without removing liquidity, providing greater flexibility and convenience for liquidity providers.
 * **New Fee Tiers**: All **classic AMM** pools have a fixed swap fee of **0.3%**, which results in a lack of flexibility for LPs (liquidity providers) who cannot seek different fee structures based on the assets they provide to the exchange. Outrun AMM will introduce new fee tiers for pool creators, allowing them to build different trading pools for various types of assets when launching pools on Outrun AMM.
 * **Referral Commission Engine**: Outrun AMM is currently the only automated market maker on the market integrated with a referral commission engine. We have redesigned the underlying code and opened the referral commission engine to everyone, thereby increasing the composability of the protocol. The rewards for the referral bonus come from the protocol fees and do not harm the interests of LPs. At the same time, this attracts more transactions, bringing higher income to LPs.
+* **MEV Guard**: Outrun AMM has integrated an innovative, fully on-chain MEV Guard native module at the AMM granularity level. By significantly increasing the cost and complexity of MEV attacks, it dramatically reduces the occurrence of common MEV attacks in DEXs, such as initial liquidity pool front-running and sandwich attacks. Additionally, it enables LPs to capture a portion of MEV revenue.
+
+***
 
 ### Why prioritize building a Constant Product AMM over a Concentrated Liquidity AMM?
 
