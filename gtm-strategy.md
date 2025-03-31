@@ -18,7 +18,7 @@
        * OutStake: "超越 Pendle，提供更高收益、更强组合性的收益代币化协议，引入与利率挂钩的稳定币。"
        * OutSwap: "具备原生收益捕获、MEV 防护和推荐引擎的创新 AMM。"
        * FFLaunch: "革命性的‘零风险’代币发行平台，投资者免费获币，项目方持续融资。"
-       * Memeverse: "基于 FFLaunch 的公平、安全、有趣的 Omnichain Meme 发射台，质押协议与 DAO。"
+       * Memeverse: "基于 FFLaunch 的公平、安全、有趣的 Omnichain Memecoin 发射台，质押协议与 DAO。"
      * **设计视觉形象 (Visual Identity):** Logo, 品牌色，统一的视觉风格。
      * **准备基础内容：** 项目介绍长文、精简版介绍 (Elevator Pitch)、核心功能亮点图文、解释性文章/推特线程（Thread）。
   4. **社区渠道搭建：**
@@ -42,13 +42,13 @@
        * **直接奖励：** 对于发现重大 Bug 或提出优质建议的用户给予少量稳定币或 ETH 奖励。
      * **反馈收集：** 在 Discord 中设立专门的 #beta-feedback 频道，团队成员积极响应和互动。定期组织小范围语音 AMA 解答疑问。
   2. **内容预热与教育：**
-     * **深度解析文章/线程：** 开始在 Twitter、Mirror 或项目博客上发布深度文章，详细解释 OutStake 的 YT 收益代币模型、UPT 的设计、OutSwap 的 推荐返佣引擎和 MEV Guard 原理、FFLaunch 的绝对 Fair\&Free 特性、Memeverse 的 Staking 与 DAO治理机制等创新点。每次聚焦一个点，讲深讲透。
+     * **深度解析文章/线程：** 开始在 Twitter、Mirror 或项目博客上发布深度文章，详细解释 OutStake 的 YT 收益代币模型、UPT 的设计、OutSwap 的推荐返佣引擎和 MEV Guard 原理、FFLaunch 的绝对 Fair\&Free 特性、Memeverse 的 Staking 与 DAO治理机制等创新点。每次聚焦一个点，讲深讲透。
      * **对比分析：** 发布与竞品（如 Pendle, Pump.fun）的对比分析，突出 Outrun 的优势。需要客观公正，用数据和逻辑说话。
      * **AMA (Ask Me Anything):** 与一些小型但专业的 DeFi 社区或 KOL 合作进行 AMA，团队创始人/核心成员亲自参与，解答早期疑问，建立信任。
   3. **小范围合作启动：**
      * **集成测试：** 与 2-3 个收益类资产项目方合作，将其资产纳入 OutStake 进行小范围测试。
      * **与 1-2 个小型项目方合作：** 如果有合适的项目，或者 Outrun 本身，可以尝试在小范围内进行 FFLaunch 的概念验证（可能在测试网或小规模主网）。
-     * **与 Public Good 社区合作：** 如果有合适的 Public Good 社区（如 OpenBuild，登链社区），可以尝试在小范围内进行 Memeverse 的概念验证，通过发射 Memecoin 支持Public Good社区，打造可持续的 Memecoin 生态（可能在测试网或小规模主网）。
+     * **与 Public Good 社区合作：** 如果有合适的 Public Good 社区（如 OpenBuild，登链社区），可以尝试在小范围内进行 Memeverse 的概念验证，通过发射 Memecoin 支持Public Good 社区，打造可持续的 Memecoin 生态（可能在测试网或小规模主网）。
 
 **阶段 2：早期用户增长与社区建设 (Early Adopter Growth & Community Building - 启动后 2-3 个月)**
 
@@ -57,7 +57,7 @@
   1. **积分激励计划上线 (Incentivized Beta/Mainnet):**
      * **OutStake 早期质押激励：** 为早期在 OutStake 质押的用户提供额外的积分激励奖励。
      * **OutSwap 早期 LP 激励：** 为在 OutSwap 提供核心交易对（如 UUSD/USDC, ETH/UETH, PT/YT）流动性的用户提供奖励。
-     * **Memeverse 早期创世及交易额激励：** 根据用户参与 Memeverse创世锁定的资金以及交易 Memecoin 的交易额提供激励。
+     * **Memeverse 早期创世及交易额激励：** 根据用户参与 Memeverse 创世锁定的资金以及交易 Memecoin 的交易额提供激励。
   2. **大使计划 (Ambassador Program):**
      * **招募与赋能：** 从早期活跃、贡献突出的社区成员中招募大使。提供资源（如内容素材、内部信息）、指导和奖励（代币、稳定币、周边）。
      * **任务：** 内容创作（教程、分析、Meme）、社区管理（回答问题、组织活动）、多语言翻译、外部推广。
@@ -84,7 +84,7 @@
      * **品牌活动：** 举办大型线上发布会或庆祝活动。
   2. **Memeverse 全面启动与运营：**
      * **降低门槛：** 确保通过 UI 界面可以轻松部署 Memecoin，无需编程知识。
-     * **标杆 Meme 项目打造：** 重点扶持或合作打造 1-3 个具有病毒传播潜力的 Meme 项目在 Memeverse 上启动，展示其模式优势。利用“独特符号”、“FFLaunch 公平性”、“Staking 收益”、“DAO 治理”等特点进行营销。
+     * **标杆 Meme 项目打造：** 重点扶持或合作打造 1-3 个具有病毒传播潜力的 Memecoin 项目在 Memeverse 上启动，展示其模式优势。利用“独特符号”、“FFLaunch 公平性”、“Staking 收益”、“DAO 治理”等特点进行营销。
      * **社区竞赛：** 举办 Meme 创作大赛、交易大赛等活动，活跃 Memeverse 生态。
   3. **集成与合作深化：**
      * **聚合器集成：** 积极推动 1inch, ParaSwap, Matcha 等 DEX 聚合器集成 OutSwap。
@@ -113,7 +113,7 @@
      * **实现路线图：** 根据白皮书或社区反馈，逐步实现 OutSwap 的 Hooks, 动态费用, Flash Accounting 等高级功能。
      * **扩展 OutStake 资产：** 支持更多种类的生息资产（LST, LRT, RWA 收益代币等）。
      * **UPT 跨链扩展：** 利用 LayerZero 将 UPT 扩展到更多链，并推动其在其他链上的应用场景（如作为抵押品、交易对）。
-     * **Memeverse 功能增强：** 探索 Meme DAO 的更多治理工具、跨 Meme 社区合作功能、Meme 资产的再质押 (Restaking) 等。
+     * **Memeverse 功能增强：** 探索 Memecoin DAO 的更多治理工具、跨 Meme 社区合作功能、Memecoin 资产的再质押 (Restaking) 等。
   2. **治理 (Governance):**
      * **启动 DAO：** 逐步将协议参数调整、财库资金使用等权力移交给代币持有者组成的 DAO。
      * **透明治理流程：** 建立清晰的提案、讨论、投票流程。
