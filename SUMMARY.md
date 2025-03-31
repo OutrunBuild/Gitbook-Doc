@@ -49,4 +49,4 @@
 * [FAQ](faq.md)
 * [Targets Audience](targets-audience.md)
 * [Business Model](business-model.md)
-* [Github](github.md)
+* [GTM Strategy (Pending)](gtm-strategy.md)
