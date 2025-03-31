@@ -50,4 +50,4 @@
 * [FAQ](faq.md)
 * [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
-* [GTM 策略（待定）](gtm-ce-le-dai-ding.md)
+* [GTM 策略（待定）](gtm-strategy.md)
