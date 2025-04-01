@@ -15,7 +15,7 @@ For example, stake 150 ETH to mint (nearly) **150 UETH**, and then by participat
 
 Finally, users will obtain POL tokens worth **150 UETH**. The whole process has created a Total Value Locked (TVL) and liquidity worth 600 ETH in total. Moreover, as transactions take place and the price of Memecoins goes up, the TVL will also increase accordingly.
 
-If Memecoin holders continue to conduct **Memecoin Staking**, they will also mint yield-bearing tokens of **Staked Memecoins**. Then, by restaking the yield-bearing tokens of Memecoins on OutStake, they will also mint [**YT**](../outstake/yield-tokenization/yt.md), [**PT**](../outstake/yield-tokenization/pt.md), and [**POT**](../outstake/yield-tokenization/pot.md) that are associated with Memecoins. All of these **newly added capitals** will bring **more potential income** to the Outrun ecosystem and its users, while also **enhancing the composability** of the Outrun ecosystem.
+If Memecoin holders continue to conduct **Memecoin Staking**, they will also mint yield-bearing tokens of **Staked Memecoins**. Then, by restaking the yield-bearing tokens of Memecoins on OutStake, they will also mint [**YT**](../outstake/yield-tokenization/yt.md), [**PT**](../outstake/yield-tokenization/pt.md), and [**POT**](../outstake/yield-tokenization/sp.md) that are associated with Memecoins. All of these **newly added capitals** will bring **more potential income** to the Outrun ecosystem and its users, while also **enhancing the composability** of the Outrun ecosystem.
 
 **The Combination of Memecoin and DeFi**
 

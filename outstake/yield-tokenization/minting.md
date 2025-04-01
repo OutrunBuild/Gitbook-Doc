@@ -2,10 +2,10 @@
 
 Users receive yield-bearing assets when they deposit funds into a yield-source. For example, BNB staked in Lista is represented as _slisBNB_. ETH staked in StakeStone is represented as _Stone_.
 
-slisBNB and Stone are examples of yield-bearing tokens.
+slisBNB and Stone are examples of **yield-bearing tokens**.
 
-In OutStake, yield-bearing tokens can be split into three parts: Principal Token (UPT), Yield Token (YT), and Position Option Token (POT). UPT represents the principal portion of the yield-bearing token, YT represents the rights to all interest earnings from that asset, and POT represents the position’s redemption rights upon maturity. UPT, YT, and POT can all be traded within the Outrun ecosystem.
+In OutStake, yield-bearing tokens can be split into three components: **Principal Token (PT)**, **Yield Token (YT)**, and **Points Yield Token (PYT)**. Additionally, encapsulating PT allows users to mint **Staked Position Token (SP)**. PT represents the principal portion of the underlying yield-bearing token, YT represents the entitlement to all yields of that asset, PYT represents the external points yields of the position, and SP represents the redemption rights for the principal of the locked position upon maturity.
 
-Users can stake yield-bearing assets (e.g., stETH) in OutStake to mint UPT, YT, and POT. The underlying assets (e.g., ETH) will automatically convert to yield-bearing assets before staking.
+Users can stake yield-bearing assets (e.g., stETH) in OutStake to mint PT, YT, and PYT. The underlying asset (e.g., ETH) will be automatically converted into an yield-bearing asset before staking.
 
-For example: ETH → stETH → SY-stETH → (UPT-stETH + YT-stETH + POT-stETH).
+For example: ETH → stETH → SY-stETH → (PT-stETH + YT-stETH + PYT-stETH), with PT encapsulated → SP.
