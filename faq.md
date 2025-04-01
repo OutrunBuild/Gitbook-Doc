@@ -1,9 +1,9 @@
 # FAQ
 
-1. **POT是什么，有什么作用，固定利率是怎么形成的？**\
-   POT (Position Option Token) 代表锁定头寸的到期赎回权，由锁定生息代币而铸造，它允许持有者在头寸到期时可以销毁固定数量的 POT 以及 PT (Principal Token) 以赎回头寸的恒定的本金价值，本质上是一种期权，基于不同时间点的 POT 市场价格形成不同的固定利率，从而为用户提供灵活的收益选择。
+1. **SP 是什么，有什么作用，固定利率是怎么形成的？**\
+   SP (Staking Position) 代表锁定头寸的到期赎回权，由头寸初始拥有者封装 PT(UPT) 而铸造，它允许持有者在锁定头寸到期时可以赎回头寸的恒定的本金价值，同时根据其市场挂单价格，在不同的时间点形成不同的固定利率，从而为用户提供灵活的收益选择。
 2. **YT 的模型有什么创新，能给用户带来什么？**\
-   YT (Yield Rate Token) 代表锁定头寸的利息部分，不设到期时间。它的铸造数量与质押锁定的生息代币的数量以及时间成正比。经过一定的收益积累后，YT 的价值会围绕生息代币的利率波动。YT 允许用户交易生息代币的利率，并且它的数学模型能够提高长期质押者的收益，同时对 POT 的隐含固定利率产生影响。
+   YT (Yield Rate Token) 代表锁定头寸的利息部分，不设到期时间。它的铸造数量与质押锁定的生息代币的数量以及时间成正比。经过一定的收益积累后，YT 的价值会围绕生息代币的利率波动，并最终超越原始收益率。YT 允许用户交易生息代币的利率，并且它的数学模型能够提高长期质押者的收益，同时对 SP 的隐含固定利率产生影响。
 3. **流动性证明代币怎么交易，它的价值是怎么定义的？**\
    流动性证明代币（POL）是投资者参与 FFLaunch 创世的凭证，代表其在锁定的创世流动性池中的份额，其价值会围绕对应的实际代币价值波动。由于 1/3 的创世资金会为 POL 部署流动性，POL 本身具有流动性，可以在 OutSwap 上自由交易。
 4. **FFLaunch 为什么可以做到 Fair 和 Free？ 如何保证不会出现内幕交易以及 Rug Pull 风险?**
@@ -17,6 +17,6 @@
 
     FFLaunch  同样适用于空投分配，项目方可以通过自定义代币生成器接口限制哪些用户可以参与创世。
 6. **Memeverse 与 FFLaunch 的区别是什么？**\
-   Memeverse 是基于 FFLaunch 的理念，专为 Memecoin 设计的全链模块，支持在多条链上同时创建 Memecoin 并参与创世。它继承了 FFLaunch 的绝大部分优势，与其唯一的区别在于，Memeverse 中的 POL 流动性是永久锁定的。同时，Memeverse 引入了 MemeFi 的概念，将 Memecoin 与 DeFi 完美结合，创造了新的市场用例。
-7. **Memecoin Staking 的收益来源是什么？** \
-   Memecoin Staking 的收益来自于锁定的创世流动性所产生的做市收入的 Memecoin 部分。此外，质押 Memecoin 所铸造的 Memecoin 生息代币可以在 OutStake 上再进行质押，从而获得更多的收益并增强其可组合性。
+   Memeverse 是基于 FFLaunch 的理念，专为 Memecoin 设计的全链模块，支持在多条链上同时创建 Memecoin 并参与创世。它继承了 FFLaunch 的绝大部分优势，与其唯一的区别在于，Memeverse 中的 POL 流动性是永久锁定的。同时，Memeverse 引入了 Memecoin Staking 与 Memecoin DAO 治理 的概念，将 Memecoin 与 DeFi 和 DAO 完美结合，创造了新的市场用例。
+7. **Memecoin Staking 和 DAO 国库的收益来源是什么？** \
+   Memecoin Staking 的收益来自于锁定的创世流动性所产生的做市收入的 Memecoin 部分，而UPT 部分归属于 DAO 国库。此外，质押 Memecoin 所铸造的 Memecoin 生息代币可以在 OutStake 上再进行质押，从而获得更多的收益并增强其可组合性。
