@@ -4,7 +4,7 @@
 
 In this aspect, Memeverse has a similar impact on the Outrun ecosystem as **FFLaunch**, but to an even greater extent, due to the higher activity in **Memecoin** trading. With the permanent locking of a portion of liquidity, **the circulation of** [**PT**](../outstake/yield-tokenization/pt.md) **will be significantly lower than the amount of staked yield-bearing tokens**.
 
-The rising demand for UPT and the high collateralization ratio will lead to an increase in its price, attracting more people to stake yield-bearing tokens for arbitrage. The dual-growth flywheel composed of it and YT will result in a higher staking volume of yield-bearing tokens and an increasing number of minted UPTs, thereby magnifying its network effect and making UPT a special **omnichain aggregated PT** based on LSD and Restaking.
+The rising demand for UPT and the high collateralization ratio will lead to an increase in its price, attracting more people to stake yield-bearing tokens for arbitrage. The dual-growth flywheel composed of it and YT will result in a higher staking volume of yield-bearing tokens and an increasing number of minted UPTs, thereby magnifying its network effect and making UPT a special **omnichain aggregated stablecoin** based on LSD and Restaking.
 
 Memeverse enables the entire Outrun ecosystem to possess **extremely high capital efficiency**.
 
