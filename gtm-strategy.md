@@ -1,6 +1,6 @@
 # GTM 策略（待定）
 
-**阶段 0：内部准备与基础建设 (Pre-Launch / Foundation - 启动前 1-3 个月)**
+**阶段 1：内部准备与基础建设 (Pre-Launch / Foundation - 启动前 1-3 个月)**
 
 * **目标：**&#x4EA7;品打磨、安全审计、核心信息准备、基础社区渠道搭建。
 * **关键行动**
@@ -29,7 +29,7 @@
      * **首发链选择：**&#x7528;户活跃，生态繁荣，有潜力、成本较低的 EVM 链都是潜在首发选择。
      * **初步接触潜在伙伴：**&#x8BC6;别可能集成 OutStake 的收益类资产项目方（如 LSD 提供商）、可能使用 FFLaunch 的早期项目、可能对 OutSwap 感兴趣的交易聚合器。
 
-**阶段 1：种子用户获取与核心功能验证 (Seed Users & Core Validation - 启动后 1-2 个月)**
+**阶段 2：种子用户获取与核心功能验证 (Seed Users & Core Validation - 启动后 1-2 个月)**
 
 * **目标：**&#x83B7;取第一批（10-100 名）高质量的种子用户，验证 OutStake，OutSwap，Memeverse 的核心功能和用户体验，收集真实反馈。
 * **关键行动**
@@ -50,7 +50,7 @@
      * **与 1-2 个小型项目方合作：**&#x5982;果有合适的项目，或者 Outrun 本身，可以尝试在小范围内进行 FFLaunch 的概念验证（可能在测试网或小规模主网）。
      * **与 Public Good 社区合作：**&#x5982;果有合适的 Public Good 社区（如 OpenBuild，登链社区），可以尝试在小范围内进行 Memeverse 的概念验证，通过发射 Memecoin 支持Public Good 社区，打造可持续的 Memecoin 生态（可能在测试网或小规模主网）。
 
-**阶段 2：早期用户增长与社区建设 (Early Adopter Growth & Community Building - 启动后 2-3 个月)**
+**阶段 3：早期用户增长与社区建设 (Early Adopter Growth & Community Building - 启动后 2-3 个月)**
 
 * **目标：**&#x8FDB;行公测，将用户群扩大到几百至几千人，建立活跃的核心社区，验证 FFLaunch 和 Memeverse 的吸引力，开始积累 OutStake 以及 OutSwap 的流动性。
 * **关键行动**
@@ -74,7 +74,7 @@
      * **可能的小型内部 Memecoin 发射：**&#x56E2;队可以自己或与社区核心成员合作，在 Memeverse 上（可能先在测试网）发射一个与 Outrun 相关的 Meme 币，作为示范和测试。
   6. **基础数据仪表盘 (Dashboard)：**&#x5F00;发并上线一个基础的数据仪表盘，展示 OutStake 的 TVL、YT 价格、OutSwap 的交易量/流动性、FFLaunch 和 Memeverse 项目情况等关键指标，增加透明度。
 
-**阶段 3：快速增长 Rapid Growth - 启动后 3-8 个月)**
+**阶段 4：快速增长 Rapid Growth - 启动后 3-8 个月)**
 
 * **目标：** 实现大规模用户增长，显著提升 TVL 和交易量，成功运营多个 FFLaunch 和 Memeverse 项目，建立品牌知名度。
 * **关键行动**
@@ -105,7 +105,7 @@
      * **FFLaunch/Memeverse 参与激励：**&#x4E3A;参与 FFLaunch/Memeverse 项目的用户提供额外奖励。
      * **推荐计划 (Referral Program)：**&#x6B63;式推广 OutSwap 的推荐引擎，用户通过分享链接邀请他人交易可获得协议费分成。Memeverse 也应有一键生成推荐链接的功能。
 
-**阶段 4：持续运营与生态扩展 (Sustained Growth & Ecosystem Expansion - 启动 8 个月以后)**
+**阶段 5：持续运营与生态扩展 (Sustained Growth & Ecosystem Expansion - 启动 8 个月以后)**
 
 * **目标：** 巩固市场地位，持续创新，扩展生态系统，实现长期可持续发展。
 * **关键行动**
