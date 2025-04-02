@@ -8,7 +8,7 @@
     * [铸造](outstake/yield-tokenization/minting.md)
     * [PT](outstake/yield-tokenization/pt.md)
     * [YT](outstake/yield-tokenization/yt.md)
-    * [SP](outstake/yield-tokenization/pot.md)
+    * [SP](outstake/yield-tokenization/sp.md)
     * [PYT](outstake/yield-tokenization/pyt.md)
   * [与 Pendle 对比](outstake/compared-with-pendle.md)
 * [OutSwap（交易）](outswap/README.md)

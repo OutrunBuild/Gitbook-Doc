@@ -15,7 +15,7 @@ Memeverse 使整个 Outrun 生态系统具有**极高的资本效率**。
 
 最后用户得到价值 **150 UETH** 的 POL 代币。整个流程一共创造了价值 **600 ETH** 的 TVL 和流动性，并且随着交易，Memecoin 价格上涨，TVL 也会对应上涨。
 
-如果 Memecoin 持有者继续进行 **Memecoin Staking**, 还会铸造 **Memecoin 生息代币**，再将 Memecoin 生息代币在 OutStake 上 **Restaking**，还会铸造与 Memecoin 关联的 [**YT**](../outstake/yield-tokenization/yt.md)、[**PT**](../outstake/yield-tokenization/pt.md)、[**POT**](../outstake/yield-tokenization/pot.md). 以上这些**新增资本**将会为 Outrun 生态系统以及用户带来更多的**潜在收入**，同时增强 Outrun 生态系统的**可组合性**。
+如果 Memecoin 持有者继续进行 **Memecoin Staking**, 还会铸造 **Memecoin 生息代币**，再将 Memecoin 生息代币在 OutStake 上 **Restaking**，还会铸造与 Memecoin 关联的 [**YT**](../outstake/yield-tokenization/yt.md)、[**PT**](../outstake/yield-tokenization/pt.md). 以上这些**新增资本**将会为 Outrun 生态系统以及用户带来更多的**潜在收入**，同时增强 Outrun 生态系统的**可组合性**。
 
 ## **Memecoin 与 DeFi 的结合**
 
