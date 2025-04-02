@@ -12,11 +12,11 @@ Underlying Asset Token refers to the underlying asset token of a Yield-bearing T
 
 SY is a vault token based on the [ERC5115](https://eips.ethereum.org/EIPS/eip-5115) standard designed to encapsulate yield-bearing tokens. It can wrap any yield-bearing token and provides a standardized interface for interacting with the yield-generating mechanisms of any yield-bearing token.
 
-In OutStake, staking SY and specifying a lock-up period will mint three types of tokens: **POT (Position Option Token)**, **PT (Principal Token)**, and **YT (Yield Rate Token)**.
+In OutStake, staking SY and specifying a lock-up period will mint three types of tokens: **PT (Principal Token)**, **YT (Yield Rate Token)** and **SP (Staking Position)**.
 
 ### **PT = Principal Token**
 
-PT is the principal component separated from the Yield-bearing Token. Holding PT represents ownership of the principal, which can be redeemed for the Yield-bearing Token upon the maturity of the [POT](glossary.md#pot-position-option-token) (Position Option Token).
+PT is a component of the principal split from yield-bearing tokens. PT tokens can be wrapped into SP or used independently. Holding PT or SP signifies ownership of the principal, and upon the expiration of the locked position period, the principal portion of the yield-bearing tokens can be redeemed.
 
 Unlike other protocols, OutStake's PT is a standard ERC20 token with no expiration date. When staking for different durations of SY, the same PT token is minted, but the quantity minted will vary slightly depending on the staking period. Each yield-bearing token will have a corresponding PT token.
 

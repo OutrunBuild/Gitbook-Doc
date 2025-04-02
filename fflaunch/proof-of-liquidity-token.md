@@ -8,7 +8,7 @@ The quantities of the two assets in the liquidity pool are dynamically changing,
 
 ## **Trading Proof Of Liquidity Token**
 
-At the end of the FFLaunch Genesis phase, **1/3** of the Genesis funds will be paired with **1/4** of the POT to form a trading pair, and investors can claim the remaining **3/4** of the POL. As a result, POL has liquidity equivalent to half of the project token's liquidity, which is more than sufficient for a special token that does not have its own pricing power and whose price is linked to the project token. Investors can trade POL at their own set psychological price, or they can arbitrage using the difference between the market price and the nominal value of POL.
+At the end of the FFLaunch Genesis phase, **1/3** of the Genesis funds will be paired with **1/4** of the POL to form a trading pair, and investors can claim the remaining **3/4** of the POL. As a result, POL has liquidity equivalent to half of the project token's liquidity, which is more than sufficient for a special token that does not have its own pricing power and whose price is linked to the project token. Investors can trade POL at their own set psychological price, or they can arbitrage using the difference between the market price and the nominal value of POL.
 
 ## Liquidity Protection Period
 
