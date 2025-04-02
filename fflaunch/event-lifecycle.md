@@ -38,8 +38,8 @@ Starting from the **genesis stage**, each stage transition of the **LaunchPool**
 **5. Liquidity Unlock Stage**
 
 * When the current stage is the liquidity lock-up stage and the block time is greater than the unlockedTime of the LaunchPool, anyone can call the changeStage method to enter the liquidity unlock stage.
-* During the liquidity unlock stage, investors can redeem the liquidity of the POL/UPT trading pair according to the proportion of the funds they deposited in the genesis stage. Meanwhile, they can also burn the POL tokens to redeem the LP tokens of the ProjectToken/UPT trading pair in the same quantity.
-* A 24-hour [**Liquidity Protection Period**](proof-of-liquidity-token.md) is implemented immediately after the block time reaches the unlockTime. During this period, only token transfers from the liquidity pool are permitted, while transfers from other addresses are restricted. This means that only the purchase of tokens and the redemption of liquidity can be executed during this time.
+* During the liquidity unlock stage, investors can redeem the liquidity of the POL / UPT trading pair in proportion to the funds they deposited during the genesis phase. Simultaneously, they can also burn POL tokens to redeem the liquidity of the ProjectToken / UPT trading pair.
+* A 24-hour [**Liquidity Protection Period**](proof-of-liquidity-token.md) is implemented immediately after the block time reaches the unlockTime.&#x20;
 
 **6. Remaining Token Generation Stage**
 

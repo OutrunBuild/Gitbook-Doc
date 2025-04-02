@@ -35,7 +35,7 @@ Starting from the **genesis stage**, each stage transition of **Memeverse** requ
 **4. Liquidity Unlocking Stage**
 
 * When the current stage is the liquidity lock-up stage and the block time is greater than the unlockTime of Memeverse, anyone can call the changeStage method to enter the liquidity unlock stage.
-* During the liquidity unlock stage, users can burn the POL tokens to redeem the same number of LP tokens of the **Memecoin / UPT** trading pairs.
-* A 24-hour [**Liquidity Protection Period**](../fflaunch/proof-of-liquidity-token.md) is implemented immediately after the block time reaches the unlockTime. During this period, only token transfers from the liquidity pool are permitted, while transfers from other addresses are restricted. This means that only the purchase of tokens and the redemption of liquidity can be executed during this time.
+* During the liquidity unlock stage, users can burn POL tokens to redeem the liquidity of the **Memecoin / UPT** trading pair.
+* A 24-hour [**Liquidity Protection Period**](../fflaunch/proof-of-liquidity-token.md) is implemented immediately after the block time reaches the unlockTime.&#x20;
 
 **These stages and entities collectively define the complete lifecycle of Memeverse events, ensuring the security, transparency, and compliance of Memecoin throughout the lifecycle**.

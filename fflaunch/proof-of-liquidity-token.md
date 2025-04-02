@@ -12,8 +12,8 @@ At the end of the FFLaunch Genesis phase, **1/3** of the Genesis funds will be p
 
 ## Liquidity Protection Period
 
-The Liquidity Protection Period is an essential mechanism for safeguarding token liquidity and price stability.&#x20;
+The Liquidity Protection Period is an essential mechanism for safeguarding token liquidity and price stability.
 
-When the block time reaches the unlock time, some POL token holders may **rush to redeem their liquidity and immediately sell the redeemed tokens**. Without a Liquidity Protection Period, this behavior can lead to a gradual decrease in the value of subsequent redemptions, violating the principle of fairness and triggering panic redemptions and sales, which can destabilize the market.&#x20;
+When the block time reaches the unlock time, some POL token holders may **rush to redeem their liquidity and immediately sell the redeemed tokens**. Without a Liquidity Protection Period, this behavior can lead to a gradual decrease in the value of subsequent redemptions, violating the principle of fairness and triggering panic redemptions and sales, which can destabilize the market.
 
-By implementing a 24-hour Liquidity Protection Period immediately after the block time reaches the liquidity unlock time, only token transfers from the liquidity pool are permitted during this interval. This means that **only the purchase of tokens and the redemption of liquidity can be executed**. This ensures **consistency** in the value of liquidity redeemed by burning POL tokens within this 24-hour window and provides users who redeem liquidity with a period to consider their next steps, preventing panic-induced stampedes and severe market fluctuations.
+By implementing a 24-hour liquidity protection period after the block time reaches the liquidity unlock time, users will have the option to burn POL tokens to redeem their liquidity during this period. However, **the project token portion of the redeemed liquidity will only be claimable to their addresses after the protection period ends**. This ensures the **fundamental consistency** of the liquidity value redeemed by burning POL tokens within these 24 hours, providing all users with sufficient time to redeem under equivalent market conditions. This helps prevent adverse situations such as panic selling and sharp market fluctuations.
