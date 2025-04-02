@@ -36,6 +36,6 @@
 
 * 当前阶段为流动性锁定阶段且区块时间大于 Memeverse 的 unlockTime 时，任何人都可以调用 changeStage 方法进入流动性解锁阶段。
 * 在流动性解锁阶段，用户可以销毁 POL 代币以赎回相同数量的 **Memecoin / UPT** 交易对的 LP 代币。
-* 在区块时间到达 unlockTime 之后实施 24 小时的[**流动性保护期**](../../fflaunch/proof-of-liquidity-token.md)，在此期间仅允许从流动性池转移代币，其他地址无法转移代币，这意味着在这期间只能执行购买代币以及赎回流动性的操作。
+* 在区块时间到达 unlockTime 之后实施 24 小时的[**流动性保护期**](../../fflaunch/proof-of-liquidity-token.md)。
 
 **这些阶段和实体共同定义了 Memeverse 事件的完整生命周期，确保 Memecoin 在整个生命周期中的安全性、透明度和合规性。**
