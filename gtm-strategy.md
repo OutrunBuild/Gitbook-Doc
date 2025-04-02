@@ -1,6 +1,6 @@
 # GTM Strategy (Pending)
 
-**Phase 0: Internal Preparation and Infrastructure Construction (Pre-Launch / Foundation - 1-3 months before launch)**
+**Phase 1: Internal Preparation and Infrastructure Construction (Pre-Launch / Foundation - 1-3 months before launch)**
 
 * **Objectives:** product polishing, security audit, core information preparation, and basic community channel building.
 * **Key actions**
@@ -29,7 +29,7 @@
      * **Initial launch chain selection:** EVM chains with active users, prosperous ecosystem, potential and low cost are all potential initial launch choices.
      * **Initial outreach to potential partners:** Identify yield-based asset projects that may integrate OutStake (such as LSD providers), early-stage projects that may use FFLaunch, and trading aggregators that may be interested in OutSwap.
 
-**Phase 1: Seed Users & Core Validation (1-2 months after launch)**
+**Phase 2: Seed Users & Core Validation (1-2 months after launch)**
 
 * **Goal:** Acquire the first batch (10-100) of high-quality seed users, verify the core functions and user experience of OutStake, OutSwap, and Memeverse, and collect real feedback.
 * **Key actions**
@@ -50,7 +50,7 @@
      * **Collaborate with 1-2 small projects:** If there is a suitable project, or Outrun itself, we can try to conduct a proof of concept of FFLaunch on a small scale (possibly on a testnet or a small-scale mainnet).
      * **Collaborate with Public Good Communities:** If there is a suitable Public Good community (such as OpenBuild, DengLian Community), we can try to conduct a proof-of-concept of Memeverse on a small scale, support the Public Good community by launching Memecoin, and build a sustainable Memecoin ecosystem (possibly on a testnet or a small-scale mainnet).
 
-**Phase 2: Early Adopter Growth & Community Building (2-3 months after launch)**
+**Phase 3: Early Adopter Growth & Community Building (2-3 months after launch)**
 
 * **Goal:** Conduct public beta, expand the user base to hundreds to thousands of people, build an active core community, verify the appeal of FFLaunch and Memeverse, and begin to accumulate OutStake and OutSwap liquidity.
 * **Key actions**
@@ -74,7 +74,7 @@
      * **Possible small internal meme launch:** The team could launch an Outrun-related meme coin on the Memeverse (possibly on a testnet first) as a demonstration and test, either by itself or in collaboration with core community members.
   6. **Basic data dashboard:** Develop and launch a basic data dashboard to display key indicators such as OutStake’s TVL, YT price, OutSwap’s trading volume/liquidity, FFLaunch and Memeverse project status, to increase transparency.
 
-**Phase 3: Rapid Growth (3-8 months after launch)**
+**Phase 4: Rapid Growth (3-8 months after launch)**
 
 * **Goal:** Achieve massive user growth, significantly increase TVL and transaction volume, successfully operate multiple FFLaunch and Memeverse projects, and build brand awareness.
 * **Key actions**
@@ -105,7 +105,7 @@
      * **FFLaunch/Memeverse Participation Incentives:** Provide additional rewards for users who participate in the FFLaunch/Memeverse project.
      * **Referral Program:** Officially promote OutSwap's referral engine. Users can get a share of the protocol fee by inviting others to trade through sharing links. Memeverse should also have a one-click function to generate referral links.
 
-**Phase 4: Sustained Growth & Ecosystem Expansion (8 months after launch)**
+**Phase 5: Sustained Growth & Ecosystem Expansion (8 months after launch)**
 
 * **Goal:** Consolidate market position, continue innovation, expand ecosystem, and achieve long-term sustainable development.
 * **Key actions**
