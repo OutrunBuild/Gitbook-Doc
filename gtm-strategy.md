@@ -15,10 +15,10 @@
   3. **Core message and brand building**
      * **Distill the core narrative:** What is Outrun’s overall story? For example: “Through innovative yield tokenization and a fair launch model, it unlocks higher, more flexible, and more secure DeFi yields and participation opportunities for users.”
      * **Clarify the value proposition of each module**
-       * OutStake: "A yield tokenization protocol that goes beyond Pendle and offers higher yields and greater composability, introducing a stablecoin pegged to an interest rate."
-       * OutSwap: "Innovative AMM with native yield capture, MEV protection, and recommendation engine."
-       * FFLaunch: "A revolutionary 'zero risk' token issuance platform where investors receive tokens for free and project owners continue to raise funds."
-       * Memeverse: "A fair, secure, and fun Omnichain Memecoin launchpad, staking protocol, and DAO based on FFLaunch."
+       * OutStake: "A brand-new yield tokenization model that, compared to Pendle, offers higher returns and greater composability, introducing a stablecoin pegged to interest rates."
+       * OutSwap: "A decentralized exchange integrating a composable native on-chain referral commission engine and a native anti-MEV module."
+       * FFLaunch: "A revolutionary fair and risk-free token financing method where investors receive tokens for free while project teams secure continuous funding, achieving a win-win outcome."
+       * Memeverse: "A disruptive innovation platform for Memecoin issuance, staking, and DAO governance, built around the 'sustainability' ethos and based on the FFLaunch philosophy."
      * **Design visual identity:** logo, brand colors, and unified visual style.
      * **Prepare basic content:** a long introduction to the project, a simplified introduction (Elevator Pitch), graphics and text highlighting core features, and an explanatory article/Twitter thread.
   4. **Community channel construction**
