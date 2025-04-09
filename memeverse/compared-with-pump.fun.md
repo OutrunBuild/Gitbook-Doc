@@ -1,6 +1,6 @@
 # Compared with Pump.fun
 
-**Pump.fun** is currently the most popular Memecoin Launch protocol. Its core design is the **bonding curve**. Meanwhile, many other protocols have **forked** this design, and protocols with such a design account for the vast majority of the current market share. Therefore, we will compare the differences between Memeverse and Pump.fun to see what advantages Memeverse has and what problems it solves.
+**Strictly speaking, we have no competitors, because we are driving on an untraveled path**. **Pump.fun** is currently the most popular Memecoin Launch protocol. Its core design is the **bonding curve**. Meanwhile, many other protocols have **forked** this design, and protocols with such a design account for the vast majority of the current market share. Therefore, we will compare the differences between Memeverse and Pump.fun to see what advantages Memeverse has and what problems it solves.
 
 1. **Creator Revenue Sources**
    * **Pump.fun:** Pump.fun offers a frontrunning feature that allows creators to **purchase tokens at the time of deployment**, guaranteeing them tokens at costs lower than anyone else. However, this insider trading mechanism severely undermines market fairness, **deviating from the original intent of FairLaunch**. Furthermore, Pump.fun's model has been widely exploited by scammers and rug-pull bots, using **fake transactions** and **market sentiment manipulation** to drain wealth from retail investors.
