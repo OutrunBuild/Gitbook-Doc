@@ -12,4 +12,4 @@ Memeverse 是一个由 **LayerZero** 提供支持的全链模块，允许用户�
 
 当创世成功并切换到**流动性锁定阶段**时，将在**治理链**上部署对应的 **Memecoin Yield Vault** 和 **Memecoin DAO Treasury**。所有已部署的创世流动性的做市收入都将跨链发送到治理链上的 **YieldDispatcher。YieldDispatcher** 会将这些收益的 Memecoin 部分以及 UPT 部分分别转发到对应的 **Memecoin Yield Vault** 和 **Memecoin DAO Treasury**。需要注意的是，如果在治理链上不存在对应的 **Memecoin Yield Vault** 和 **Memecoin DAO Treasury（当治理链创世失败但其他目标链创世成功），**&#x8FD9;些做市收入将被直接销毁。
 
-用户可以将 Memecoin 跨链质押到 **Memecoin Yield Vault** 中，从而在治理链铸造 **stMemecoin（Staked Memecoin）**。持有 stMemecoin 的用户可以参与对应 **Memecoin DAO** 的治理。
+用户可以将 Memecoin 一键跨链质押到 **Memecoin Yield Vault** 中，从而在治理链铸造对应的**sMemecoin（Staked Memecoin）**。持有 sMemecoin 的用户可以参与对应 **Memecoin DAO** 的治理。
