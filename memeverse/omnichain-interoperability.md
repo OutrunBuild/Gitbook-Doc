@@ -13,3 +13,7 @@ Memeverse 是一个由 **LayerZero** 提供支持的全链模块，允许用户�
 当创世成功并切换到**流动性锁定阶段**时，将在**治理链**上部署对应的 **Memecoin Yield Vault** 和 **Memecoin DAO Treasury**。所有已部署的创世流动性的做市收入都将跨链发送到治理链上的 **YieldDispatcher。YieldDispatcher** 会将这些收益的 Memecoin 部分以及 UPT 部分分别转发到对应的 **Memecoin Yield Vault** 和 **Memecoin DAO Treasury**。需要注意的是，如果在治理链上不存在对应的 **Memecoin Yield Vault** 和 **Memecoin DAO Treasury（当治理链创世失败但其他目标链创世成功），**&#x8FD9;些做市收入将被直接销毁。
 
 用户可以将 Memecoin 一键跨链质押到 **Memecoin Yield Vault** 中，从而在治理链铸造对应的**sMemecoin（Staked Memecoin）**。持有 sMemecoin 的用户可以参与对应 **Memecoin DAO** 的治理。
+
+## **分配已累积的做市收入**
+
+由于智能合约无法自行执行任务（如自动分配累积的做市收入），需要外部调用者触发执行。目前，市场上已有 Chainlink Automation 等去中心化服务，可根据预定义条件自动触发智能合约功能，减少人工干预。然而，这些服务仅支持部分区块链，且随着 Memeverse 部署规模扩大，相关成本将显著增加。为此，我们决定公开分配已累积做市收入的执行权限，允许任何人触发该操作。**作为激励，执行者将获得一定比例（如 0.5%）的已累积收入**。
