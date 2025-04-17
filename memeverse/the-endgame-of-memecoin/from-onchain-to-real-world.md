@@ -1,5 +1,5 @@
 ---
-description: Discovering the Real Value of Web3
+description: Exploring the Real Value of Web3 from the Perspective of Memecoin
 ---
 
 # From onchain to real world
@@ -14,7 +14,9 @@ As Web3 development encounters bottlenecks, the need to expand its real-world im
 
 However, can this strategy truly resolve Web3’s fundamental issues? **When we place our hopes for Web3’s influence on real-world assets, does it mean that Web3’s future is inevitably bound to Web2’s rules?** In a domain dominated by others, can Web3 still be considered the protagonist? In the Web2 world, such as e-commerce platforms, merchants are part of the ecosystem, but the platform is the real dominant force. Similarly, in the context of RWA, assets like U.S. Treasury bonds or Apple stocks form the core of the ecosystem, while Web3 is relegated to a mere distribution channel, positioned downstream and earning meager profits. Such a scenario clearly prevents Web3 from being the protagonist.
 
-**Thus, while introducing RWAs can serve as a critical transitional approach to expanding Web3’s influence, it is by no means the ultimate answer**. The future of Web3 lies in discovering and realizing its native value and bringing that value into the real world. The core value of Web3 should not merely replicate real-world assets but create an entirely new value system—“let Nasdaq trade tokens, not DEXs trade stocks.” Only when Web3’s value is genuinely integrated into the real world’s economic system can it break free from reliance on Web2 and become the real protagonist. This is the ultimate vision of Web3 and the direction we collectively strive for.
+**Thus, while introducing RWAs can serve as a critical transitional approach to expanding Web3’s influence, it is by no means the ultimate answer**. The future of Web3 lies in discovering and realizing its native value and bringing that value into the real world. The core value of Web3 should not merely replicate real-world assets but create an entirely new value system. Only when Web3’s value is genuinely integrated into the real world’s economic system can it break free from reliance on Web2 and become the real protagonist. This is the ultimate vision of Web3 and the direction we collectively strive for.
+
+> “let Nasdaq trade tokens, not DEXs trade stocks.”
 
 ## **What is the Real Value of Web3?**
 
