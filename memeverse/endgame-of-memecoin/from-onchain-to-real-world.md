@@ -1,5 +1,5 @@
 ---
-description: 以 Memecoin 与创业者视角探寻 Web3 的真实价值
+description: 以 Memecoin 与创业者的视角探寻 Web3 的真实价值
 ---
 
 # 从链上到现实世界
