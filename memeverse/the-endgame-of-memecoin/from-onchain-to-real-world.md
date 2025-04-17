@@ -1,5 +1,7 @@
 ---
-description: Exploring the Real Value of Web3 from the Perspective of Memecoin
+description: >-
+  Exploring the Real Value of Web3 from the Perspective of Memecoin and
+  Entrepreneurs
 ---
 
 # From onchain to real world
