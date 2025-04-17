@@ -55,17 +55,17 @@ What about a bottom-up approach to entrepreneurship? The Outrun ecosystem, via i
 
 ### **Specific Implementation of Memeverse**
 
-**1. Community-Driven: The Emotional Value Consensus of Memecoin**
+#### **1. Community-Driven: The Emotional Value Consensus of Memecoin**
 
 * **Community Building:** Communities are established by issuing Memecoin, using emotional value as the unifying bond to rapidly gather users and establish consensus. The initiator's identity is unimportant, as the DAO forms the core of community cohesion, endowing it with an economic foundation and influence.
 * **Emotion-Driven Early Growth:** In the early stages of community building, driven by emotional value, users trade Memecoin, accumulating income for both the Yield Vault and the DAO Treasury. Users can stake their Memecoin in the Yield Vault to earn yield.
 
-**2. DAO Governance: User-Led Resources and Decision-Making**
+#### **2. DAO Governance: User-Led Resources and Decision-Making**
 
 * **Proposals and Voting:** Aligned with community consensus, community members directly propose needs, ideas, or solutions. Decisions regarding execution, treasury fund allocation, and implementation responsibility are determined via DAO governance proposal voting, eliminating the need for external entrepreneurs or investors.
 * **Economic Autonomy and Transparency:** The DAO grants the community economic autonomy, ensuring its independence from external control. Its decentralized mechanisms guarantee transparency and fairness, re-establishing trust among participants.
 
-**3. Role Integration: A Trinity of User, Entrepreneur, and Investor**
+#### **3. Role Integration: A Trinity of User, Entrepreneur, and Investor**
 
 * **Multiple Identities:** Users simultaneously fulfill multiple roles: they are the proposers of needs and ideas, the executors of solutions (acting as entrepreneurs), and participants in investment decisions via staking (acting as investors). Decision-making authority is delegated to the users, reducing cognitive biases and resource wastage, thus boosting entrepreneurial efficiency.
 * **Consensus Iteration:** Within the "Develop-Measure-Learn" cycle, users lead throughout the entire process. They continuously refine the community's self-awareness and consensus, progressively converting short-term emotional value into sustainable, long-term real value.
