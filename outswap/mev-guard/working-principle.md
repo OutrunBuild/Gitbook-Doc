@@ -41,3 +41,5 @@ We selected trading pairs from the past 24 hours that meet the following criteri
 <figure><img src="../../.gitbook/assets/Dexscreener_24h.png" alt=""><figcaption><p>Statistics of  Txns for Trading Pairs Across All Chains in the Past 24 Hours</p></figcaption></figure>
 
 According to Dexscreener data, across all trading pairs on all chains, even the trading pair with the highest number of transactions averages less than 2 transactions per second. Moreover, most active trading pairs are on chains like Solana, where block times are under 500 ms, while in mainstream EVM chains, no trading pair averages more than 1 transaction per block. Therefore, Anti-MEV transactions have virtually no impact on transaction throughput, especially considering that transactions prior to an Anti-MEV transaction remain unrestricted.
+
+In the future, the MEVGuard module can be upgraded or combined with other off-chain strategies (such as batch bundling of transactions) to adapt to changing market conditions.
