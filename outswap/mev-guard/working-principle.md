@@ -41,3 +41,5 @@ Anti-MEV 交易会强制设置当前交易是该交易对当前区块的最后�
 <figure><img src="../../.gitbook/assets/Dexscreener_24h.png" alt=""><figcaption><p>近 24 小时内全链交易对 Txns 统计</p></figcaption></figure>
 
 根据 Dexscreener 数据，在整个链上所有的交易对中，即使是交易笔数最多的交易对，平均每秒也不到 2 笔交易，且大部分活跃的交易对都是在 Solana 链这种区块时间不到 500 ms 的链上，而主流的 EVM 链中更是没有一条链的交易对平均每个区块交易笔数大于 1。因此，Anti-MEV 交易基本不会对交易吞吐量产生什么影响，更别说在 Anti-MEV 交易之前的交易是不受限制的。
+
+在未来 MEVGuard 模块还可以升级或者与其他链下策略（如批量捆绑交易等等）结合以适应市场情况变化。
