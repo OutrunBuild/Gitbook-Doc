@@ -48,7 +48,7 @@ This might seem like a reasonable path, but in reality, the majority end in fail
 
 Thus, much effort ends up being wasted. This is because it's a top-down entrepreneurial journey, while the fate of the enterprise rests with users who might not even know what they want.
 
-### **Bottom-Up, User-Driven Entrepreneurship**
+### **Infrastructure for Lean Startup**
 
 What about a bottom-up approach to entrepreneurship? The Outrun ecosystem, via its **Memeverse** module, introduces a bottom-up entrepreneurship model, making user consensus and demand the core driving force for ventures. **This model is no longer led by entrepreneurs and investors but is instead user-led, driving the formation of products and business models through community consensus**.
 
@@ -70,7 +70,7 @@ What about a bottom-up approach to entrepreneurship? The Outrun ecosystem, via i
 #### **3. Role Integration: A Trinity of User, Entrepreneur, and Investor**
 
 * **Multiple Identities:** Users simultaneously fulfill multiple roles: they are the proposers of needs and ideas, the executors of solutions (acting as entrepreneurs), and participants in investment decisions via staking (acting as investors). Decision-making authority is delegated to the users, reducing cognitive biases and resource wastage, thus boosting entrepreneurial efficiency.
-* **Consensus Iteration:** Within the "Develop-Measure-Learn" cycle, users lead throughout the entire process. They continuously refine the community's self-awareness and consensus, progressively converting short-term emotional value into sustainable, long-term real value.
+* **Consensus Iteration**: In the "Develop-Measure-Learn" experimental cycle, all experiment costs are covered by speculative potential, with users leading throughout, continuously validating and refining the community's cognition and consensus, gradually transforming short-term emotional value into long-term real value.
 
 The core value of Web3 lies in re-establishing direct connections between people through decentralized, transparent, and programmable trust mechanisms. Outrun's Memeverse module, by leveraging a bottom-up entrepreneurial model, brings the core values of Web3 into the real world. It not only addresses the limitations of traditional entrepreneurial models but also provides a sustainable path for realizing the native values of Web3. Users are no longer passive recipients but become creators and leaders of the entrepreneurial ecosystem, thereby achieving true value co-creation. By making users the core driving force of entrepreneurship, Outrun is exploring a brand new future driven by community consensus.
 
