@@ -38,7 +38,7 @@
     * [Memecoin Staking](memeverse/memecoin-defi-dao/memecoin-staking.md)
     * [Memecoin Dao 治理](memeverse/memecoin-defi-dao/memecoin-dao-governance/README.md)
       * [动态演进的投票权分配机制](memeverse/memecoin-defi-dao/memecoin-dao-governance/dynamic-evolving-voting-rights-allocation-mechanism.md)
-      * [DAO 治理周期激励](memeverse/memecoin-defi-dao/memecoin-dao-governance/dao-zhi-li-zhou-qi-ji-li.md)
+      * [DAO 治理周期激励](memeverse/memecoin-defi-dao/memecoin-dao-governance/dao-governance-cycle-incentives.md)
   * [全链互操作](memeverse/omnichain-interoperability.md)
   * [Memecoin 的终局](memeverse/endgame-of-memecoin/README.md)
     * [从链上到现实世界](memeverse/endgame-of-memecoin/from-onchain-to-real-world.md)
