@@ -27,6 +27,7 @@ In the Outrun ecosystem, each module targets different user groups with specific
 * **Low-Risk Memecoin Investors:** Users tired of the high risks of traditional Memecoins, looking to invest in Memecoins with controlled and relatively lower risk.
 * **Memecoin Players Seeking DeFi Yield:** Users who want to earn DeFi yield while participating in Memecoin gameplay.
 * **Memecoin Community Builder**: Builders who aspire to transform the entire Memecoin industry, participate in Memecoin DAO governance, contribute to the community, and earn incentives.
+* **Real-World Adopters**: Individuals aiming to build or engage with communities through Memecoin, address real-world issues, and promote DAO governance for real-world adoption.
 * **Referral Promoters:** Users who want to earn commissions by promoting Memecoin trades, utilizing the promotional links and reward mechanisms provided by Memeverse.
 
 Each module caters to different needs and preferences, leveraging its unique design and features to offer value and opportunities to various users within the Outrun ecosystem.
