@@ -11,6 +11,7 @@
     * [SP](outstake/yield-tokenization/sp.md)
     * [PYT](outstake/yield-tokenization/pyt.md)
   * [Compared with Pendle](outstake/compared-with-pendle.md)
+  * [UPT Integration List](outstake/upt-integration-list.md)
 * [OutSwap](outswap/README.md)
   * [AMM](outswap/amm/README.md)
     * [V1](outswap/amm/v1.md)
