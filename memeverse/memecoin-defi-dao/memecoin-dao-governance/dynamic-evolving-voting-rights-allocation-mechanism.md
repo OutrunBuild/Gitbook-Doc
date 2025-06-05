@@ -8,13 +8,13 @@
 
 Memeverse 是基于 [**FFLaunch**](../../../fflaunch/) 理念构建的一个创新生态系统。FFLaunch 的核心在于引入了[流动性证明代币](../../../fflaunch/proof-of-liquidity-token.md)（POL，Proof of Liquidity），这种代币代表了用户在创世流动性中的持有份额。因此，参与创世的用户实际上通过持有 POL 代币间接地持有了 Memecoin，从而在 Memecoin DAO 治理中也应享有相应的投票权。
 
-### **Memeverse 的治理创新：POL + Memecoin 双轨制**
+### **Memeverse 的治理创新：POL + sMemecoin 双轨制**
 
 基于 FFLaunch 的流动性证明代币（Proof-of-Liquidity, POL）机制，构建动态投票权分配体系：
 
 #### **1. 治理权重双源驱动**
 
-* **Memecoin 直接持有者**：按钱包余额获得基础投票权
+* **sMemecoin(Staked Memecoin) 直接持有者**：按钱包余额获得基础投票权
 * **POL 持有者**：根据创世流动性池份额获得衍生投票权
 
 #### **2. 投票权的动态平衡**
@@ -40,7 +40,7 @@ $$
 * $$POL_{i}$$：该地址持有的 POL 数量
 * $$POL_{\text {total}}$$：POL 代币总供应量
 * $$Q_{Gen}$$：创世流动性持有的 Memecoin 数量
-* $$Q_i$$：该地址直接持有的 Memecoin 数量
+* $$Q_i$$：该地址直接持有的 sMemecoin 数量
 * $$\alpha, \beta$$：权重系数（默认 $$\alpha = 2，\beta = 1$$ ，可通过 DAO 治理投票调整）
 
 该设计确保治理权始终锚定生态的真实价值分布。
