@@ -10,12 +10,12 @@ Memeverse is an innovative ecosystem built on the [**FFLaunch**](../../../fflaun
 
 ***
 
-### **Governance Innovation of Memeverse: POL + Memecoin Dual-Track System**
+### **Governance Innovation of Memeverse: POL + sMemecoin Dual-Track System**
 
 Based on the Proof-of-Liquidity (POL) mechanism of FFLaunch, a dynamic voting rights allocation system is constructed:
 
 1. **Dual-Source Governance Weighting**
-   * **Direct Memecoin Holders**: Obtain basic voting rights based on wallet balance.
+   * **sMemecoin(Staked Memecoin) Holders**: Obtain basic voting rights based on wallet balance.
    * **POL Holders**: Acquire derivative voting rights based on their shares in the genesis liquidity pool.
 2. **Dynamic Balance of Voting Rights**
    * **Initial Stage**: 100% of Memecoin is locked in the genesis pool → POL holders have full governance power.
@@ -37,7 +37,7 @@ Based on the Proof-of-Liquidity (POL) mechanism of FFLaunch, a dynamic voting ri
 * $$POL_{i}$$：Number of POL Tokens Held by the Address
 * $$POL_{\text {total}}$$：Total Supply of POL Tokens
 * $$Q_{Gen}$$：Amount of Memecoin Held in the Genesis Liquidity
-* $$Q_i$$：Amount of Memecoin Directly Held by the Address
+* $$Q_i$$：Amount of sMemecoin Directly Held by the Address
 * $$\alpha, \beta$$：Weighting coefficient（Default $$\alpha = 2,\beta = 1$$，can be adjusted through DAO Governance）
 
 This design ensures that governance rights are always anchored to the real value distribution within the ecosystem.
