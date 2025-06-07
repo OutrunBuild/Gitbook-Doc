@@ -26,7 +26,7 @@
 * 若审核通过，Outrun 审核团队将会向 FFLauncher 注册新的 LaunchPool.
 
 {% hint style="info" %}
-**FFLaunch 未来将推出两种模式：一种基于人工申请与审核的 Pro 模式，另一种为基于** [**TokenTable Unlocker**](https://docs.tokentable.xyz/for-founders/tokentable-unlocker) **的无许可模式。**
+FFLaunch 未来将推出两种模式：一种基于人工申请与审核的 **Pro** 模式，另一种为基于 [TokenTable Unlocker](https://docs.tokentable.xyz/for-founders/tokentable-unlocker) 的**无许可**模式。
 {% endhint %}
 
 ***
