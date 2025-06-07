@@ -25,6 +25,12 @@
 * 若审核未通过，Outrun 审核团队将会对项目团队提出相关反馈，项目团队需要重新申请。
 * 若审核通过，Outrun 审核团队将会向 FFLauncher 注册新的 LaunchPool.
 
+{% hint style="info" %}
+**FFLaunch 未来将推出两种模式：一种基于人工申请与审核的 Pro 模式，另一种为基于** [**TokenTable Unlocker**](https://docs.tokentable.xyz/for-founders/tokentable-unlocker) **的无许可模式。**
+{% endhint %}
+
+***
+
 **3. 创世阶段**
 
 * 当前区块时间处于 LaunchPool 的 startTime 与 endTime 之间时，任何人可以调用 changeStage 方法进入创世阶段。
