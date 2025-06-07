@@ -25,6 +25,12 @@ Starting from the **genesis stage**, each stage transition of the **LaunchPool**
 * If the audit does not pass, the Outrun Audit Team provides feedback to the project team, who then need to reapply.
 * Upon successful audit, the Outrun Audit Team registers a new LaunchPool in the FFLauncher.
 
+{% hint style="info" %}
+FLaunch will introduce two modes in the future: a **Pro Mode** based on manual application and review, and a **Permissionless Mode** based on [TokenTable Unlocker](https://docs.tokentable.xyz/for-founders/tokentable-unlocker).
+{% endhint %}
+
+***
+
 **3. Genesis Stage**
 
 * When the current block time is between the startTime and endTime of the LaunchPool, anyone can call the changeStage method to enter the genesis phase.
