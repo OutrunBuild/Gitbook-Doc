@@ -4,7 +4,7 @@ description: From Speculative Frenzy to Value Co-Creation Paradigm Shift
 
 # Memecoin DAO Governance
 
-**When "Community Consensus" Becomes the New Productive Force in the Crypto World**
+## **When "Community Consensus" Becomes the New Productive Force in the Crypto World**
 
 ***
 

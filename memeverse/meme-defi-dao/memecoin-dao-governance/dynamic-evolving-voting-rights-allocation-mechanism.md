@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Dynamic Evolving Voting Rights Allocation Mechanism
 
 In traditional decentralized autonomous organization (DAO) governance models, the allocation of governance voting rights is usually based solely on the number of tokens held. However, the Memeverse ecosystem has innovated this model to better adapt to its **unique economic model and governance needs**.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Referral service
 
 The value of Memecoins often comes from community members spreading the word and actively promoting them. When community members discuss and share their views and experiences with Memecoins on different platforms, it effectively spreads the value and philosophy of the coin, attracting more new users and investors.

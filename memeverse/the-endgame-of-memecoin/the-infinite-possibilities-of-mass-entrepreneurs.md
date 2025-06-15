@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # The Infinite Possibilities Of Mass Entrepreneurs
 
 Over a decade ago, when mobile internet was just emerging, the market environment was vastly different from what we have today. There were no “giant” platforms that now dominate the market; instead, the entire market was full of vitality. Countless traditional industries were standing at the entrance to the information superhighway, waiting to embark on this journey of transformation. As a result, a large number of grassroots entrepreneurs emerged, with continuous funding flowing into the internet sector to support them. It was truly an era of “mass entrepreneurship.” It was the collision of ideas among these grassroots entrepreneurs and their relentless trial and error that have led to the prosperity of today’s internet industry.
