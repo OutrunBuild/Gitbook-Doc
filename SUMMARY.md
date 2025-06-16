@@ -40,6 +40,7 @@
     * [Memecoin DAO Governance](memeverse/meme-defi-dao/memecoin-dao-governance/README.md)
       * [Dynamic Evolving Voting Rights Allocation Mechanism](memeverse/meme-defi-dao/memecoin-dao-governance/dynamic-evolving-voting-rights-allocation-mechanism.md)
       * [DAO Governance Cycle Incentives](memeverse/meme-defi-dao/memecoin-dao-governance/dao-governance-cycle-incentives.md)
+    * [Growth Is Part Of The Product](memeverse/meme-defi-dao/growth-is-part-of-the-product.md)
   * [Omnichain Interoperability](memeverse/omnichain-interoperability.md)
   * [The Endgame of Memecoin](memeverse/the-endgame-of-memecoin/README.md)
     * [From onchain to real world](memeverse/the-endgame-of-memecoin/from-onchain-to-real-world.md)
