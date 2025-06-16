@@ -10,7 +10,7 @@ Memeverse 基于 **LayerZero** 构建，用户可以选择同时在多个区块�
 
 FFLaunch 上部署的代币基本都是实用代币，本身是具有内在价值的，具有较好的流动性。而 Memecoin 大多都缺乏实用价值，**其价格波动受到代币流动性很大的影响**，所以 Memeverse 上部署的 Memecoin 流动性会有一部分被**永久锁定**，以支持 Memecoin 的**持续流动性**。
 
-锁定流动性的做市收入分为两部分，**一部分以 Memecoin 的形式归属于 Memecoin 收益金库，另一部分以 UPT 的形式归属于 Memecoin DAO 国库**。这样设计的好处是，**Memecoin DAO 国库**获得的财政收入是 UPT 而不是 Memecoin，从而**避免 Memecoin DAO 作为单一实体获取大量 Memecoin 进而通过恶意治理操纵市场**。Memecoin 应属于社区。而持有 Memecoin 的社区成员可以通过质押 Memecoin 从 Memecoin 收益金库获取更多收益，并参与 Memecoin DAO治理，这有助于社区 Holders 建立更强的共识。
+锁定流动性的做市收入分为两部分，**一部分以 Memecoin 的形式归属于 Memecoin 收益金库，另一部分以 UPT 的形式归属于 Memecoin DAO 国库**。而持有 Memecoin 的社区成员可以通过质押 Memecoin 从 Memecoin 收益金库获取更多收益，并参与 Memecoin DAO治理，这有助于社区 Holders 建立更强的共识。
 
 关于 **FFLaunch** 的特性请参见 **FFLaunch** 的[详细说明](https://outrun.gitbook.io/doc/v/zh/fflaunch)。
 
