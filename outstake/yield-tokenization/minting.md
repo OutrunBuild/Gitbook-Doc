@@ -8,4 +8,4 @@ In OutStake, yield-bearing tokens can be split into three components: **Principa
 
 Users can stake yield-bearing assets (e.g., stETH) in OutStake to mint PT, YT, and PYT. The underlying asset (e.g., ETH) will be automatically converted into an yield-bearing asset before staking.
 
-For example: ETH → stETH → SY-stETH → (PT-stETH + YT-stETH + PYT-stETH), with PT encapsulated → SP.
+For example: ETH → stETH → SY-stETH → (SP-stETH + YT-stETH + PYT-stETH)，SP-stETH <=> PT-stETH(UETH).
