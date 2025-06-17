@@ -54,4 +54,5 @@
 * [FAQ](faq.md)
 * [Targets Audience](targets-audience.md)
 * [Business Model](business-model.md)
-* [GTM Strategy (Pending)](gtm-strategy.md)
+* [GTM Strategy (Pending)](gtm-strategy/README.md)
+  * [Points Incentive Program](gtm-strategy/points-incentive-program.md)
