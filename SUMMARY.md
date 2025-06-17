@@ -55,4 +55,4 @@
 * [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
 * [GTM 策略（待定）](gtm-strategy/README.md)
-  * [积分激励计划](gtm-strategy/ji-fen-ji-li-ji-hua.md)
+  * [积分激励计划](gtm-strategy/points-incentive-program.md)
