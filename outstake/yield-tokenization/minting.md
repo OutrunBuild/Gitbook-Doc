@@ -8,4 +8,4 @@ _slisBNB_ 和 _Stone_ 就是**生息代币**的示例。
 
 用户可以把生息资产（例如 stETH）质押在 OutStake 来铸造 PT，YT 以及 PYT。底层资产（例如ETH）将在质押之前，自动转换为生息资产。
 
-例如，ETH → stETH → SY-stETH → (PT-stETH + YT-stETH + PYT-stETH)，封装 PT → SP。
+例如，ETH → stETH → SY-stETH → (SP-stETH + YT-stETH + PYT-stETH)，SP-stETH <=> PT-stETH(UETH)。
