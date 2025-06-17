@@ -77,7 +77,7 @@ In traditional projects, points often exist off-chain, making the entire points 
 The Outrun ecosystem comprises multiple modules, making traditional single-point systems inadequate for its complex multi-module structure. Significant functional and behavioral differences exist across modules. Therefore, we will implement two independent points tokens through a **dual-track distribution system**:
 
 * **Swap Points Token:** The OutSwap module will utilize a distinct Swap points token, primarily distributed based on **trading volume** and **market-making liquidity**. This directly incentivizes trading and liquidity provision.
-* **Core Points Token:** **UPT** is the **foundational core token** that runs throughout the Outrun ecosystem. It's minted by staking interest-bearing tokens into the OutStake module and serves as **the pairing token for Memecoin trading pairs launched via Memeverse**. Consequently, the points distribution mechanisms for both the OutStake and Memeverse modules are closely tied to **the adoption of UPT**.
+* **Core Points Token:** [**UPT**](https://outrun.gitbook.io/doc/outstake/yield-tokenization/pt#universal-asset-principal-token) is the **foundational core token** that runs throughout the Outrun ecosystem. It's minted by staking interest-bearing tokens into the OutStake module and serves as **the pairing token for Memecoin trading pairs launched via Memeverse**. Consequently, the points distribution mechanisms for both the OutStake and Memeverse modules are closely tied to **the adoption of UPT**.
 
 The core objectives are:
 
@@ -99,7 +99,7 @@ Our points incentive design aims to guide users to explore the Outrun ecosystem 
 * **DAO Treasury High Multiplier Incentive**:
   * The Memecoin DAO treasury will hold a substantial amount of UPT, sourced from **20% of the genesis funds** and subsequent **market-making revenue from genesis liquidity**.
   * We've set the points multiplier for the DAO treasury at an astonishing **20x**. This means that with **an initial 20% share, this 20x multiplier will generate points equivalent to twice that of an individual directly holding UPT (4x)**. Furthermore, DAOs that conduct at least one governance proposal per week will receive an additional 50% in points, potentially leading to **three times** the points of an individual directly holding UPT (**up to 6x**).
-  * Crucially, we allow DAOs to pair the UPT in their treasury with Memecoins to **add liquidity** (LP), thereby minting **Proof of Liquidity (POL) tokens**.
+  * Crucially, we allow DAOs to pair the UPT in their treasury with Memecoins to **add liquidity** (LP), thereby minting [**Proof of Liquidity (POL) tokens**](../fflaunch/proof-of-liquidity-token.md).
   * These POL tokens will also earn points, and **their value includes the paired Memecoin's value**. This is equivalent to **using Memecoins to apply risk-free leverage to points farming**, thereby yielding significantly higher point multipliers, **far exceeding 6x**.
 
 This points incentive mechanism can deeply **guide user participation** in the **Memeverse** module and **Memecoin DAO Governance**. At the same time, because the underlying functionalities of the Memeverse module are jointly supported by the **OutStake** and **OutSwap** modules, this incentive design will ensure that the entire Outrun ecosystem **synergistically benefits**, **maximizing overall value**.
@@ -113,7 +113,7 @@ Outrun's points incentive program empowers individual community DAOs with the de
 * **DAO Periodically Claims Points Tokens:** Memecoin DAOs can regularly claim their eligible points tokens through the governance.
 * **Community Determines Distribution Plan:** The distribution of these points tokens will be entirely decided by the DAO via governance voting. The community can choose to:
   * Distribute all points tokens to genesis participants and Memecoin stakers.
-  * Distribute them progressively to community members through the DAO's native governance cycle incentive mechanism.
+  * Distribute them progressively to community members through the DAO's native [governance cycle incentive](../memeverse/meme-defi-dao/memecoin-dao-governance/dao-governance-cycle-incentives.md) mechanism.
   * Implement various other points token distribution methods decided by the DAO.
 * **Fairness and Participation:** The majority of core points tokens will be allocated to the respective Memecoin communities, which then **fairly distribute** them through internal DAO governance. This guides and cultivates user habits. Even after the "airdrop" event concludes, community members will continue to **actively participate in DAO governance** because they **hold genuine decision-making power and rights to benefit from the distribution**.
 
