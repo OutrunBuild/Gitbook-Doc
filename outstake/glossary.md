@@ -24,7 +24,7 @@ Unlike other protocols, OutStake's PT is a standard ERC20 token with no expirati
 
 UPT is an omnichain universal principal token supported by the **LayerZero** protocol. Unlike a unique principal token (PT) corresponding to each specific yield-bearing token, UPT is backed by multiple yield-bearing tokens supported by the same underlying asset. When staking and locking positions, users can choose to mint UPT or a standard PT. For example, staking Stone, wstETH, or BETH allows users to opt for minting UETH. The protocol will manage which yield-bearing tokens can be staked and locked to mint corresponding UPT through a whitelist, preventing security issues arising from potential abuse.
 
-It’s worth noting that **choosing to mint UPT instead of a standard PT means forgoing potential future Points rewards from external protocols**, as these Points rewards are managed off-chain by various external protocols.
+It's worth noting that **choosing to mint UPT instead of a standard PT means forgoing potential future Points rewards from external protocols**, as these Points rewards are managed off-chain by various external protocols.
 
 ### **YT = Yield Rate Token**
 
