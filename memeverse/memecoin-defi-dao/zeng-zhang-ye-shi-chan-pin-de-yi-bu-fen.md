@@ -48,5 +48,5 @@ Outrun 通过创新的机制确保了公平的起始环境，从而促进社区�
 
 * **提升 Memecoin 基础支撑价值**：国库持有的 Memecoin 进一步增强了代币的内在支撑 。
 * **DAO 与 Memecoin 利益绑定**：DAO 直接持有 Memecoin，使其与代币价格休戚与共，激励 DAO 更积极地维护 Memecoin 价值。
-* **助力积分激励计划**：为 Outrun 的**全新积分激励计划**奠定基础，进一步扩大 DAO 在生态中的影响力。
+* **助力积分激励计划**：为 Outrun 的[**全新积分激励计划**](../../gtm-strategy/points-incentive-program.md)奠定基础，进一步扩大 DAO 在生态中的影响力。
 
