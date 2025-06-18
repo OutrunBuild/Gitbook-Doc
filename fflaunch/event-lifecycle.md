@@ -34,7 +34,7 @@ FFLaunch 未来将推出两种模式：一种基于人工申请与审核的 **Pr
 **3. 创世阶段**
 
 * 当前区块时间处于 LaunchPool 的 startTime 与 endTime 之间时，任何人可以调用 changeStage 方法进入创世阶段。
-* 在创世阶段，投资者可以向正在进行中的 LaunchPool 存入 [**UPT**](../outstake/yield-tokenization/pt.md)，FFLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/3** 会划分为 **liquidProofFunds**, **2/3** 划分为 **tokenFund**，会分别累加到 **totalTokenFunds** 以及 **totalLiquidProofFunds**.
+* 在创世阶段，投资者可以向正在进行中的 LaunchPool 存入 [**UPT**](../outstake/yield-tokenization/upt.md)，FFLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/3** 会划分为 **liquidProofFunds**, **2/3** 划分为 **tokenFund**，会分别累加到 **totalTokenFunds** 以及 **totalLiquidProofFunds**.
 
 **4. 流动性锁定阶段**
 

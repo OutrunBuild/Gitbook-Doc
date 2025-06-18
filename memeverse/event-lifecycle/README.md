@@ -19,7 +19,7 @@
 **2. 创世阶段**
 
 * 在 Memeverse 的创世阶段，用户可以在该 Memeverse 所处的任何一条链上参与创世，为该链部署流动性。如果 Memeverse 在多条链上进行创世，则每一条链都会有最大资金参与限制。
-* 用户可以向指定的 Memeverse 存入 [UPT](../../outstake/yield-tokenization/pt.md)，MemeverseLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/5** 为 **liquidProofFunds**，**3/5** 为 **memecoinFunds**，会分别累加到 **totalMemecoinFunds** 以及 **totalLiquidProofFunds**，剩余的 **1/5** 会在流动性锁定阶段直接进入 Memecoin DAO 国库。
+* 用户可以向指定的 Memeverse 存入 [UPT](../../outstake/yield-tokenization/upt.md)，MemeverseLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/5** 为 **liquidProofFunds**，**3/5** 为 **memecoinFunds**，会分别累加到 **totalMemecoinFunds** 以及 **totalLiquidProofFunds**，剩余的 **1/5** 会在流动性锁定阶段直接进入 Memecoin DAO 国库。
 * 为了防止 Memeverse 的创世泛滥以及保证**足够的流动性**，每条链创世阶段所积攒的资金量必须达到 **minTotalFunds** 才能进入下个阶段，否则将会进入**退款阶段**。
 
 **3.1. 退款阶段**
