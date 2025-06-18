@@ -25,17 +25,3 @@ _Examples: stETH, aUSDC_
 _Examples: wstETH, Stone, slisBNB_
 
 **It is important to note**: For reward-bearing non-rebase Yield-bearing Tokens, the quantity of staked Yield-bearing Tokens in the position does not change after the lock-up period expires. However, their value (relative to the Underlying Asset Token's exchange ratio) will increase with the accumulation of yields. Thus, burning PT does not redeem the same quantity of non-rebase Yield-bearing Tokens as initially staked; instead, it will be slightly less because part of the value is attributed to YT.
-
-### **Universal Asset Principal Token**
-
-OutStake’s UPT is an omnichain universal principal token. Unlike a unique PT corresponding to each specific interest-bearing token, UPT is supported by multiple interest-bearing tokens backed by the same underlying asset. When staking and locking a position, users can choose to mint either UPT or a standard PT. For example, staking Stone, wstETH, or BETH allows users to opt for minting UETH. This enables liquidity to be shared among different interest-bearing tokens with the same underlying asset, thereby enhancing the liquidity of similar interest-bearing tokens and improving their composability and network effects.
-
-For example, with ETH, there are currently many LSTs (Liquid Staking Tokens) related to ETH in the market. The liquidity of these tokens is fragmented, with some having ample liquidity and others having less. The liquidity of an LST is often related to its adoption in DeFi programs, such as the depth of liquidity pools like LST/ETH or LST/USDT.&#x20;
-
-The liquidity accumulation process for each LST can be challenging. Introducing UPT can reduce these redundant processes. Suppose there is a liquidity-scarce LST called xETH. The market would only need liquidity pools such as UETH/ETH and UETH/USDT. By staking xETH through OutStake to mint UETH, it can connect to the existing liquidity in the market. As more market-validated LSTs are added, liquidity will become increasingly ample.
-
-It’s worth noting that not all interest-bearing assets backed by the same underlying asset can be used to mint UPT. This requires a series of rigorous evaluations, including aspects such as security, stability, and the degree of decentralization.
-
-### Omnichain Standard
-
-UPT is built using LayerZero’s Omnichain Fungible Token (OFT) standard, making it an omnichain token that can seamlessly transfer to any blockchain, amplifying its network effects. This is highly significant for its integration and interoperability with other modules in the Outrun ecosystem.
