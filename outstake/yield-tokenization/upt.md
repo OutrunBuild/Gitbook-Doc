@@ -1,5 +1,5 @@
 ---
-description: 多元全链稳定币
+description: 全链稳定币
 ---
 
 # UPT
