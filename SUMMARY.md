@@ -7,6 +7,7 @@
     * [SY](outstake/yield-tokenization/sy.md)
     * [铸造](outstake/yield-tokenization/minting.md)
     * [PT](outstake/yield-tokenization/pt.md)
+    * [UPT](outstake/yield-tokenization/upt.md)
     * [YT](outstake/yield-tokenization/yt.md)
     * [SP](outstake/yield-tokenization/sp.md)
     * [PYT](outstake/yield-tokenization/pyt.md)
