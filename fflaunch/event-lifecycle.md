@@ -34,7 +34,7 @@ FLaunch will introduce two modes in the future: a **Pro Mode** based on manual a
 **3. Genesis Stage**
 
 * When the current block time is between the startTime and endTime of the LaunchPool, anyone can call the changeStage method to enter the genesis phase.
-* During the genesis phase, investors can deposit [**UPT**](../outstake/yield-tokenization/pt.md) into the ongoing LaunchPool. The FFLauncher will record the **GenesisFund** deposited by each investor. **1/3** of the GenesisFund is **liquidProofFunds**, and **2/3** is **tokenFund**, which will be added to **totalTokenFunds** and **totalLiquidProofFunds** respectively.
+* During the genesis phase, investors can deposit [**UPT**](../outstake/yield-tokenization/upt.md) into the ongoing LaunchPool. The FFLauncher will record the **GenesisFund** deposited by each investor. **1/3** of the GenesisFund is **liquidProofFunds**, and **2/3** is **tokenFund**, which will be added to **totalTokenFunds** and **totalLiquidProofFunds** respectively.
 
 **4. Liquidity Lock Stage**
 

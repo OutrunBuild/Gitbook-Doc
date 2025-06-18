@@ -77,7 +77,7 @@ In traditional projects, points often exist off-chain, making the entire points 
 The Outrun ecosystem comprises multiple modules, making traditional single-point systems inadequate for its complex multi-module structure. Significant functional and behavioral differences exist across modules. Therefore, we will implement two independent points tokens through a **dual-track distribution system**:
 
 * **Swap Points Token:** The OutSwap module will utilize a distinct Swap points token, primarily distributed based on **trading volume** and **market-making liquidity**. This directly incentivizes trading and liquidity provision.
-* **Core Points Token:** [**UPT**](https://outrun.gitbook.io/doc/outstake/yield-tokenization/pt#universal-asset-principal-token) is the **foundational core token** that runs throughout the Outrun ecosystem. It's minted by staking interest-bearing tokens into the OutStake module and serves as **the pairing token for Memecoin trading pairs launched via Memeverse**. Consequently, the points distribution mechanisms for both the OutStake and Memeverse modules are closely tied to **the adoption of UPT**.
+* **Core Points Token:** [**UPT**](../outstake/yield-tokenization/upt.md) is the **foundational core token** that runs throughout the Outrun ecosystem. It's minted by staking interest-bearing tokens into the OutStake module and serves as **the pairing token for Memecoin trading pairs launched via Memeverse**. Consequently, the points distribution mechanisms for both the OutStake and Memeverse modules are closely tied to **the adoption of UPT**.
 
 The core objectives are:
 

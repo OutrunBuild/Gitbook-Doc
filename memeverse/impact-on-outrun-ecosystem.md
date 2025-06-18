@@ -2,7 +2,7 @@
 
 **Impact on TVL of the Outrun Ecosystem**
 
-In this aspect, Memeverse has a similar impact on the Outrun ecosystem as **FFLaunch**, but to an even greater extent, due to the higher activity in **Memecoin** trading. With the permanent locking of a portion of liquidity, **the circulation of** [**PT**](../outstake/yield-tokenization/pt.md) **will be significantly lower than the amount of staked yield-bearing tokens**.
+In this aspect, Memeverse has a similar impact on the Outrun ecosystem as **FFLaunch**, but to an even greater extent, due to the higher activity in **Memecoin** trading. With the permanent locking of a portion of liquidity, **the circulation of** [**PT**](../outstake/yield-tokenization/upt.md) **will be significantly lower than the amount of staked yield-bearing tokens**.
 
 The rising demand for UPT and the high collateralization ratio will lead to an increase in its price, attracting more people to stake yield-bearing tokens for arbitrage. The dual-growth flywheel composed of it and YT will result in a higher staking volume of yield-bearing tokens and an increasing number of minted UPTs, thereby magnifying its network effect and making UPT a special **omnichain aggregated stablecoin** based on LSD and Restaking.
 
@@ -15,7 +15,7 @@ For example, stake 150 ETH to mint (nearly) **150 UETH**, and then by participat
 
 Finally, users will obtain POL tokens worth **150 UETH**. The whole process has created a Total Value Locked (TVL) and liquidity worth 600 ETH in total. Moreover, as transactions take place and the price of Memecoins goes up, the TVL will also increase accordingly.
 
-If Memecoin holders continue to conduct **Memecoin Staking**, they will also mint yield-bearing tokens of **Staked Memecoins**. Then, by restaking the yield-bearing tokens of Memecoins on OutStake, they will also mint [**YT**](../outstake/yield-tokenization/yt.md) and [**PT**](../outstake/yield-tokenization/pt.md) that are associated with Memecoins. All of these **newly added capitals** will bring **more potential income** to the Outrun ecosystem and its users, while also **enhancing the composability** of the Outrun ecosystem.
+If Memecoin holders continue to conduct **Memecoin Staking**, they will also mint yield-bearing tokens of **Staked Memecoins**. Then, by restaking the yield-bearing tokens of Memecoins on OutStake, they will also mint [**YT**](../outstake/yield-tokenization/yt.md) and [**PT**](../outstake/yield-tokenization/upt.md) that are associated with Memecoins. All of these **newly added capitals** will bring **more potential income** to the Outrun ecosystem and its users, while also **enhancing the composability** of the Outrun ecosystem.
 
 **The Combination of Memecoin and DeFi**
 

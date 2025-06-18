@@ -19,7 +19,7 @@ Starting from the **genesis stage**, each stage transition of **Memeverse** requ
 **2. Genesis Stage**
 
 * During the genesis stage of Memeverse, users can participate in the genesis on any chain where the Memeverse is located and deploy liquidity for that chain. If the Memeverse conducts the genesis on multiple chains, there will be a maximum funding participation limit for each chain.
-* Users can deposit [**UPT**](../outstake/yield-tokenization/pt.md) into the designated Memeverse. The MemeverseLauncher will record the GenesisFund deposited by each investor. **1/5** of the GenesisFund is the **liquidProofFunds**, and **3/5** is the **memecoinFunds**, which will be added to the **totalMemecoinFunds** and **totalLiquidProofFunds** respectively. The remaining 1/5 will directly enter the Memecoin DAO treasury during the liquidity locking stage.
+* Users can deposit [**UPT**](../outstake/yield-tokenization/upt.md) into the designated Memeverse. The MemeverseLauncher will record the GenesisFund deposited by each investor. **1/5** of the GenesisFund is the **liquidProofFunds**, and **3/5** is the **memecoinFunds**, which will be added to the **totalMemecoinFunds** and **totalLiquidProofFunds** respectively. The remaining 1/5 will directly enter the Memecoin DAO treasury during the liquidity locking stage.
 * To prevent the **excessive occurrence** of Memeverse's genesis and to **ensure sufficient liquidity**, the amount of funds accumulated during the genesis stage on each chain must reach **minTotalFunds** before it can enter the next stage. Otherwise, it will enter the **refund stage**.
 
 **3.1. Refund Stage**
