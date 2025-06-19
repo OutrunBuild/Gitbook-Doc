@@ -14,7 +14,7 @@ OutStake 旨在彻底颠覆传统生息资产（如 LSTs、生息稳定币和 RW
 
 **核心创新与市场优势：**
 
-* **永续生命周期代币：** 与现有协议（如 Pendle）中具有到期日的代币不同，OutStake 的[**本金代币（PT）**](outstake/yield-tokenization/pt.md)和[**收益代币（YT）**](outstake/yield-tokenization/yt.md)拥有“**永续生命周期**”，且均为标准 ERC20 代币。这一设计从根本上解决了流动性碎片化的痛点，极大地提升了可组合性和灵活性，使其能无缝融入更广阔的 DeFi 生态。
+* **永续生命周期代币：** 与现有协议（如 Pendle）中具有到期日的代币不同，OutStake 的[**本金代币（PT）**](outstake/yield-tokenization/pt.md)和[**收益代币（YT）**](outstake/yield-tokenization/yt.md)拥有“**永续生命周期**”，且均为标准 ERC20 代币。这一设计从根本上解决了**流动性碎片化**的痛点，极大地提升了可组合性和灵活性，使其能无缝融入更广阔的 DeFi 生态。
 * [**全链通用本金代币（UPT）**](outstake/yield-tokenization/upt.md)**：** **UPT** 是一种创新的**全链通用资产本金代币**，由多种相同底层资产支持的生息代币共同支撑，使得流动性能够在相同基础资产的不同生息代币之间共享。同时也是 Outrun 生态系统的关键组件——**全链稳定币**。UPT 旨在成为 DeFi 领域的基石在跨链流转和 DeFi 组合中展现出极强的稳定性，使其可以作为一种高效、低波动性的价值传输和结算媒介，大幅提升整个 Outrun 生态系统的资本效率和可组合性。
 * [**质押头寸（SP）**](outstake/yield-tokenization/sp.md)**与**[**积分收益代币（PYT）**](outstake/yield-tokenization/pyt.md)**：** **SP** 代币代表了到期赎回锁定质押头寸的权利，并且自带**价格发现**和**固定收益率**的机制。而 **PYT** 则专注于捕获外部协议积分收益，其最终解释权归外部协议所有。
 
