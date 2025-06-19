@@ -177,7 +177,7 @@ Outrun 的设计理念使其具备强大的可扩展性，并已规划了清晰�
 
 * **全面的产品路线图：** Outrun 将不断扩张，将产品路线图扩展至：
   * **集成更多生息资产：** 持续扩展 OutStake 支持的生息资产种类，包括更多 LSTs、生息稳定比，RWA 代币化资产等，以覆盖更广阔的市场需求。
-  * **无许可的 FFLaunch 平台**：开发无需审核的 FFLaunch 平台，任何人都可以使用 FFLaunch 进行融资，使用 [**TokenTable Unlocker**](https://docs.tokentable.xyz/for-founders/tokentable-unlocker) 进行安全的代币解锁。
+  * **无许可的 FFLaunch 平台**：开发无需人工审核的 FFLaunch 平台，任何人都可以使用 FFLaunch 进行融资，使用 [**TokenTable Unlocker**](https://docs.tokentable.xyz/for-founders/tokentable-unlocker) 进行安全的代币解锁。
   * **POL 借贷市场与杠杆创世工具：**构建**以 POL 代币为抵押物的 UPT 借贷市场**，并在该借贷市场上构建一种**前所未有的杠杆工具**，用户以数倍的杠杆参与创世，极大地提高资本效率。
   * **UPT 流动性市场：**构建 UPT 全链流动性层，为代币提供统一的流动性做市服务。
   * **SP 和 PYT 交易市场：** 建立活跃的 SP 和 PYT 交易市场，为用户提供更多元化的收益率交易和积分捕获机会。
