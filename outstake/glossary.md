@@ -6,7 +6,7 @@ Yield-bearing Token is a general term referring to any token that can generate y
 
 ### **Underlying Asset Token**
 
-Underlying Asset Token refers to the underlying asset token of a Yield-bearing Token. For example, the Underlying Asset Token for Stone, stETH, and rETH is ETH.
+Underlying Asset Token refers to the underlying asset token of a Yield-bearing Token. For example, the Underlying Asset Token for Stone, stETH, and rETH is **ETH**.
 
 ### **SY = Standardized Yield Token**
 
@@ -32,7 +32,7 @@ YT is the component of yield that is separated from yield-bearing tokens. Holdin
 
 Unlike other protocols, OutStake's YT is a universal ERC20 token with no expiration date, and YTs minted from different staking times are the same token (with the same token contract address). Unlike UPT, each type of Yield-bearing Token mints a corresponding YT.
 
-The redeemable value of YT (the yields obtained by burning YT) starts at 0. Over time, the yield pool accumulates yields  from the staked assets, causing the redeemable value of YT to continuously increase. Eventually, it will surpass the yield rate of the yield-bearing token itself and will fluctuate based on market behavior.
+The redeemable value of YT (the yields obtained by burning YT) starts at 0. Over time, the yield pool accumulates yields from the staked assets, causing the redeemable value of YT to continuously increase. Eventually, it will surpass the yield rate of the yield-bearing token itself and will fluctuate based on market behavior.
 
 ### **SP = Staking Position**
 

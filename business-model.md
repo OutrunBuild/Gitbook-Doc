@@ -1,39 +1,24 @@
 # Business Model
 
-The Outrun ecosystem, with its unique modular design and innovative business model, is reshaping the future of decentralized finance (DeFi). Let’s explore how Outrun creates a self-reinforcing ecosystem through its four core modules, and how this design drives sustained growth and value.
+### I. Introduction: The Dawn of a New DeFi Era
 
-## **Modularity and Interoperability**
+In the rapidly evolving landscape of the digital economy, a well-conceived business model is the cornerstone of any innovative product's success. It not only clearly outlines how the product precisely meets market demands but also charts its path toward sustainable profitability and long-term growth. Outrun, as a pioneer in next-generation decentralized finance (DeFi) and Web3, is leveraging its forward-thinking business model to unlock higher, more flexible, and more secure DeFi yields, while injecting unprecedented value and vitality into the Web3 ecosystem. This article will delve into how Outrun's unique ecosystem design allows it to stand out in a fiercely competitive market, positioning it as a pivotal force in the future of Web3.
 
-The Outrun ecosystem consists of four interrelated modules: OutStake, OutSwap, FFLaunch, and Memeverse. Each module has its unique functionality and value proposition.
+### II. Outrun's Core Value: The Synergistic Effect of Four Pillars
 
-**OutStake: The Foundation of Underlying Asset Infrastructure**
+Outrun's core competitiveness stems from the sophisticated synergy of its four modules: [**OutStake**](outstake/), [**OutSwap**](outswap/), [**FFLaunch**](fflaunch/), and [**Memeverse**](memeverse/). These aren't isolated components; instead, they empower one another, collectively weaving a complete and highly efficient closed-loop ecosystem.
 
-As the yield tokenization module, OutStake is the cornerstone of the entire Outrun ecosystem. Assets minted through OutStake are widely deployed on the OutSwap platform, not only providing additional liquidity but also indirectly increasing trading fee revenue for OutSwap.
+#### A. OutStake: Revolutionizing Yield Tokenization
 
-**OutSwap: The Liquidity Hub**
+OutStake aims to completely transform the yield model of traditional interest-bearing assets like **LSTs (Liquid Staking Tokens)**, **yield-bearing stablecoins**, and **RWAs (Real World Assets)**. It introduces a yield-linked token model that cleverly unlocks the liquidity of staked assets, allowing them to be widely used across various DeFi scenarios.
 
-OutSwap serves as the liquidity center of the Outrun ecosystem, supporting asset trading for OutStake, FFLaunch, and Memeverse. The uniqueness of OutSwap lies in its on-chain referral commission engine, which drives more transactions and liquidity, further enhancing fee revenue.
+**Core Innovations and Market Advantages:**
 
-**FFLaunch and Memeverse: Traffic Entrances**
+* **Perpetual Lifecycle Tokens:** Unlike tokens in existing protocols (such as **Pendle**) that have expiration dates, OutStake's [**Principal Tokens (PT)**](outstake/yield-tokenization/pt.md) and [**Yield Tokens (YT)**](outstake/yield-tokenization/yt.md) have a "**perpetual lifecycle**" and are both standard **ERC20 tokens**. This design fundamentally solves the pain point of **liquidity fragmentation**, significantly enhancing composability and flexibility, enabling seamless integration into the broader DeFi ecosystem.
+* [**Omnichain Universal Principal Token (UPT)**](outstake/yield-tokenization/upt.md)**:** **UPT** is an innovative, **omnichain universal principal token** backed by multiple yield-bearing tokens that share the same underlying asset. This design **allows liquidity to be shared across different yield-bearing tokens of the same underlying asset**. It's also a crucial component of the Outrun ecosystem – an **omnichain stablecoin**. UPT aims to be a cornerstone in the DeFi space, demonstrating exceptional stability in cross-chain transfers and DeFi composability. This makes it an efficient, low-volatility medium for value transfer and settlement, significantly boosting the capital efficiency and composability of the entire Outrun ecosystem.
+* [**Staked Position (SP)**](outstake/yield-tokenization/sp.md) **and** [**Point Yield Token (PYT)**](outstake/yield-tokenization/pyt.md)**:** **SP tokens** represent the right to redeem locked staked positions upon maturity and come with built-in **price discovery** and **fixed yield rate** mechanisms. **PYT**, on the other hand, focuses on capturing external protocol point yields, with the final interpretation rights belonging to the external protocols.
 
-These two modules are the main traffic entrances of the Outrun ecosystem and important components of it. Their innovative design concepts can attract a large number of users and significantly enhance user stickiness. Users can mint a large number of assets by participating in FFLaunch and Memeverse and provide liquidity for OutSwap, thereby boosting the network effect and potential revenue of the Outrun ecosystem.
+OutStake's design philosophy, particularly its emphasis on "**real yield**" and its avoidance of liquidity fragmentation and the impact of protocol incentive points, makes it more appealing to investors **seeking stable and sustainable returns** and to developers **pursuing composability**.
 
-## **Diversified Revenue Streams: Ensuring Sustainable Growth**
+#### **OutStake's Technical Advantages Over** [**Pendle**](https://www.pendle.finance/)
 
-Outrun's business model is built on diversified revenue streams, ensuring the long-term sustainability of the ecosystem:
-
-* **OutStake:** Revenue primarily comes from commissions on the staking of yield-bearing tokens and transaction fees for [**SP**](outstake/yield-tokenization/sp.md), [**PYT**](outstake/yield-tokenization/pyt.md).
-* **OutSwap:** Revenue is mainly derived from trading fees, which increase with liquidity and trading volume.
-* **FFLaunch and Memeverse:** Its primary positioning is as a traffic entry point and asset issuance platform, aimed at increasing the TVL (Total Value Locked) and potential revenue of the Outrun ecosystem.
-
-## **Network Effects: Catalysts for Outrun's Growth**
-
-The network effects of the Outrun ecosystem are reflected in several aspects:
-
-* **Liquidity Connectivity:** OutStake's universal asset principal token ([**UPT**](outstake/yield-tokenization/upt.md)) bridges the liquidity of different yield-bearing tokens of the same underlying asset type, enhancing liquidity across the entire LSD (Liquidity Staking Derivatives) ecosystem and creating a significant network effect.
-* **Referral Commission Engine:** OutSwap's on-chain referral commission engine boosts liquidity support and drives more transactions, increasing trading volume and fee revenue while also generating greater social influence.
-* **User Attraction:** The design philosophy of FFLaunch and Memeverse aims to attract a large number of users, significantly enhance user retention, and meet the needs of all stakeholders, thereby creating a win-win situation. This approach is intended to boost the network effect and revenue potential of the entire ecosystem. Additionally, it helps to burn UPT, which in turn increases demand for OutStake, attracts more participants to the Outrun ecosystem, and forms a virtuous cycle of growth.
-
-## **Comprehensive Impact**
-
-The Outrun ecosystem ushers in a new era of DeFi through its **unique modular design**, **interoperability**, **diversified revenue sources** and **powerful network effects**. This ecosystem encompasses **yield tokenization**, **liquid staking derivatives**, **decentralized exchanges**, **next-generation token financing paradigm** and **Memecoins**, bringing users a diversified Web3 experience. Through its innovative business model, it ensures the long-term sustainable development and self-reinforcement of the ecosystem. As Outrun continues to develop and expand, it has the potential to become a leader in the DeFi field and set new standards for the entire industry.
