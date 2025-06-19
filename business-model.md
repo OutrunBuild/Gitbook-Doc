@@ -22,7 +22,7 @@ OutStake 的设计理念，特别是其对“**真实收益**”的强调和对�
 
 **OutStake 相比** [**Pendle**](https://www.pendle.finance/) **的技术优势**
 
-<table><thead><tr><th width="89.0001220703125">特征</th><th>Pendle</th><th>OutStake</th><th>技术优势</th></tr></thead><tbody><tr><td><strong>代币机制</strong></td><td>有到期日，更接近  NFT，<strong>流动性碎片化</strong>，可组合性差。</td><td><strong>永续生命周期</strong>，以 UPT 为核心建立<strong>全链流动性层</strong>。</td><td>更强的可组合性，消除流动性碎片化，提高资本效率。</td></tr><tr><td><strong>固定收益</strong></td><td>PT 价值不稳定，存在随时间递减的负溢价，<strong>收益源于质押者和 YT 购买者的损失</strong>。</td><td>UPT 不仅是本金代币，也是稳定币。引入可交易 的 SP，<strong>收益源于用户需求和交换，而非损失</strong>。</td><td>收益模型更健康可持续。 UPT 具有更强的流动性，可组合性与网络效应。</td></tr><tr><td><strong>YT 价值</strong></td><td>受协议激励积分影响大，价格<strong>与实际收益率偏离大</strong>，存在<strong>中心化操纵风险</strong>，其价值不可预测，对 DeFi 造成污染。</td><td><strong>直接与生息代币收益挂钩</strong>，不受协议激励积分影响，去中心化，金融特性和可组合性强。</td><td>价值更透明，降低操纵风险，同时特殊的模型还能放大长期持有者的收益。</td></tr><tr><td><strong>质押期限</strong></td><td><strong>协议决定</strong>，用户无法自由选择。</td><td>用户可<strong>自由选择</strong>，质押期限抽象为 SP，增加灵活性。</td><td>赋予用户更大灵活性，满足不同投资策略需求。</td></tr><tr><td><strong>收益来源</strong></td><td>无真实外部收益，固定收益源于质押者与 YT 购买者损失，<strong>依赖空投积分</strong>。</td><td>通过 Outrun 生态系统支持多资产，形成套利市场和<strong>多样化收入流</strong>。</td><td>收益来源更真实、多元、可持续，降低对外部激励的依赖。</td></tr></tbody></table>
+<table><thead><tr><th width="89.0001220703125">特征</th><th>Pendle</th><th>OutStake</th><th>技术优势</th></tr></thead><tbody><tr><td><strong>代币机制</strong></td><td>有到期日，更接近 NFT，<strong>流动性碎片化</strong>，可组合性差。</td><td><strong>永续生命周期</strong>，以 UPT 为核心建立<strong>全链流动性层</strong>。</td><td>更强的可组合性，消除流动性碎片化，提高资本效率。</td></tr><tr><td><strong>固定收益</strong></td><td>PT 价值不稳定，存在随时间递减的负溢价，<strong>收益源于质押者和 YT 购买者的损失</strong>。</td><td>UPT 不仅是本金代币，也是稳定币。引入可交易 的 SP，<strong>收益源于用户需求和交换，而非损失</strong>。</td><td>收益模型更健康可持续。 UPT 具有更强的流动性，可组合性与网络效应。</td></tr><tr><td><strong>YT 价值</strong></td><td>受协议激励积分影响大，价格<strong>与实际收益率偏离大</strong>，存在<strong>中心化操纵风险</strong>，其价值不可预测，对 DeFi 造成污染。</td><td><strong>直接与生息代币收益挂钩</strong>，不受协议激励积分影响，去中心化，金融特性和可组合性强。</td><td>价值更透明，降低操纵风险，同时特殊的模型还能放大长期持有者的收益。</td></tr><tr><td><strong>质押期限</strong></td><td><strong>协议决定</strong>，用户无法自由选择。</td><td>用户可<strong>自由选择</strong>，质押期限抽象为 SP，增加灵活性。</td><td>赋予用户更大灵活性，满足不同投资策略需求。</td></tr><tr><td><strong>收益来源</strong></td><td>无真实外部收益，固定收益源于质押者与 YT 购买者损失，<strong>依赖空投积分</strong>。</td><td>通过 Outrun 生态系统支持多资产，形成套利市场和<strong>多样化收入流</strong>。</td><td>收益来源更真实、多元、可持续，降低对外部激励的依赖。</td></tr></tbody></table>
 
 **OutStake 相比 Pendle 的生态优势**
 
@@ -178,15 +178,15 @@ Outrun 的设计理念使其具备强大的可扩展性，并已规划了清晰�
 * **全面的产品路线图：** Outrun 将不断扩张，将产品路线图扩展至：
   * **集成更多生息资产：** 持续扩展 OutStake 支持的生息资产种类，包括更多 LSTs、生息稳定比，RWA 代币化资产等，以覆盖更广阔的市场需求。
   * **无许可的 FFLaunch 平台**：开发无需人工审核的 FFLaunch 平台，任何人都可以使用 FFLaunch 进行融资，使用 [**TokenTable Unlocker**](https://docs.tokentable.xyz/for-founders/tokentable-unlocker) 进行安全的代币解锁。
-  * **POL 借贷市场与杠杆创世工具：**构建**以 POL 代币为抵押物的 UPT 借贷市场**，并在该借贷市场上构建一种**前所未有的杠杆工具**，用户以数倍的杠杆参与创世，极大地提高资本效率。
-  * **UPT 流动性市场：** 构建 UPT 全链流动性层，为代币提供统一的流动性做市服务。
+  * **POL 借贷市场与杠杆创世工具：**&#x6784;建**以 POL 代币为抵押物的 UPT 借贷市场**，并在该借贷市场上构建一种**前所未有的杠杆工具**，用户以数倍的杠杆参与创世，极大地提高资本效率。
+  * **UPT 流动性市场：** 构建 UPT 全链流动性层，为代币提供统一的**流动性做市服务**。
   * **SP 和 PYT 交易市场：** 建立活跃的 SP 和 PYT 交易市场，为用户提供更多元化的收益率交易和积分捕获机会。
   * **丰富 OutSwap 产品矩阵**：持续开发 OutSwap V2、DLAMM、限价订单簿、永续合约交易，优化交易体验。
   * **DAO 治理工具的持续优化：** 改进和深化 Memeverse 的 DAO 治理工具，使其更加易用、高效，以支持去中心化社会的复杂协作需求。
   * **基于 UPT 和 YT 的可组合扩展应用：** 鼓励并支持开发者基于 UPT 和 YT 核心代币构建新的 DeFi 应用（如借贷、衍生品等），进一步释放其可组合性潜力。
 * **DeSocial 的宏大愿景：** Outrun 将超越纯粹的金融领域，探索更广阔的 Web3 社交场景，进一步扩大其潜在市场，增强现实影响力。
 
-OutStake（收益基础设施）、OutSwap（交易基础设施）、FFLaunch（发行基础设施）和 Memeverse（社区/创业基础设施）的组合功能表明，Outrun 正在构建一个“生态系统即服务”。它为其他项目和社区提供了构建的基础工具，而不仅仅是一个独立的应用程序。这使得 Outrun 成为下一波 Web3 创新的基础层。投资者通常寻求在新兴行业中的“卖铲子”机会。通过提供一套全面、集成和安全的工具，用于收益、交易、发行和社区驱动的开发，Outrun 可以从其生态系统内构建的各种未来项目和用户中捕获价值，从而带来指数级的增长潜力。
+OutStake（收益基础设施）、OutSwap（交易基础设施）、FFLaunch（发行基础设施）和 Memeverse（社区基础设施）的组合功能表明，Outrun 正在构建一个“生态系统即服务”。它为其他项目和社区提供了构建的基础工具，而不仅仅是一个独立的应用程序。这使得 Outrun 成为下一波 Web3 创新的基础层。通过提供一套全面、集成和安全的工具，用于收益、交易、发行和社区驱动的开发，Outrun 可以从其生态系统内构建的各种未来项目和用户中捕获价值，从而带来指数级的增长潜力。
 
 ## **V. Outrun 的未来愿景**
 
