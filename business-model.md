@@ -20,11 +20,11 @@ OutStake 旨在彻底颠覆传统生息资产（如 LSTs、生息稳定币和 RW
 
 OutStake 的设计理念，特别是其对“**真实收益**”的强调和对流动性碎片化，协议激励积分影响的规避，使其在**追求稳定与可持续回报**的投资者和**追求可组合性**的开发者眼中更具吸引力。
 
-#### **OutStake 相比** [**Pendle**](https://www.pendle.finance/) **的技术优势**
+**OutStake 相比** [**Pendle**](https://www.pendle.finance/) **的技术优势**
 
 <table><thead><tr><th width="89.0001220703125">特征</th><th>Pendle</th><th>OutStake</th><th>竞争优势</th></tr></thead><tbody><tr><td><strong>代币机制</strong></td><td>有到期日，更接近  NFT，<strong>流动性碎片化</strong>，可组合性差。</td><td><strong>永续生命周期</strong>，以 UPT 为核心建立<strong>全链流动性层</strong>。</td><td>更强的可组合性，消除流动性碎片化，提高资本效率。</td></tr><tr><td><strong>固定收益</strong></td><td>PT 价值不稳定，存在随时间递减的负溢价，<strong>收益源于质押者和 YT 购买者的损失</strong>。</td><td>UPT 不仅是本金代币，也是稳定币。引入可交易 的 SP，<strong>收益源于用户需求和交换，而非损失</strong>。</td><td>收益模型更健康可持续。 UPT 具有更强的流动性，可组合性与网络效应。</td></tr><tr><td><strong>YT 价值</strong></td><td>受协议激励积分影响大，价格<strong>与实际收益率偏离大</strong>，存在<strong>中心化操纵风险</strong>，其价值不可预测，对 DeFi 造成污染。</td><td><strong>直接与生息代币收益挂钩</strong>，不受协议激励积分影响，去中心化，金融特性和可组合性强。</td><td>价值更透明，降低操纵风险，同时特殊的模型还能放大长期持有者的收益。</td></tr><tr><td><strong>质押期限</strong></td><td><strong>协议决定</strong>，用户无法自由选择。</td><td>用户可<strong>自由选择</strong>，质押期限抽象为 SP，增加灵活性。</td><td>赋予用户更大灵活性，满足不同投资策略需求。</td></tr><tr><td><strong>收益来源</strong></td><td>无真实外部收益，固定收益源于质押者与 YT 购买者损失，<strong>依赖空投积分</strong>。</td><td>通过 Outrun 生态系统支持多资产，形成套利市场和<strong>多样化收入流</strong>。</td><td>收益来源更真实、多元、可持续，降低对外部激励的依赖。</td></tr></tbody></table>
 
-#### **OutStake 相比 Pendle 的生态优势**
+**OutStake 相比 Pendle 的生态优势**
 
 <table><thead><tr><th width="103.85711669921875">特征</th><th>Pendle</th><th>OutStake</th><th>生态优势</th></tr></thead><tbody><tr><td><strong>产品定位</strong></td><td>收益交易协议：专注于收益代币的交易。</td><td>DeFi 基础设施：以 UPT 与 YT / SP 为核心构建<strong>全链流动性层与收益层</strong>。</td><td>Outrun 视野更广，UPT 的全链稳定币属性提供更基础的 DeFi 乐高组件，拓展了应用场景。</td></tr><tr><td><strong>流动性</strong></td><td>PT 为单一链上的本金，流动性受限于特定链，并且<strong>流动性碎片化</strong>。</td><td>UPT 提供<strong>无缝的即时流动性和全链互操作性</strong>。</td><td>UPT 消除了链间壁垒，并且拥有更强的流动性，提升了资本效率。</td></tr><tr><td><strong>收益策略</strong></td><td>专注于固定收益与积分收益交易。</td><td>灵活的收益分解与增强，自带价格发现的固定收益代币。</td><td>Outrun 在提供类似功能的同时，更强调全链和统一流动性。</td></tr><tr><td><strong>生态扩展</strong></td><td>主要专注于收益互换，<strong>可组合性差</strong>导致与其他协议集成度相对较低。</td><td>多模块闭环生态系统同时支持外部合作伙伴。</td><td>Outrun 通过内部模块协同，与外部系统集成，形成更强大的网络效应和护城河。</td></tr></tbody></table>
 
@@ -75,11 +75,11 @@ Memeverse 的终局愿景远远超出了 Memecoin 发行范畴，它旨在将 We
 
 Memeverse 的核心创新在于，它利用 Memecoin 固有的社区驱动特性，并提供具体的、去中心化的机制（质押、DAO 治理）来将这种社区能量货币化。创世资金分配给 DAO 财库和持续的做市收入为社区主导的开发提供了可持续的财务基础。这直接解决了传统 Memecoin “价值空心化”和“治理缺失”的结构性缺陷。对于投资者而言，Memeverse 提供了一个结构化的框架，用于从社区参与中捕获价值，将投机兴趣转化为生产性资本和去中心化协作。这创造了一个高度可扩展的模型，用于启动和维持本质上具有病毒式传播和社区驱动的项目，从而挖掘一个庞大但尚未被货币化的市场。
 
-#### **Memeverse 相比** [**Pump.fun**](https://pump.fun/) **的技术优势**
+**Memeverse 相比** [**Pump.fun**](https://pump.fun/) **的技术优势**
 
 <table><thead><tr><th width="121.5714111328125">特征</th><th width="191.85699462890625">Pump.fun</th><th width="219.71337890625">Memeverse</th><th>竞争优势</th></tr></thead><tbody><tr><td><strong>创建者收入</strong></td><td>创建者部署时可购买代币，存在“<strong>内幕交易</strong>”，被大量骗子利用，<strong>收割散户</strong>。</td><td>Memecoin <strong>完全由社区驱动，创建者无直接收入</strong>。做市收入 分配给 Memecoin 收益金库和 Memecoin DAO 财库。</td><td>消除内幕交易，促进公平启动，激励社区成员为社区贡献。</td></tr><tr><td><strong>代币流动性</strong></td><td>Bonding Curve 阶段存在<strong>高风险跑路</strong>，上市成功率低。即使上市成功，<strong>初始流动性仅占流通量的 1/5，流动性严重不足</strong>，价格极易暴跌。</td><td>创世阶段所有参与者成本相同，无抢先交易。<strong>初始流动性无上限，由市场需求决定</strong>。所有 Memecoin 均添加到流动性池，无人在 DEX 上市前预先持有代币。</td><td>更充足、稳定的流动性，降低价格剧烈波动风险。</td></tr><tr><td><strong>代币成本</strong></td><td>Bonding Curve 阶段筹集资金永久锁定在 DEX。用户以不同价格购买 Memecoin，<strong>定价不均</strong>。</td><td>所有创世参与者的<strong>成本相同</strong>，POL 的创世流动性永久锁定，而 Memecoin 的创世流动性可在流动性解锁期通过销毁 POL 赎回。</td><td>大幅降低创世用户的成本和风险。</td></tr><tr><td><strong>风险控制</strong></td><td>无风险控制或保护措施，参与者处于“原始 PVP”状态，暴露于<strong>内幕交易、跑路和欺诈交易</strong>。</td><td>“<strong>真正公平启动</strong>”的平台，POL 的机制从根本上消除了内幕交易的风险，并且还可以通过 POL 代币来控制参与风险。</td><td>提供更安全、可预测的参与环境，降低投资者风险。</td></tr><tr><td><strong>协议可组合性</strong></td><td>仅提供代币发行功能，无进一步协议可组合性。</td><td>引入“<strong>Memecoin 质押</strong>”，将 Memecoin 与 DeFi 结合，创造新的可组合性机会。</td><td>增强 Memecoin 实用性，降低持有机会成本，提升长期持有吸引力。</td></tr><tr><td><strong>社区治理</strong></td><td>仅提供代币发行功能，无社区治理机制。</td><td>引入“<strong>Memecoin DAO 治理</strong>”，将 Memecoin 从纯粹的投机资产转变为具有可持续价值的数字资产。</td><td>实现 Memecoin 社区的可持续发展，大幅增强生态的网络效应。</td></tr></tbody></table>
 
-#### **Memeverse 相比 Pump.fun 的生态优势**
+**Memeverse 相比 Pump.fun 的生态优势**
 
 <table><thead><tr><th width="121.5714111328125">特征</th><th width="191.85699462890625">Pump.fun</th><th width="201.9990234375">Memeverse</th><th>生态优势</th></tr></thead><tbody><tr><td><strong>核心愿景</strong></td><td>简化模因币发行和即时流动性，侧重<strong>投机</strong>。</td><td>以 Memecoin 为载体，<strong>构建去中心化的社会</strong>。</td><td>Memeverse 具有更深刻的社会和文化愿景，超越了单纯的发行工具。</td></tr><tr><td><strong>价值基础</strong></td><td>主要依赖社区情绪和阴谋炒作，易“<strong>Pump &#x26; Dump</strong>”。</td><td>DAO 治理驱动价值创造，实现“<strong>Build &#x26; Earn</strong>”。</td><td>Memeverse 引入了可持续的价值创造机制和社区治理，降低投机性。</td></tr><tr><td><strong>功能深度</strong></td><td>Memecoin 发行，提供即时流动性。</td><td>Memecoin 质押、DAO治理、全链互操作、现实世界采用。</td><td>Memeverse 提供更丰富的生态系统和更强的赋能。</td></tr><tr><td><strong>生态互联</strong></td><td><strong>独立平台</strong>，与其他协议缺少联动。</td><td>与 OutStake、OutSwap 模块深度集成，形成<strong>价值闭环</strong>，同时还可以与外部 DeFi 协议组合。</td><td>Memeverse 是 Outrun 生态的重要流量入口和价值捕获点。</td></tr><tr><td><strong>用户角色</strong></td><td>主要是发行者和投机者。</td><td>创作者、贡献者、治理者、投资者、投机者、社会参与者。</td><td>Memeverse 鼓励用户多重身份参与，形成更强大的社区凝聚力与网络效应。</td></tr></tbody></table>
 
