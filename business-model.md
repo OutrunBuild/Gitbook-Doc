@@ -26,7 +26,7 @@ OutStake 的设计理念，特别是其对“**真实收益**”的强调和对�
 
 **OutStake 相比 Pendle 的生态优势**
 
-<table><thead><tr><th width="103.85711669921875">特征</th><th>Pendle</th><th>OutStake</th><th>生态优势</th></tr></thead><tbody><tr><td><strong>产品定位</strong></td><td>收益交易协议：专注于收益代币的交易。</td><td>DeFi 基础设施：以 UPT 与 YT / SP 为核心构建<strong>全链流动性层与收益层</strong>。</td><td>Outrun 视野更广，UPT 的全链稳定币属性提供更基础的 DeFi 乐高组件，拓展了应用场景。</td></tr><tr><td><strong>流动性</strong></td><td>PT 为单一链上的本金代币，流动性受限于特定链，并且<strong>流动性碎片化</strong>。</td><td>UPT 提供<strong>无缝的即时流动性和全链互操作性</strong>。</td><td>UPT 消除了链间壁垒，并且拥有更强的流动性，提升了资本效率。</td></tr><tr><td><strong>收益策略</strong></td><td>专注于固定收益与积分收益交易。</td><td>灵活的收益分解与增强，自带价格发现的固定收益代币。</td><td>Outrun 在提供类似功能的同时，更强调全链和统一流动性。</td></tr><tr><td><strong>生态扩展</strong></td><td>主要专注于收益互换，<strong>可组合性差</strong>导致与其他协议集成度相对较低。</td><td>多模块闭环生态系统同时支持外部合作伙伴。</td><td>Outrun 通过内部模块协同，与外部系统集成，形成更强大的网络效应和护城河。</td></tr></tbody></table>
+<table><thead><tr><th width="103.85711669921875">特征</th><th>Pendle</th><th>OutStake</th><th>生态优势</th></tr></thead><tbody><tr><td><strong>产品定位</strong></td><td>收益交易协议：专注于收益代币的交易。</td><td>DeFi 基础设施：以 UPT 与 YT / SP 为核心构建<strong>全链流动性层与收益层</strong>。</td><td>Outrun 视野更广，UPT 的全链稳定币属性提供更基础的 DeFi 乐高组件，拓展了应用场景。</td></tr><tr><td><strong>流动性</strong></td><td>PT 为单一链上的本金代币，同时具有到期日，<strong>流动性碎片化</strong>。</td><td>UPT 提供<strong>无缝的即时流动性和全链互操作性</strong>。</td><td>UPT 消除了链间壁垒，并且拥有更强的流动性，提升了资本效率。</td></tr><tr><td><strong>收益策略</strong></td><td>专注于固定收益与积分收益交易。</td><td>灵活的收益分解与增强，自带价格发现的固定收益代币。</td><td>Outrun 在提供类似功能的同时，更强调全链和统一流动性。</td></tr><tr><td><strong>生态扩展</strong></td><td>主要专注于收益互换，<strong>可组合性差</strong>导致与其他协议集成度相对较低。</td><td>多模块闭环生态系统同时支持外部合作伙伴。</td><td>Outrun 通过内部模块协同，与外部系统集成，形成更强大的网络效应和护城河。</td></tr></tbody></table>
 
 ### **B. OutSwap：智能交易的未来**
 
