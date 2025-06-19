@@ -38,14 +38,14 @@ FLaunch will introduce two modes in the future: a **Pro Mode** based on manual a
 
 **4. Liquidity Lock Stage**
 
-* When the current stage is the genesis stage and the block time is between the endTime and unlockedTime of the LaunchPool, anyone can call the changeStage method to enter the liquidity lock-up stage. Meanwhile, the **token generator** registered by the project team will be called to mint the corresponding project tokens according to the totalTokenFunds. These project tokens will form a trading pair with the UPT whose quantity is equivalent to that of the **totalTokenFunds** and be deployed on the **OutrunAMM**. The liquidity pool (LP) will be locked until the **unlockedTime**. Meanwhile, [**POL**](proof-of-liquidity-token.md) tokens with the same quantity as that of the LP will be minted. **1/4** of the POL tokens will form a trading pair with the UPT whose quantity is equivalent to that of the **totalLiquidProofFunds**, and the liquidity will be locked until the unlockedTime. Users can manually claim the remaining **3/4** of the POL tokens.
+* When the current stage is the genesis stage and the block time is between the endTime and unlockedTime of the LaunchPool, anyone can call the changeStage method to enter the liquidity lock-up stage. Meanwhile, the **token generator** registered by the project team will be called to mint the corresponding project tokens according to the totalTokenFunds. These project tokens will form a trading pair with the UPT whose quantity is equivalent to that of the **totalTokenFunds** and be deployed on the **OutrunAMM**. The liquidity pool (LP) will be locked until the **unlockedTime**. Meanwhile, [**POL**](proof-of-liquidity-token/) tokens with the same quantity as that of the LP will be minted. **1/4** of the POL tokens will form a trading pair with the UPT whose quantity is equivalent to that of the **totalLiquidProofFunds**, and the liquidity will be locked until the unlockedTime. Users can manually claim the remaining **3/4** of the POL tokens.
 * During the liquidity lock-up stage, the market-making earnings generated from the liquidity of the locked project token trading pairs belong to the project team, which is the continuous cash flow raised by the project team. And the market-making earnings generated from the liquidity of the locked POL token trading pairs belong to the protocol revenue.
 
 **5. Liquidity Unlock Stage**
 
 * When the current stage is the liquidity lock-up stage and the block time is greater than the unlockedTime of the LaunchPool, anyone can call the changeStage method to enter the liquidity unlock stage.
 * During the liquidity unlock stage, investors can redeem the liquidity of the POL / UPT trading pair in proportion to the funds they deposited during the genesis phase. Simultaneously, they can also burn POL tokens to redeem the liquidity of the ProjectToken / UPT trading pair.
-* A 24-hour [**Liquidity Protection Period**](proof-of-liquidity-token.md) is implemented immediately after the block time reaches the unlockTime.&#x20;
+* A 24-hour [**Liquidity Protection Period**](proof-of-liquidity-token/) is implemented immediately after the block time reaches the unlockTime.
 
 **6. Remaining Token Generation Stage**
 

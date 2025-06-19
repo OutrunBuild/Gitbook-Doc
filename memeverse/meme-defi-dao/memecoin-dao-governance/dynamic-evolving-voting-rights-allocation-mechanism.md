@@ -10,7 +10,7 @@ In traditional decentralized autonomous organization (DAO) governance models, th
 
 ### **Governance Background of Memeverse**
 
-Memeverse is an innovative ecosystem built on the [**FFLaunch**](../../../fflaunch/) concept. The core of FFLaunch lies in the introduction of [**Proof of Liquidity tokens**](../../../fflaunch/proof-of-liquidity-token.md) (POL), which represent users' shares in the genesis liquidity. As a result, users who participate in the genesis effectively hold Memecoin indirectly through their POL tokens, and thus should also have corresponding voting rights in the Memecoin DAO governance.
+Memeverse is an innovative ecosystem built on the [**FFLaunch**](../../../fflaunch/) concept. The core of FFLaunch lies in the introduction of [**Proof of Liquidity tokens**](../../../fflaunch/proof-of-liquidity-token/) (POL), which represent users' shares in the genesis liquidity. As a result, users who participate in the genesis effectively hold Memecoin indirectly through their POL tokens, and thus should also have corresponding voting rights in the Memecoin DAO governance.
 
 ***
 

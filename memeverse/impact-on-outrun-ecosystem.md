@@ -10,7 +10,7 @@ Memeverse enables the entire Outrun ecosystem to possess **extremely high capita
 
 For example, stake 150 ETH to mint (nearly) **150 UETH**, and then by participating in the **Genesis** of Memeverse, the 150 UETH will be divided into two parts.
 
-1. **100 UETH** will form trading pairs with newly minted Memecoins worth 100 UETH, thus minting [**POL**](../fflaunch/proof-of-liquidity-token.md) tokens worth **200 UETH**.
+1. **100 UETH** will form trading pairs with newly minted Memecoins worth 100 UETH, thus minting [**POL**](../fflaunch/proof-of-liquidity-token/) tokens worth **200 UETH**.
 2. **50 UETH** will form trading pairs with POL tokens worth 50 UETH, thereby creating liquidity worth **100 UETH**.
 
 Finally, users will obtain POL tokens worth **150 UETH**. The whole process has created a Total Value Locked (TVL) and liquidity worth 600 ETH in total. Moreover, as transactions take place and the price of Memecoins goes up, the TVL will also increase accordingly.

@@ -1,4 +1,4 @@
-# Growth Is Part Of The Product
+# Sustainable Community Growth
 
 Whether it is Memecoin DAO or the entire Outrun ecosystem, growth is indispensable—from 0 to 1, and then from 1 to 100. The uniqueness of Outrun lies in the fact that it integrates growth itself into the product design, making it the core driving force of ecological development.
 
@@ -8,7 +8,7 @@ Whether it is Memecoin DAO or the entire Outrun ecosystem, growth is indispensab
 
 Outrun ensures a fair starting environment through innovative mechanisms, fostering natural community growth:
 
-* [**Proof of Liquidity (POL)**](../../fflaunch/proof-of-liquidity-token.md) **Tokens**: Before the token launch, no tokens are pre-circulated; all tokens are directly allocated to the liquidity pool.
+* [**Proof of Liquidity (POL)**](../../fflaunch/proof-of-liquidity-token/) **Tokens**: Before the token launch, no tokens are pre-circulated; all tokens are directly allocated to the liquidity pool.
 * [**MEV Guard**](../../outswap/mev-guard/) **Protection**: Initial liquidity is safeguarded by MEV Guard, effectively preventing attacks from sniper bots.
 
 In this equitable environment, growth from 0 to 1 occurs naturally. The first person to successfully buy tokens will not incur losses (despite MEV Guard restrictions), and early participants benefit as well. This attracts the initial group of users to join Memecoin DAO, with genesis members continuing to support the community, driving the initial growth from 0 to 1.
