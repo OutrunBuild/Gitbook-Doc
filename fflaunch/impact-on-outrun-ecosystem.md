@@ -9,7 +9,7 @@
 
 **提高 LST 的需求**
 
-参与 FFLaunch 需要使用 [**UPT**](../outstake/yield-tokenization/upt.md)，可以选择质押更多的生息代币，也可以直接从 Outswap 上购买，这些代币会被锁定在 Outswap 中，用户在交易代币时也需要使用 UPT。
+参与 FFLaunch 需要使用 [**UPT**](../outstake/yield-tokenization/upt/)，可以选择质押更多的生息代币，也可以直接从 Outswap 上购买，这些代币会被锁定在 Outswap 中，用户在交易代币时也需要使用 UPT。
 
 * 这会直接增加市场对 UPT 的需求，从而提高 UPT 的采用。
 * POL 流动性池的做市收入被永久销毁，这将永久减少 UPT 的总供应量。

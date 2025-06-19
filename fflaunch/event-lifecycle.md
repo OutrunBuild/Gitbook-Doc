@@ -34,18 +34,18 @@ FFLaunch 未来将推出两种模式：一种基于人工申请与审核的 **Pr
 **3. 创世阶段**
 
 * 当前区块时间处于 LaunchPool 的 startTime 与 endTime 之间时，任何人可以调用 changeStage 方法进入创世阶段。
-* 在创世阶段，投资者可以向正在进行中的 LaunchPool 存入 [**UPT**](../outstake/yield-tokenization/upt.md)，FFLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/3** 会划分为 **liquidProofFunds**, **2/3** 划分为 **tokenFund**，会分别累加到 **totalTokenFunds** 以及 **totalLiquidProofFunds**.
+* 在创世阶段，投资者可以向正在进行中的 LaunchPool 存入 [**UPT**](../outstake/yield-tokenization/upt/)，FFLauncher 会记录每位投资者存入的 **GenesisFund**，其中 GenesisFund 的 **1/3** 会划分为 **liquidProofFunds**, **2/3** 划分为 **tokenFund**，会分别累加到 **totalTokenFunds** 以及 **totalLiquidProofFunds**.
 
 **4. 流动性锁定阶段**
 
-* 当前阶段为创世阶段且区块时间处于 LaunchPool 的 endTime 与 unlockTime 之间时，任何人都可以调用 changeStage 方法进入流动性锁定阶段。同时会调用项目团队注册的**代币生成器**根据 totalTokenFunds 铸造对应数量的项目代币，这些项目代币将会和数量等同于 totalTokenFunds 的 UPT 组成交易对并部署在 **Outrun AMM** 上，LP 代币将被锁定直到 **unlockTime**，同时铸造与 LP 代币数量相等的 [**POL**](proof-of-liquidity-token.md) 代币，**1/4** 数量的 POL 代币会与数量等同于 totalLiquidProofFunds 的 UPT 组成交易对，并锁定流动性直到 unlockTime，剩余 **3/4** 的 POL 代币用户将可以手动领取。
+* 当前阶段为创世阶段且区块时间处于 LaunchPool 的 endTime 与 unlockTime 之间时，任何人都可以调用 changeStage 方法进入流动性锁定阶段。同时会调用项目团队注册的**代币生成器**根据 totalTokenFunds 铸造对应数量的项目代币，这些项目代币将会和数量等同于 totalTokenFunds 的 UPT 组成交易对并部署在 **Outrun AMM** 上，LP 代币将被锁定直到 **unlockTime**，同时铸造与 LP 代币数量相等的 [**POL**](proof-of-liquidity-token/) 代币，**1/4** 数量的 POL 代币会与数量等同于 totalLiquidProofFunds 的 UPT 组成交易对，并锁定流动性直到 unlockTime，剩余 **3/4** 的 POL 代币用户将可以手动领取。
 * 在流动性锁定阶段，锁定的项目代币交易对流动性产生的做市收益归项目团队所有，即项目团队募集到的持续现金流。而锁定的 POL 代币交易对流动性产生的做市收益则归属于协议收入。
 
 **5. 流动性解锁阶段**
 
 * 当前阶段为流动性锁定阶段且区块时间大于 LaunchPool 的 unlockTime 时，任何人都可以调用 changeStage 方法进入流动性解锁阶段。
 * 在流动性解锁阶段，投资者可以按自己在创世阶段存入资金的比例赎回 **POL / UPT** 交易对的流动性，同时还可以销毁 POL 代币以赎回 **ProjectToken / UPT** 交易对的流动性
-* 在区块时间到达 unlockTime 之后实施 24 小时的[**流动性保护期**](proof-of-liquidity-token.md)。
+* 在区块时间到达 unlockTime 之后实施 24 小时的[**流动性保护期**](proof-of-liquidity-token/)。
 
 **6. 剩余代币生成阶段**
 
