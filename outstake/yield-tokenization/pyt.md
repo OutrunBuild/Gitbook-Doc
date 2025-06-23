@@ -8,4 +8,4 @@ PYT is a token based on the [ERC6909](https://eips.ethereum.org/EIPS/eip-6909) s
 
 Even if the issuer of the interest-bearing asset does not have a points incentive program, Outrun will still mint PYT to capture potential future points yields. However, since not all external protocols offer points incentive programs, or these programs may change depending on the external protocol, **the value of PYT could potentially be zero. The final authority over its interpretation lies with the external protocol, not Outrun**.
 
-Additionally, if users choose to mint UPT when locking their staked interest-bearing tokens, PYT will not be minted, meaning they forfeit any potential or existing external points yields that might arise in the future.
+Additionally, if you choose to enable **UPT mode** when locking your staked SY, no PYT will be minted. This means you're foregoing any potential or existing external point rewards.

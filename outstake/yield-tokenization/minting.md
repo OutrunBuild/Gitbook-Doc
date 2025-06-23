@@ -4,8 +4,17 @@ Users receive yield-bearing assets when they deposit funds into a yield-source. 
 
 slisBNB and Stone are examples of **yield-bearing tokens**.
 
-In OutStake, yield-bearing tokens can be split into three components: **Principal Token (PT)**, **Yield Token (YT)**, and **Points Yield Token (PYT)**. Additionally, encapsulating PT allows users to mint **Staked Position Token (SP)**. PT represents the principal portion of the underlying yield-bearing token, YT represents the entitlement to all yields of that asset, PYT represents the external points yields of the position, and SP represents the redemption rights for the principal of the locked position upon maturity.
+In OutStake, yield-bearing tokens can be broken down into three components: **Staked Position Token (SP)**, **Yield Token (YT)**, and **Points Yield Token (PYT)**.
 
-Users can stake yield-bearing assets (e.g., stETH) in OutStake to mint PT, YT, and PYT. The underlying asset (e.g., ETH) will be automatically converted into an yield-bearing asset before staking.
+Simultaneously, **SP** can be further divided into **Principal Token (PT)** and **non-transferable SP**, or it can be re-synthesized back into transferable **SP**.
 
-For example: ETH → stETH → SY-stETH → (SP-stETH + YT-stETH + PYT-stETH)，SP-stETH <=> PT-stETH(UETH).
+Here's what each token represents:
+
+* **SP** represents the redemption right of the principal of the locked position upon maturity.
+* **PT** represents the principal portion of the underlying yield-bearing token.
+* **YT** represents the right to all interest earnings of the asset.
+* **PYT** represents the external points earnings of the position.
+
+Users can stake yield-bearing assets (e.g., wstETH) in OutStake to mint PT, YT, and PYT. The underlying asset (e.g., ETH) will be automatically converted into an yield-bearing asset before staking.
+
+For example: ETH → wstETH → SY-wstETH → (SP-wstETH + YT-wstETH + PYT-wstETH)，SP-wstETH <=> PT-wstETH(UETH).

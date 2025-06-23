@@ -4,12 +4,37 @@ description: Staking Position
 
 # SP
 
-SP (Staking Position) represents **the right to redeem the principal of a locked position upon maturity**. Position owners can encapsulate the minted PT (UPT) to create transferable SP, which holders can then sell, effectively enabling an "early redemption" operation indirectly.
+The **Staking Position (SP)** token represents **the redemption right of the principal for a locked position upon maturity**. Supported by the [ERC-6909](https://eips.ethereum.org/EIPS/eip-6909) standard, it enables users to transfer partial redemption rights of their position. Holders can sell their SP, effectively achieving a "pre-redemption" operation. The SP contract records the immutable metadata of the position, including the **SY staking amount, constant principal value, SP minted amount, lock-up expiration time, whether it's in UPT mode, and more**.
 
-SP is supported by the [ERC6909](https://eips.ethereum.org/EIPS/eip-6909) standard, splitting the position into shares equal to the amount of PT minted, allowing users to transfer partial redemption rights of the position.
+### Underlying Mechanism
 
-The SP contract records immutable metadata of the position, including **the initial amount of staked yield-bearing tokens**, **the constant principal value**, **the number of PT minted**, and **the lock-up expiration time**.
+1. **Staking:** Users stake their **SY tokens** and choose whether to enable **UPT  mode**.
+2. **Minting:**
 
-Therefore, after the position's lock-up period expires, a fixed portion of SP can be burned to redeem a fixed amount of the principal in yield-bearing tokens, resulting in different fixed yield rates based on market prices and time. **By holding SP, users can earn fixed-rate yield based on the underlying asset**.
+* If the position is in **non-UPT mode**, staking will result in the 1:1 minting of **transferable SP (Staking Position) tokens** based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
+* If the position is in **UPT mode**, the quantity of SP tokens minted will also be related to the staking duration (i.e., the quantity of YT minted). The specific calculation is as follows:
 
-Regarding the establishment of an SP trading market, there is a particularly intriguing characteristic, although SP is a token adhering to the ERC6909 standard, **the SP trading market does not require active or aggressive market-making**. This is due to the inherent properties of SP, which endow any SP trading market with features akin to those of an AMM . The primary goal of users trading SP is to secure a fixed yield rate. **At a fixed listed price, this fixed yield rate automatically increases as the lock-up expiration date approaches**. Consequently, **any SP trading market naturally incorporates a price discovery mechanism**. Users will purchase SP tokens at a fixed yield rate time point they deem suitable, thereby establishing the true market value of SP. Provided that the order price of SP does not exceed the value of the principal redeemable at maturity, it is certain to be sold.
+<p align="center"><span class="math">\text{SP Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
+
+3. **Splitting:** Users can split their **SP tokens** 1:1 into **PT(UPT)** according to the **position's mode** (which is unchangeable). This operation makes the original SP non-transferable but does not destroy it, allowing it to still be tracked. (The frontend will automatically execute the splitting operation.)
+4. **Synthesizing:** Users retain the right to burn their **PT(UPT)** at any time. This operation will synthesize the PT(UPT) with the non-transferable SP back into the original transferable SP.
+
+After the position's lock-up period expires, **a fixed quantity of transferable SP can be burned to redeem a corresponding fixed quantity of the yield-bearing token's principal for that position**. This mechanism allows for the formation of varying fixed interest rates based on market prices and the lock-up expiration time. By holding transferable SP, you can earn fixed interest rate yields denominated in the accounting asset.
+
+In general, Yield-bearing Tokens can be roughly classified as follows:
+
+1. **Rebase Tokens** - Tokens that increase their balance over time.
+
+_Examples: stETH, aUSDC_
+
+2. **Yield-bearing Non-Rebase Tokens** - Tokens that appreciate in value over time.
+
+_Examples: wstETH, Stone, slisBNB_
+
+**It is important to note**: For reward-bearing non-rebase Yield-bearing Tokens, the quantity of staked Yield-bearing Tokens in the position does not change after the lock-up period expires. However, their value (relative to the **account asset token**'s exchange ratio) will increase with the accumulation of yields. Thus, burning PT does not redeem the same quantity of non-rebase Yield-bearing Tokens as initially staked, instead, it will be slightly less because part of the value is attributed to YT.
+
+### SP Trading Market
+
+Building an **SP (Staking Position) trading market** comes with a very interesting characteristic: even though SP is an ERC-6909 standard token, its trading market doesn't require proactive market making. This is because the nature of SP inherently gives any SP trading market **AMM-like properties**.
+
+Users trade SP to obtain a **fixed interest rate**. This fixed interest rate, at a given listed price, will automatically increase as the token approaches its lock-up expiration time. This means that any SP trading market inherently possesses a **price discovery mechanism**. Users will purchase SP tokens at a fixed interest rate they deem appropriate, thereby confirming SP's true market value. As long as the quoted price of SP does not exceed the value of the principal redeemable upon maturity, it is guaranteed to be sold.
