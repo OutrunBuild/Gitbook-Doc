@@ -1,5 +1,5 @@
 ---
-description: 仓位期权代币
+description: 头寸质押代币
 ---
 
 # SP
