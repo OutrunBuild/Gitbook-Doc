@@ -43,7 +43,7 @@ Implied APY 旨在回答一个核心问题：“**如果我现在投入本金，
   * 质押池的当前效率：池中“懒惰”的用户越多（即到期未取回的 SY 越多），**`SY_total`** 就越高，用户的未来收益也越高。反之，如果有人提前燃烧YT，**`YT_supply`** 会减少，同样会提高用户的未来收益率。
 *   计算公式:
 
-    <p align="center"><span class="math">APY_{\text{future}}(D) = \frac{D \times SY_{\text{total}} \times APY_{\text{underlying}}}{YT_{\text{supply}}}</span>z</p>
+    <p align="center"><span class="math">APY_{\text{future}}(D) = \frac{D \times SY_{\text{total}} \times APY_{\text{underlying}}}{YT_{\text{supply}}}</span></p>
 
 **最终 APY 计算表达式**
 
