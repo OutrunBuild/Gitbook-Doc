@@ -2,7 +2,10 @@
 
 * [Outrun](README.md)
 * [OutStake（收益率代币化）](outstake/README.md)
-  * [词汇表](outstake/glossary.md)
+  * [词汇表](outstake/glossary/README.md)
+    * [生息代币](outstake/glossary/sheng-xi-dai-bi.md)
+    * [记账资产代币](outstake/glossary/ji-zhang-zi-chan-dai-bi.md)
+    * [隐含 APY](outstake/glossary/yin-han-apy.md)
   * [收益率代币化](outstake/yield-tokenization/README.md)
     * [SY](outstake/yield-tokenization/sy.md)
     * [铸造](outstake/yield-tokenization/minting.md)
