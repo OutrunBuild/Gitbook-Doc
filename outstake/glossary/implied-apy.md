@@ -33,7 +33,7 @@ Implied APY 旨在回答一个核心问题：“**如果我现在投入本金，
 * 如何影响用户？池中累积的未分配收益越多，这一部分的 APY 就越高。这是一个全局性的回报，反映了池子的历史厚度。
 * 计算公式：
 
-<p align="center"><span class="math">APY_{past} = \frac{Y_{accrued}}{YT_{supply}} \times 365</span></p>
+<p align="center"><span class="math">APY_{past} = \frac{Y_{accrued} \cdot SY_{total} \cdot 365}{YT_{supply}(SY_{total}-Y_{accrued})}</span></p>
 
 2\. 来自未来收益的 APY
 
@@ -48,10 +48,10 @@ Implied APY 旨在回答一个核心问题：“**如果我现在投入本金，
 **最终 APY 计算表达式**
 
 $$
-APY_{\text{implied}}(D) = \underbrace{\left( \frac{Y_{\text{accrued}}}{YT_{\text{supply}}} \times 365 \right)}_{APY_{\text{past}}} + \underbrace{\left( \frac{D \times SY_{\text{total}} \times APY_{\text{underlying}}}{YT_{\text{supply}}} \right)}_{APY_{\text{future}}(D)}
+APY_{\text{implied}}(D) = \underbrace{\left( \frac{Y_{accrued} \cdot SY_{total} \cdot 365}{YT_{supply}(SY_{total}-Y_{accrued})} \right)}_{APY_{\text{past}}} + \underbrace{\left( \frac{D \times SY_{\text{total}} \times APY_{\text{underlying}}}{YT_{\text{supply}}} \right)}_{APY_{\text{future}}(D)}
 $$
 
-&#x20;                       当 $$D = 0$$ 时，$$APY_{\text{implied}}=0%$$
+&#x20;            当 $$D = 0$$ 时，$$APY_{\text{implied}}=0%$$
 
 **关键特征**
 
