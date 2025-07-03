@@ -17,6 +17,14 @@ YT 锚定利率是指 YT 可赎回价值（即销毁 YT 后可获得的利息收
 * $$SY_{total}-Y_{accrued}：$$当前质押池的本金。
 * $$YT_{supplyl}：$$YT 总供应量
 
+由于 YT 可赎回价值：
+
+<p align="center"><span class="math">RV = \frac{Y_{accrued}}{YT_{supply}}</span></p>
+
+因此 YT 锚定利率也可以通过以下公式计算：
+
+<p align="center"><span class="math">APY = \frac{ 365 \times RV \times SY_{total}}{SY_{total}-Y_{accrued}} </span></p>
+
 **YT 锚定利率的特点**
 
 1. 从零开始并随时间增长:
