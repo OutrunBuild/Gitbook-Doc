@@ -25,7 +25,10 @@ YT is an **interest-rate-pegged token**. Theoretically, **1 YT is equivalent to 
 
 When YT is first minted, its **redeemable value** (i.e., the interest yield obtained by burning YT) **starts from zero and gradually increases over time**. Burning YT to redeem interest does not affect YT's redeemable value because the redeemed yield is proportional. **YT's redeemable value only decreases when new YT is minted**, but this decrease is temporary, as new interest will accumulate from the newly staked interest-bearing tokens, eventually compensating for this value.
 
-Theoretically, the **pegged interest rate** corresponding to YT's redeemable value will stop growing once it reaches the actual interest rate of the underlying yield-bearing asset. However, in practice, **some users burn their YT prematurely before their staked yield-bearing tokens' lock-up period ends**. This premature burning reduces the circulation of YT, while the yield pool continues to accumulate interest. This ultimately causes the pegged interest rate corresponding to YT's redeemable value to **break through its upper limit**, exceeding the actual interest rate.
+Theoretically, the **anchor rate** corresponding to the redeemable value of YT stops growing when it reaches the actual interest rate of the interest-bearing asset. However, in practice, two scenarios may cause the anchor rate of YT to exceed this cap:
+
+1. **Early Burning of YT**: When some users burn their YT before the lock-up period of their staked interest-bearing tokens ends, the total circulating supply of YT decreases. Since the yield pool continues to accrue interest, this results in a relative increase in the interest redeemable per YT in the future.
+2. **Unredeemed Principal at Maturity**: If some users do not immediately redeem the principal of their interest-bearing tokens after the lock-up period expires, these unredeemed tokens continue to generate interest. This additional accumulated yield flows into the yield pool, further increasing the redeemable value per YT.
 
 When this situation occurs, it leads to two outcomes:
 
