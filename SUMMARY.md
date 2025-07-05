@@ -7,7 +7,7 @@
     * [记账资产代币](outstake/glossary/accounting-asset-token.md)
     * [YT 可赎回价值](outstake/glossary/yt-redeemable-value.md)
     * [YT 可赎回价值增长率](outstake/glossary/yt-rv-growth-rate.md)
-    * [YT 锚定利率](outstake/glossary/yt-mao-ding-li-l.md)
+    * [YT 锚定利率](outstake/glossary/yt-anchor-rate.md)
     * [隐含利率](outstake/glossary/implied-apy.md)
   * [收益率代币化](outstake/yield-tokenization/README.md)
     * [SY](outstake/yield-tokenization/sy.md)
