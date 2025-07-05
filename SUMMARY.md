@@ -8,7 +8,7 @@
     * [YT 可赎回价值](outstake/glossary/yt-redeemable-value.md)
     * [YT 可赎回价值增长率](outstake/glossary/yt-rv-growth-rate.md)
     * [YT 锚定利率](outstake/glossary/yt-anchor-rate.md)
-    * [隐含实际年利率](outstake/glossary/implied-real-apy.md)
+    * [隐含实际年化收益率](outstake/glossary/implied-real-apy.md)
   * [收益率代币化](outstake/yield-tokenization/README.md)
     * [SY](outstake/yield-tokenization/sy.md)
     * [铸造](outstake/yield-tokenization/minting.md)
