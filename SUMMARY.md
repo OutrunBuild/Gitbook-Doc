@@ -2,7 +2,7 @@
 
 * [Outrun](README.md)
 * [OutStake](outstake/README.md)
-  * [Glossary](outstake/glossary/README.md)
+  * [Glossary](outstake/glossary.md)
     * [Yield-Bearing Token](outstake/glossary/yield-bearing-token.md)
     * [Accounting Asset Token](outstake/glossary/accounting-asset-token.md)
     * [YT Redeemable Value](outstake/glossary/yt-redeemable-value.md)
