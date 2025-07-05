@@ -8,7 +8,7 @@
     * [YT Redeemable Value](outstake/glossary/yt-redeemable-value.md)
     * [YT RV Growth Rate](outstake/glossary/yt-rv-growth-rate.md)
     * [YT Anchor Rate](outstake/glossary/yt-anchor-rate.md)
-    * [Implied APY](outstake/glossary/implied-apy.md)
+    * [Implied Real APY](outstake/glossary/implied-real-apy.md)
   * [Yield Tokenization](outstake/yield-tokenization/README.md)
     * [SY](outstake/yield-tokenization/sy.md)
     * [Minting](outstake/yield-tokenization/minting.md)
