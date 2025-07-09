@@ -4,7 +4,7 @@ description: Principal Token
 
 # PT
 
-**PT (Principal Token)** is a staked principal token minted by staking SY. It's a **liquid staking derivative** that represents the **initial principal value of staked SY tokens**, designed to unlock the liquidity of staked assets.
+**PT (Principal Token)** is a staked principal token minted by staking SY. It's a **liquid staking derivative** that represents the **initial value of SP**, designed to unlock the liquidity of staked assets.
 
 ### Underlying Mechanism
 

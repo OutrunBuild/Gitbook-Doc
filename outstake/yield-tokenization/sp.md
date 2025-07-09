@@ -9,15 +9,14 @@ The **Staking Position (SP)** token represents **the redemption right of the pri
 ### Underlying Mechanism
 
 1. **Staking:** Users stake their **SY tokens** and choose whether to enable **UPT  mode**.
-2. **Minting:**
-
-* If the position is in **non-UPT mode**, staking will result in the 1:1 minting of **transferable SP (Staking Position) tokens** based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
-* If the position is in **UPT mode**, the quantity of SP tokens minted will also be related to the staking duration (i.e., the quantity of YT minted). The specific calculation is as follows:
+2. **Minting:** Staking will result in the 1:1 minting of **transferable SP (Staking Position) tokens** based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
+3. **Splitting:** Users can split their **SP tokens** into **PT(UPT)** according to the **position's mode** (which is unchangeable). This operation makes the original SP non-transferable but does not destroy it, allowing it to still be tracked.
+   * **If the position is in non-UPT mode:** SP tokens can be split into PT on a 1:1 basis.
+   * **If the position is in UPT mode:** the amount of UPT split is also related to the staking duration (i.e., the amount of YT minted). The specific calculation method is as follows:
 
 <p align="center"><span class="math">\text{SP Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
 
-3. **Splitting:** Users can split their **SP tokens** 1:1 into **PT(UPT)** according to the **position's mode** (which is unchangeable). This operation makes the original SP non-transferable but does not destroy it, allowing it to still be tracked. (The frontend will automatically execute the splitting operation.)
-4. **Synthesizing:** Users retain the right to burn their **PT(UPT)** at any time. This operation will synthesize the PT(UPT) with the non-transferable SP back into the original transferable SP.
+3. **Synthesizing:** Users retain the right to burn their **PT(UPT)** at any time. This operation will synthesize the PT(UPT) with the non-transferable SP back into the original transferable SP.
 
 After the position's lock-up period expires, **a fixed quantity of transferable SP can be burned to redeem a corresponding fixed quantity of the yield-bearing token's principal for that position**. This mechanism allows for the formation of varying fixed interest rates based on market prices and the lock-up expiration time. By holding transferable SP, you can earn fixed interest rate yields denominated in the accounting asset.
 

@@ -1,22 +1,22 @@
 ---
-description: OmniChain Stablecoin
+description: Omnichain Stablecoin
 ---
 
 # UPT
 
 ## **As Principal Token**
 
-**UPT** is an innovative **omnichain universal principal token** designed to solve the long-standing problem of liquidity fragmentation in the DeFi space. Unlike traditional principal tokens (PTs), where each yield-bearing token corresponds to a single PT, **UPT is backed by multiple yield-bearing tokens that share the same accounting asset**.
+**UPT** is an innovative **omnichain universal principal token** designed to solve the long-standing problem of liquidity fragmentation in the DeFi space. Unlike traditional principal tokens (PTs), where each yield-bearing token corresponds to a single PT, **UPT is backed by multiple yield-bearing tokens that share the same underlying asset**.
 
-### Underlying Mechanism
+### **Underlying Mechanism**
 
 1. **Staking:** Users stake their **SY tokens** and enable **UPT mode**.
-2. **Minting:** In this mode, the quantity of **SP (Staking Position) tokens** minted differs from the standard PT mode, it's also related to the staking duration (i.e., the quantity of YT minted). The specific calculation is as follows:
+2. **Minting:** After staking, **transferable SP tokens** will be minted 1:1 based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
+3. **Splitting:** At this point, the split quantity of UPT differs from the standard PT mode and is also related to the **staking duration (i.e., the amount of YT minted)**. This operation will render the original SP non-transferable but will not destroy it, allowing it to remain trackable. The specific calculation method is as follows:
 
-<p align="center"><span class="math">\text{SP Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
+<p align="center"><span class="math">\text{PT Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
 
-3. **Splitting:** Users can split their **SP tokens** 1:1 into **UPT**. The frontend will automatically execute this operation. This action makes the original SP non-transferable but does not destroy it, allowing it to still be tracked.
-4. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This action will synthesize the UPT with the non-transferable SP back into the original transferable SP.
+1. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This action will synthesize the UPT with the non-transferable SP back into the original transferable SP.
 
 For example:
 
@@ -27,9 +27,15 @@ The core advantage of this mechanism is that it enables **liquidity to be shared
 
 ### **Solving Liquidity Fragmentation**
 
-Take Ethereum, for example. Its ecosystem has a ton of ETH-related Liquid Staking Tokens (LSTs), but their liquidity often gets fragmented. This leaves some LSTs with insufficient liquidity. An LST's liquidity depth is usually tied to how widely it's adopted in DeFi protocols, like the depth of LST/ETH or LST/USDT liquidity pools.
+For example, in the current Ethereum ecosystem, there are numerous Liquid Staking Tokens (LSTs) such as stETH, rETH, cbETH, etc., each with its own independent liquidity, leading to liquidity fragmentation across different liquidity pools. This not only results in insufficient liquidity for many emerging LSTs but also means that each LST must repeatedly invest significant resources to incentivize and build liquidity, a process that is both challenging and inefficient.
 
-Building liquidity for each LST is a really tough and repetitive process. But **UETH** changes that by **significantly cutting down on these redundant efforts**. Let's say there's an LST with low liquidity, like xETH. With UETH, the market only needs to focus on building **UETH/ETH** or **UETH/USDT** liquidity pools. By staking xETH through OutStake and minting UETH, xETH's liquidity can then **connect to the existing UETH liquidity in the market**. As more rigorously vetted LSTs join the UPT-supported ranks, the overall liquidity will become increasingly abundant.
+As UPT, UETH can fundamentally resolve this issue. It integrates the liquidity of various LSTs by creating a central liquidity hub.
+
+**Operating Mechanism:** Suppose there is an emerging LST in the market, named xETH. The project team no longer needs to painstakingly build liquidity for xETH; instead, by integrating into the Outrun ecosystem, xETH can instantly connect to the existing liquidity in the market through UETH.
+
+**Core Advantage:** Through this mechanism, xETH’s liquidity is seamlessly connected to the main liquidity scenarios of UETH (such as `UETH/ETH`, `UETH/UUSD`, or other UETH use cases). This means there is no need to build liquidity separately for each LST; instead, a deeper UETH liquidity pool is collectively maintained.
+
+**Network Effect:** As more market-validated LSTs join the UETH support list, the overall liquidity of UETH will continue to strengthen, forming a powerful network effect. This not only provides instant and deep liquidity for all participating LSTs but also greatly lowers the entry barrier for new LSTs into the market, ultimately benefiting the entire DeFi ecosystem.
 
 ### **Strict Auditing Mechanism**
 
@@ -38,6 +44,8 @@ It's important to note that not all yield-bearing assets backed by the same unde
 ## **As Stablecoin**
 
 UPT is more than just an innovative omnichain universal principal token; it also functions as the Outrun ecosystem's **omnichain stablecoin**, aiming to be a cornerstone of the DeFi landscape. Currently, UPT is available in two main versions: **UUSD** and **UETH**, both fully backed by **yield-bearing USD and ETH assets**, respectively. The plan is to expand to include stablecoins for even more asset types in the future.
+
+Through UPT, users can unlock the liquidity of yield-bearing assets while **retaining fixed yield (holding non-transferable SP)**, without relying on third-party lending protocols or paying borrowing interest.
 
 UPT carries the crucial mission of driving the expansion of the Outrun ecosystem. As the ecosystem evolves, UPT will be continuously **integrated into various DeFi protocols and internal Outrun modules**, providing a stable value foundation for diverse financial activities like **lending**, **trading**, and **derivatives**.
 
