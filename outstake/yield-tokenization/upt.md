@@ -23,7 +23,7 @@ For example:
 * When staking Ethereum Liquid Staking Tokens (LSTs) like **Stone**, **wstETH**, or **BETH**, users can choose to mint **UETH**.
 * When staking yield-bearing stablecoins such as **sUSDe**, **sUSDS**, or **USDY**, users can opt to mint **UUSD**.
 
-The core advantage of this mechanism is that it enables **liquidity to be shared across different yield-bearing tokens that are based on the same underlying asset**. This significantly enhances the liquidity of similar yield-bearing tokens and greatly boosts their composability and network effects.
+The core advantage of this mechanism is that it **enables liquidity to be shared across different yield-bearing tokens that are based on the same underlying asset**. This significantly enhances the liquidity of similar yield-bearing tokens and greatly boosts their composability and network effects.
 
 ### **Solving Liquidity Fragmentation**
 
