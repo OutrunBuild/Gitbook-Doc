@@ -45,7 +45,7 @@ It's important to note that not all yield-bearing assets backed by the same unde
 
 UPT is more than just an innovative omnichain universal principal token; it also functions as the Outrun ecosystem's **omnichain stablecoin**, aiming to be a cornerstone of the DeFi landscape. Currently, UPT is available in two main versions: **UUSD** and **UETH**, both fully backed by **yield-bearing USD and ETH assets**, respectively. The plan is to expand to include stablecoins for even more asset types in the future.
 
-Through UPT, users can unlock the liquidity of yield-bearing assets while **retaining fixed yield (holding non-transferable SP)**, without relying on third-party lending protocols or paying borrowing interest.
+Through UPT, users can **unlock the liquidity of yield-bearing assets while retaining interest (holding non-transferable SP) without relying on third-party lending protocols (especially in leveraged lending loop scenarios), eliminating the need to pay borrowing interest**, significantly improving capital efficiency, and generating higher returns for users.
 
 UPT carries the crucial mission of driving the expansion of the Outrun ecosystem. As the ecosystem evolves, UPT will be continuously **integrated into various DeFi protocols and internal Outrun modules**, providing a stable value foundation for diverse financial activities like **lending**, **trading**, and **derivatives**.
 
