@@ -93,11 +93,11 @@ Our points incentive design aims to guide users to explore the Outrun ecosystem 
   * Wallet addresses directly holding **PT (Principal Token)** will receive a **1x points multiplier** based on the held value.
   * Holding **UPT** grants a **2x points multiplier**.
   * Deploying **UPT** or **PT** to OutSwap to provide liquidity will also earn **additional Swap Points Token**.
-* **DAO Treasury High Multiplier Incentive**:
-  * The Memecoin DAO treasury will hold a substantial amount of UPT, sourced from **20% of the genesis funds** and subsequent **market-making revenue from genesis liquidity**.
-  * We've set the points multiplier for the DAO treasury at an astonishing **20x**. This means that with **an initial 20% share, this 20x multiplier will generate points equivalent to twice that of an individual directly holding UPT (4x)**. Furthermore, DAOs that conduct at least one governance proposal per week will receive an additional 50% in points, potentially leading to **three times** the points of an individual directly holding UPT (**up to 6x**).
-  * Crucially, we allow DAOs to pair the UPT in their treasury with Memecoins to **add liquidity** (LP), thereby minting [**Proof of Liquidity (POL) tokens**](../fflaunch/proof-of-liquidity-token/).
-  * These POL tokens will also earn points, and **their value includes the paired Memecoin's value**. This is equivalent to **using Memecoins to apply risk-free leverage to points farming**, thereby yielding significantly higher point multipliers, **far exceeding 6x**.
+* **Memeverse High Multiplier Incentive**:
+  * The points multiplier for UPT participating in the Memeverse Genesis is 4x.
+  * The Memecoin DAO treasury will hold a large amount of UPT, sourced from 20% of the genesis funds and subsequent genesis liquidity provision revenue. We have set the points multiplier for the DAO treasury to an impressive 10x. **This means that 10x × 20% of the initial allocation will generate points equivalent to an individual directly holding UPT (2x)**.
+  * More importantly, we allow the DAO to pair the UPT in the treasury with Memecoin to add liquidity (LP), thereby minting [**Proof of Liquidity (POL) tokens**](../fflaunch/proof-of-liquidity-token/). These POL tokens will also earn points, and their value includes the paired Memecoin value. This is equivalent to using Memecoin to add risk-free leverage to points farming, resulting in higher multiplier point yields.
+  * DAOs that successfully conduct **at least one governance proposal per week** will receive an additional +50% points bonus. DAOs achieving 200, 400, 600, 800, or 1,000 **social media shares** per week can receive up to an additional +(20–100)% points bonus.
 
 This points incentive mechanism can deeply **guide user participation** in the **Memeverse** module and **Memecoin DAO Governance**. At the same time, because the underlying functionalities of the Memeverse module are jointly supported by the **OutStake** and **OutSwap** modules, this incentive design will ensure that the entire Outrun ecosystem **synergistically benefits**, **maximizing overall value**.
 
