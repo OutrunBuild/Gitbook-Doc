@@ -44,7 +44,7 @@ YT 锚定利率是衡量 YT 价值的关键指标，但是它是**从零开始�
 
 **第三步：计算未来预期产生的不确定性总收益** $$Y_{uncertainty}$$
 
-<p align="center"><span class="math">Y_{uncertainty} = \frac{P_{unlocked} \times APY_{underlying}}{365 \times EX} </span></p>
+<p align="center"><span class="math">Y_{uncertainty} = \frac{P_{unlocked} \times APY_{underlying}}{EX} </span></p>
 
 **第四步：计算每个 YT 的预期可赎回价值** $$RV_{future}$$
 
