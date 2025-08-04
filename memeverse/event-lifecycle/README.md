@@ -19,7 +19,7 @@
 **2. 创世阶段**
 
 * 在创世阶段，用户可以在该 Memecoin DAO 所处的任何一条链上参与创世，在该链上部署流动性。
-* 创世成员需要向指定的 Memecoin DAO 存入 [UPT](../../outstake/yield-tokenization/upt/)，MemeverseLauncher 会记录每位创世成员存入的 **GenesisFund**，其中 GenesisFund 的 **1/5** 为 **liquidProofFunds**，**4/5** 为 **memecoinFunds**，会分别累加到 **totalMemecoinFunds** 以及 **totalLiquidProofFunds**。
+* 创世成员需要向指定的 Memecoin DAO 存入 [**UPT**](../../outstake/yield-tokenization/upt/)，MemeverseLauncher 会记录每位创世成员存入的 **GenesisFund**，其中 GenesisFund 的 **1/5** 为 **liquidProofFunds**，**4/5** 为 **memecoinFunds**，会分别累加到 **totalMemecoinFunds** 以及 **totalLiquidProofFunds**。
 * 为了防止 Memecoin DAO 的创世泛滥以及保证**足够的流动性**，每条链创世阶段所积攒的资金量必须达到 **minTotalFunds** 才能进入下个阶段，否则将会进入**退款阶段**。
 
 **3.1. 退款阶段**
@@ -36,6 +36,6 @@
 
 * 当前阶段为流动性锁定阶段且区块时间大于 Memeverse 的 unlockTime 时，任何人都可以调用 changeStage 方法进入流动性解锁阶段。
 * 在流动性解锁阶段，用户可以销毁 POL 代币以赎回 **Memecoin / UPT** 和 **POL / UPT** 交易对的**创世流动性**。
-* 在区块时间到达 unlockTime 之后实施 48 小时的[**流动性保护期**](../../fflaunch/proof-of-liquidity-token/)期间 **Memecoin / UPT** 和 **POL / UPT** 流动性池只能进行**流动性赎回和添加**的操作，**无法进行 Swap 操作**。
+* 在区块时间到达 unlockTime 之后实施 **48 小时**的[**流动性保护期**](../../fflaunch/proof-of-liquidity-token/#liu-dong-xing-bao-hu-qi)，期间 **Memecoin / UPT** 和 **POL / UPT** 流动性池只能进行**流动性赎回和添加**的操作，**无法进行 Swap 操作**。
 
 **这些阶段和实体共同定义了 Memeverse 事件的完整生命周期，确保 Memecoin 在整个生命周期中的安全性、透明度和合规性。**
