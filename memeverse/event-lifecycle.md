@@ -4,8 +4,8 @@ Compared to FFLaunch events, the lifecycle of Memeverse events is simpler, invol
 
 #### Entities
 
-1. Investors
-2. Creator
+1. **Proposer**
+2. **Participant**
 
 #### Stages
 
@@ -13,23 +13,23 @@ Starting from the **genesis stage**, each stage transition of **Memecoin DAO** r
 
 **1. Preparation Stage**
 
-* Creators input relevant information as prompted on the **website UI** of Memeverse to set all the rules for the genesis of Memecoin DAO, select the blockchains (either a single one or multiple ones) for the genesis. After paying the cross-chain verification fee and the gas fee for transactions on the target chain and sending the transaction, they wait for the verification nodes to confirm and complete the registration across all chains. Once the registration is completed, they can enter the genesis stage.
+* Proposer input relevant information as prompted on the **website UI** of Memeverse to set all the rules for the genesis of Memecoin DAO, select the blockchains (either a single one or multiple ones) for the genesis. After paying the cross-chain verification fee and the gas fee for transactions on the target chain and sending the transaction, they wait for the verification nodes to confirm and complete the registration across all chains. Once the registration is completed, they can enter the genesis stage.
 * It should be noted that the registered symbol will be locked before the end of the **liquidity lock-up stage** or before it is **deregistered** and cannot be registered again.
 
 **2. Genesis Stage**
 
-* During the genesis stage of Memecoin DAO, users can participate in the genesis on any chain and deploy liquidity for that chain..
-* Genesis members must deposit UPT into the designated Memecoin DAO. Launcher records the **GenesisFund** contributed by each genesis member, allocating **1/5** as **liquidProofFunds** and **4/5** as **memecoinFunds**, which are then accumulated into **totalMemecoinFunds** and **totalLiquidProofFunds**, respectively.
+* During the genesis stage of Memecoin DAO, participants can participate in the genesis on any chain and deploy liquidity for that chain..
+* Participants  must deposit UPT into the designated Memecoin DAO. Launcher records the **GenesisFund** contributed by each participants, allocating **1/5** as **liquidProofFunds** and **4/5** as **memecoinFunds**, which are then accumulated into **totalMemecoinFunds** and **totalLiquidProofFunds**, respectively.
 * To prevent the **excessive occurrence** of Memecoin DAO's genesis and to **ensure sufficient liquidity**, the amount of funds accumulated during the genesis stage on each chain must reach **minTotalFunds** before it can enter the next stage. Otherwise, it will enter the **refund stage**.
 
 **3.1. Refund Stage**
 
 * When the current stage is the genesis stage and the block time is greater than the endTime of Memecoin DAO, anyone can call the changeStage method to conduct stage transition. If the genesis funds accumulated on the current chain are **less than minTotalFunds**, it will enter the refund stage.&#x20;
-* During the refund stage, users can redeem all the UPTs they deposited on the current chain during the genesis stage of this Memecoin DAO.
+* During the refund stage, participants can redeem all the UPTs they deposited on the current chain during the genesis stage of this Memecoin DAO.
 
 **3.2. Liquidity Locking Stage**
 
-* When the current stage is the genesis stage and the block time is greater than the endTime of Memecoin DAO, anyone can call the changeStage method to conduct stage transition. If the genesis funds accumulated on the current chain are **greater than or equal to minTotalFunds**, it will enter the liquidity lock-up stage. At this time, the contract will mint the corresponding number of Memecoins according to the totalMemecoinFunds in the genesis stage. These Memecoins will form trading pairs with UPTs whose quantity is equal to the totalMemecoinFunds and be deployed on the **OutrunAMM**. The liquidity provider (LP) will be locked until the unlockedTime. Meanwhile, [**POL**](../fflaunch/proof-of-liquidity-token/) **tokens** with the same quantity as the LP will be minted. **1/4** of the POL tokens will be sent to the DAO treasury, **1/8** of the POL tokens will be paired with an amount of UPT equal to totalLiquidProofFunds to form a POL trading pair, and the remaining **3/8** of the POL tokens will be distributed to genesis users.
+* When the current stage is the genesis stage and the block time is greater than the endTime of Memecoin DAO, anyone can call the changeStage method to conduct stage transition. If the genesis funds accumulated on the current chain are **greater than or equal to minTotalFunds**, it will enter the liquidity lock-up stage. At this time, the contract will mint the corresponding number of Memecoins according to the totalMemecoinFunds in the genesis stage. These Memecoins will form trading pairs with UPTs whose quantity is equal to the totalMemecoinFunds and be deployed on the **OutrunAMM**. The liquidity provider (LP) will be locked until the unlockedTime. Meanwhile, [**POL**](../fflaunch/proof-of-liquidity-token/) **tokens** with the same quantity as the LP will be minted. **1/4** of the POL tokens will be sent to the DAO treasury, **1/8** of the POL tokens will be paired with an amount of UPT equal to totalLiquidProofFunds to form a POL trading pair, and the remaining **3/8** of the POL tokens will be distributed to genesis members.
 * During the liquidity-locking phase, the UPT portion of the market-making revenue generated by the locked **Memecoin / UPT** and **POL /UPT** genesis liquidity accrues to the **Memecoin DAO Treasury**, providing economic support and incentives for community operations; the Memecoin portion of the market-making revenue flows into the **Memecoin Yield Vault**, supplying continuous rewards for **Memecoin staking**; and **the POL portion of the market-making revenue is burned**.
 
 **4. Liquidity Unlocking Stage**
