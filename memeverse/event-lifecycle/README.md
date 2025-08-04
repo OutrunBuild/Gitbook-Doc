@@ -4,8 +4,8 @@
 
 #### 实体
 
-1. 投资者
-2. 创建者
+1. 提议者
+2. 参与者
 
 #### 阶段
 
@@ -13,19 +13,19 @@
 
 **1. 准备阶段**
 
-* 创建者在 Memeverse 的**网站 UI** 上按照提示输入相关的信息设置创世 Memecoin DAO 的所有规则，选择创世的区块链（单个或者多个区块链），在支付跨链验证费以及目标链交易 gas 费并发送交易后，等待验证节点确认并完成全链注册，注册完成后即可进入创世阶段。
+* 提议者在 Memeverse 的**网站 UI** 上按照提示输入相关的信息设置创世 Memecoin DAO 的所有规则，选择创世的区块链（单个或者多个区块链），在支付跨链验证费以及目标链交易 gas 费并发送交易后，等待验证节点确认并完成全链注册，注册完成后即可进入创世阶段。
 * 需要注意的是，被注册的 Symbol 在**创世阶段**结束前将被锁定，无法被重复注册。
 
 **2. 创世阶段**
 
-* 在创世阶段，用户可以在该 Memecoin DAO 所处的任何一条链上参与创世，在该链上部署流动性。
-* 创世成员需要向指定的 Memecoin DAO 存入 [**UPT**](../../outstake/yield-tokenization/upt/)，MemeverseLauncher 会记录每位创世成员存入的 **GenesisFund**，其中 GenesisFund 的 **1/5** 为 **liquidProofFunds**，**4/5** 为 **memecoinFunds**，会分别累加到 **totalMemecoinFunds** 以及 **totalLiquidProofFunds**。
+* 在创世阶段，参与者可以在该 Memecoin DAO 所处的任何一条链上参与创世，在该链上部署流动性。
+* 参与者需要向指定的 Memecoin DAO 存入 [**UPT**](../../outstake/yield-tokenization/upt/)，MemeverseLauncher 会记录每位参与者存入的 **GenesisFund**，其中 GenesisFund 的 **1/5** 为 **liquidProofFunds**，**4/5** 为 **memecoinFunds**，会分别累加到 **totalMemecoinFunds** 以及 **totalLiquidProofFunds**。
 * 为了防止 Memecoin DAO 的创世泛滥以及保证**足够的流动性**，每条链创世阶段所积攒的资金量必须达到 **minTotalFunds** 才能进入下个阶段，否则将会进入**退款阶段**。
 
 **3.1. 退款阶段**
 
 * 当前阶段为创世阶段且区块时间大于 Memecoin DAO 的 endTime 时，任何人都可以调用 changeStage 方法进行阶段转换，如果当前链上积累的创世资金**小于 minTotalFunds** 则会进入退款阶段。
-* 在退款阶段，用户可以赎回在该 Memecoin DAO 创世阶段当前链上存入的所有 UPT。
+* 在退款阶段，创世成员可以赎回在该 Memecoin DAO 创世阶段当前链上存入的所有 UPT。
 
 **3.2. 流动性锁定阶段**
 
