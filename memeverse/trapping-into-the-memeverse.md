@@ -1,6 +1,6 @@
 # Trapping into the Memeverse
 
-> "A finite game is played for the purpose of winning. An infinite game for the purpose of continuing the play."&#x20;
+> "A finite game is played for the purpose of winning. An infinite game for the purpose of continuing the play."
 
 Inspired by **FFLaunch**, "**sustainability**" is at the core of **Memeverse**’s design philosophy. Born for Memecoins, Memeverse aims to completely reshape the Memecoin space. It incorporates all the strengths of FFLaunch while introducing unique features such as **Memecoin Staking** and **Memecoin DAO governance**, thereby expanding the potential of Memecoins into **DeFi** and any possible **real-world use cases**.
 
@@ -8,9 +8,7 @@ Memeverse is built based on **LayerZero**. Users can choose to deploy Memecoins 
 
 Compared with the access threshold of FFLaunch, anyone can create their own Memecoins on Memeverse. All these tokens adhere to the **Fair\&Free** concept. Due to the absence of an access threshold on Memeverse, for security considerations, Memeverse has removed the customizable token generator interface and uses a universal token template to create Memecoins. Users don't need any programming knowledge. They can complete all the deployments with just one click using our website UI.
 
-The tokens deployed on FFLaunch are basically utility tokens, which have inherent value in themselves and relatively good liquidity. However, most Memecoins lack practical value, **and their price fluctuations are greatly influenced by token liquidity**. Therefore, a portion of the liquidity of the Memecoins deployed on Memeverse will be **locked permanently** to support the **continuous liquidity** of the Memecoins.
-
-The market-making income from the locked liquidity is divided into two parts. One part is in the form of Memecoins and belongs to the [**Memecoin Yield Vault**](meme-defi-dao/memecoin-staking.md), while the other part is in the form of UPTs and belongs to the [**Memecoin DAO Treasury**](meme-defi-dao/memecoin-dao-governance/). The advantage of such a design is that the continuous income obtained by the **Memecoin DAO Treasury** is in UPTs rather than Memecoins. This helps to **avoid the situation where the Memecoin DAO acquires a large amount of Memecoins and subsequently manipulates the market through malicious governance actions**. Memecoins should belong to the community, community members holding Memecoins can earn additional rewards from the **Memecoin Yield Vault** by staking their Memecoins and also participate in the governance of the **Memecoin DAO**, which helps community holders build a stronger consensus.
+The market-making revenue generated from the locked genesis liquidity iis split into two parts. One part is in the form of Memecoins and belongs to the [**Memecoin Yield Vault**](meme-defi-dao/memecoin-staking.md), while the other part is in the form of UPTs and belongs to the [**Memecoin DAO Treasury**](meme-defi-dao/memecoin-dao-governance/). Memecoin-holding community members can stake their tokens to earn additional rewards from the Memecoin Yield Vault and participate in **Memecoin DAO governance**, fostering stronger consensus among community holders.
 
 For details regarding FFLaunch features, please refer to the comprehensive FFLaunch [documentation](../fflaunch/).
 

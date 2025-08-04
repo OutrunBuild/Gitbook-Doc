@@ -6,7 +6,7 @@ The dark forest always harbors tempting wealth. **MEV (Maximal Extractable Value
 
 ### **Initial Liquidity Front-Running Attack**
 
-In the traditional token listing process, the project party or fundraising platform usually directly deploys the liquidity pool on a Decentralized Exchange (DEX). However, this actually creates a major market vulnerability. Some professional quantitative trading bots or malicious project parties can conduct a “**Front-Running Attack**” to sweep up a large number of tokens in the same block as the initial liquidity deployment. As a result, the majority of the token supply in the early liquidity pool is often cornered by a few individuals, resulting in a distorted holding structure.
+In the traditional token listing process, the project party or fundraising platform usually directly deploys the liquidity pool on a Decentralized Exchange (DEX). However, this actually creates a major market vulnerability. Some professional quantitative trading bots or malicious project parties can conduct a “**Front-Running Attack**” to sweep up a large number of tokens in the same block as the initial liquidity deployment (**Sniping**). As a result, the majority of the token supply in the early liquidity pool is often cornered by a few individuals, resulting in a distorted holding structure.
 
 These market imbalances trigger multiple negative effects:
 
