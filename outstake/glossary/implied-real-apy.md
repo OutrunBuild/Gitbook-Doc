@@ -25,22 +25,21 @@ The $$Y_{future}$$ component, in turn, consists of two parts:
 **Step 1: Define Variables**
 
 * $$Y_{accrued}:$$  Total accumulated but unclaimed yields in the current Yield Pool.
-* $$P_{locked}:$$  Total principal of yield-bearing assets currently locked and generating yields, measured in the accounting asset.
-* $$P_{unlocked}:$$  Total principal of yield-bearing assets that are unlocked but unredeemed and still generating yields, measured in the accounting asset.
+* $$SY_{locked}:$$  Total yield-bearing assets currently locked and generating yields.
+* $$SY_{unlocked}:$$  Total yield-bearing assets that are unlocked but unredeemed and still generating yields.
 * $$D_{remaining}:$$  Weighted average remaining lock-up days, calculated by taking the weighted average of the remaining days of each locked position and its locked principal.
 * $$YT_{supply}:$$  Total circulating supply of YT.
 * $$APY_{underlying}:$$  Current real-time APY of the underlying yield-bearing token.
-* $$EX:$$  Exchange rate of the yield-bearing token relative to the accounting asset.
 
 **Step 2: Calculate the Deterministic Total Yields Expected in the Future** $$Y_{certainty}$$
 
-This portion of yields is what the currently locked principal will generate in the future.
+This portion of yields is what the currently locked yield-bearing assets will generate in the future.
 
-<p align="center"><span class="math">Y_{certainty} = \frac{P_{locked} \times APY_{underlying} \times D_{remaining}}{365 \times EX} </span></p>
+<p align="center"><span class="math">Y_{certainty} = \frac{SY_{locked} \times APY_{underlying} \times D_{remaining}}{365} </span></p>
 
 **Step 3: Calculate the Uncertain Total Yields Expected in the Future** $$Y_{uncertainty}$$
 
-<p align="center"><span class="math">Y_{uncertainty} = \frac{P_{unlocked} \times APY_{underlying}}{EX} </span></p>
+<p align="center"><span class="math">Y_{uncertainty} = SY_{unlocked} \times APY_{underlying}</span></p>
 
 **Step 4: Calculate the Expected Redeemable Value per YT** $$RV_{future}$$
 
