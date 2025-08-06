@@ -40,7 +40,7 @@ This portion of yields is what the currently locked principal will generate in t
 
 **Step 3: Calculate the Uncertain Total Yields Expected in the Future** $$Y_{uncertainty}$$
 
-<p align="center"><span class="math">Y_{uncertainty} = \frac{P_{unlocked} \times APY_{underlying}}{365 \times EX} </span></p>
+<p align="center"><span class="math">Y_{uncertainty} = \frac{P_{unlocked} \times APY_{underlying}}{EX} </span></p>
 
 **Step 4: Calculate the Expected Redeemable Value per YT** $$RV_{future}$$
 
