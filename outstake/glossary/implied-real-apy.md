@@ -29,22 +29,21 @@ YT 锚定利率是衡量 YT 价值的关键指标，但是它是**从零开始�
 **第一步：定义变量**
 
 * $$Y_{accrued}：$$当前收益池中已经累积、但尚未被领取的总收益金额。
-* $$P_{locked}：$$当前仍在锁定状态、正在产生收益的生息资产的本金总量，以记账资产为单位。
-* $$P_{unlocked}：$$当前已解锁但未赎回、正在产生收益的生息资产的本金总量，以记账资产为单位。
+* $$SY_{locked}：$$当前仍在锁定状态、正在产生收益的生息资产总量。
+* $$SY_{unlocked}：$$当前已解锁但未赎回、正在产生收益的生息资产总量。
 * $$D_{remaining}：$$剩余的加权平均锁仓天数。将每个锁定头寸的剩余天数和锁定本金加权平均。
 * $$YT_{supply}：$$当前 YT 的总流通供应量。
 * $$APY_{underlying}：$$底层生息代币的当前 APY。
-* $$EX：$$生息代币相对与记账资产的汇率
 
 **第二步：计算未来预期产生的确定性总收益** $$Y_{certainty}$$
 
-这部分收益是当前锁定的本金在未来将产生的。
+这部分收益是当前锁定的生息资产在未来将产生的。
 
-<p align="center"><span class="math">Y_{certainty} = \frac{P_{locked} \times APY_{underlying} \times D_{remaining}}{365 \times EX} </span></p>
+<p align="center"><span class="math">Y_{certainty} = \frac{SY_{locked} \times APY_{underlying} \times D_{remaining}}{365} </span></p>
 
 **第三步：计算未来预期产生的不确定性总收益** $$Y_{uncertainty}$$
 
-<p align="center"><span class="math">Y_{uncertainty} = \frac{P_{unlocked} \times APY_{underlying}}{EX} </span></p>
+<p align="center"><span class="math">Y_{uncertainty} = SY_{unlocked} \times APY_{underlying}</span></p>
 
 **第四步：计算每个 YT 的预期可赎回价值** $$RV_{future}$$
 
