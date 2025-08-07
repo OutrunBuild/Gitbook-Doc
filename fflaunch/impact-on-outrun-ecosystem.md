@@ -7,6 +7,15 @@
 * 用户在质押生息代币后，将获得相应的 [**YT**](https://outrun.gitbook.io/doc/v/zh/outstake/yield-tokenization/yt) 代币。
 * 由于质押的资产增加，Outstake 的总锁定价值 (TVL) 也会显著提高。
 
+FFLaunch 使整个 Outrun 生态系统具有**极高的资本效率**。
+
+例如，质押 150 ETH 铸造（接近）**150 UETH**，然后通过参与 FFLaunch **创世**，这 150 UETH 分为两部分。
+
+1. **100 UETH** 与新铸造的价值 100 UETH 的 项目代币组成交易对，从而铸造价值 **200 UETH** 的 [**POL**](proof-of-liquidity-token/) 代币。
+2. **50 UETH** 与价值 50 UETH 的 POL 代币组成交易对，从而创造价值 **100 UETH** 的流动性。
+
+最后用户得到价值 **150 UETH** 的 POL 代币。整个流程一共创造了价值 **600 ETH** 的 TVL 和流动性，并且随着交易，项目代币价格上涨，TVL 也会对应上涨。
+
 **提高 LST 的需求**
 
 参与 FFLaunch 需要使用 [**UPT**](../outstake/yield-tokenization/upt/)，可以选择质押更多的生息代币，也可以直接从 Outswap 上购买，这些代币会被锁定在 Outswap 中，用户在交易代币时也需要使用 UPT。

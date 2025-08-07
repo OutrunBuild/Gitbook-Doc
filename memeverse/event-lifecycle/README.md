@@ -29,7 +29,7 @@
 
 **3.2. 流动性锁定阶段**
 
-* 当前阶段为创世阶段且区块时间大于 Memecoin DAO 的 endTime 时，任何人都可以调用 changeStage 方法进行阶段转换，如果当前链上积累的创世资金**大于等于 minTotalFunds** 则会进入流动性锁定阶段。此时合约会根据创世阶段的 totalMemecoinFunds 铸造对应数量的 Memecoin，这些 Memecoin 将会和数量等同于 totalMemecoinFunds 的 UPT 组成交易对并部署在 **OutrunAMM** 上。LP 代币将被锁定直到 unlockTime，同时铸造与 LP 代币数量一样的 [**POL**](../../fflaunch/proof-of-liquidity-token/) 代币，**1/4** 数量的 POL 代币会发送到 DAO 国库，**1/8** 数量的 POL 代币会与数量等同于 totalLiquidProofFunds 的 UPT 组成 POL 交易对，剩余 **3/8** 的 POL 代币将分配给创世用户。
+* 当前阶段为创世阶段且区块时间大于 Memecoin DAO 的 endTime 时，任何人都可以调用 changeStage 方法进行阶段转换，如果当前链上积累的创世资金**大于等于 minTotalFunds** 则会进入流动性锁定阶段。此时合约会根据创世阶段的 totalMemecoinFunds 铸造对应数量的 Memecoin，这些 Memecoin 将会和数量等同于 totalMemecoinFunds 的 UPT 组成交易对并部署在 **OutrunAMM** 上。LP 代币将被锁定直到 unlockTime，同时铸造与 LP 代币数量一样的 [**POL**](../../fflaunch/proof-of-liquidity-token/) 代币，**1/4** 数量的 POL 代币会发送到 DAO 国库，**1/8** 数量的 POL 代币会与数量等同于 totalLiquidProofFunds 的 UPT 组成 POL 交易对，剩余 **5/8** 的 POL 代币将分配给创世用户。
 * 在流动性锁定阶段，锁定的 **Memecoin / UPT** 和 **POL / UPT** 两个交易对的创世流动性产生的做市收益的 UPT 部分归属于 **Memecoin DAO 国库**，从而为 Memecoin 社区运营提供经济支持与激励，做市收益的 Memecoin 部分将会进入 **Memecoin 收益金库**，为 **Memecoin Staking** 提供持续的收益，最后做市收益的 **POL 部分将会被销毁**。
 
 **4. 流动性解锁阶段**
