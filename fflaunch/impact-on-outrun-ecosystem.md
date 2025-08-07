@@ -7,6 +7,15 @@ Users participating in FFLaunch will stake their **Yield-bearing Tokens** in the
 * Users will receive corresponding [**YT**](../outstake/yield-tokenization/yt.md) after staking Yield-bearing Tokens.
 * The total locked value (TVL) of Outstake will significantly increase due to the increase in staked assets.
 
+FFLaunch enables the entire Outrun ecosystem to possess **extremely high capital efficiency**.
+
+For example, stake 150 ETH to mint (nearly) **150 UETH**, and then by participating in the **Genesis** of FFLaunch, the 150 UETH will be divided into two parts.
+
+1. **100 UETH** will form trading pairs with newly minted project tokens worth 100 UETH, thus minting [**POL**](proof-of-liquidity-token/) tokens worth **200 UETH**.
+2. **50 UETH** will form trading pairs with POL tokens worth 50 UETH, thereby creating liquidity worth **100 UETH**.
+
+Finally, users will obtain POL tokens worth **150 UETH**. The whole process has created a TVL and liquidity worth 600 ETH in total. Moreover, as transactions take place and the price of project tokens goes up, the TVL will also increase accordingly.
+
 ### Boosting Demand for UPTs
 
 Participating in FFLaunch requires the use of UPT, which can be obtained either by staking more yield-bearing tokens or by purchasing directly on Outswap. These tokens will be locked within Outswap, and users will also need to use UPT when trading tokens.
