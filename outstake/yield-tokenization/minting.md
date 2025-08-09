@@ -14,6 +14,6 @@ _slisBNB_ 和 _stETH_ 就是**生息代币**的示例。
 * **UPT** 代表底层生息代币的初始本金部分。
 * **YT** 代表对该资产所有利息收益的权利。
 
-用户可以把生息资产（例如 stETH）质押在 OutStake 来铸造 SP，YT 以及 UPT。基础资产（例如 ETH）将在质押之前，自动转换为生息资产。
+用户可以通过在 **OutStake** 质押生息资产（例如 stETH）来铸造 SP，YT 以及 UPT。底层基础资产（例如 ETH）将在质押之前，自动转换为生息资产。
 
 例如，ETH → wstETH → SY-wstETH → (SP-wstETH + YT-wstETH)，SP-wstETH <=> UETH。
