@@ -10,11 +10,11 @@ description: Omnichain Stablecoin
 
 ### **Underlying Mechanism**
 
-1. **Staking:** Users stake their **SY tokens** and enable **UPT mode**.
+1. **Staking:** Users stake their underlying assets or yield-bearing assets, which are automatically converted into **SY** tokens.
 2. **Minting:** After staking, **transferable SP tokens** will be minted 1:1 based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
-3. **Splitting:** At this point, the split quantity of UPT differs from the standard PT mode and is also related to the **staking duration (i.e., the amount of YT minted)**. This operation will render the original SP non-transferable but will not destroy it, allowing it to remain trackable. The specific calculation method is as follows:
+3. **Splitting:** The split amount of UPT is related to the **staking duration** (i.e., the number of YT minted). This operation will render the original SP non-transferable but will not destroy it, allowing it to remain trackable. The specific calculation method is as follows:
 
-<p align="center"><span class="math">\text{PT Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
+<p align="center"><span class="math">\text{Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
 
 1. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This action will synthesize the UPT with the non-transferable SP back into the original transferable SP.
 
@@ -39,7 +39,16 @@ As UPT, UETH can fundamentally resolve this issue. It integrates the liquidity o
 
 ### **Strict Auditing Mechanism**
 
-It's important to note that not all yield-bearing assets backed by the same underlying asset can be used to mint UPT. To ensure the robustness and security of the entire ecosystem, OutStake puts potential yield-bearing assets through a series of **strict audits**. These assessments consider crucial factors like **security, stability, and decentralization**
+It's important to note that not all yield-bearing assets backed by the same underlying asset can be used to mint UPT. To ensure the robustness and security of the entire ecosystem, OutStake puts potential yield-bearing assets through a series of **strict audits**. These assessments consider crucial factors like **security, stability, and decentralization**.
+
+### Important Considerations:
+
+**UPT has no expiration date and is a generic ERC20 token. It cannot be directly redeemed for the principal portion of a staked position.** This differs from other protocols in the market. You **must first synthesize UPT into a transferable SP**, and then, after the staked position matures, redeem your principal by burning that SP.
+
+**Holding UPT alone does not yield fixed interest rate returns.** The yield is associated with **transferable SP**. To obtain this yield, you have two options:
+
+1. Your wallet already contains non-transferable SP, which allows you to synthesize it with UPT to form a transferable SP by burning the UPT.
+2. Directly purchase transferable SP from the market.
 
 ## **As Stablecoin**
 
