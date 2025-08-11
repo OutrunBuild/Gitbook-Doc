@@ -12,11 +12,10 @@ description: Omnichain Stablecoin
 
 1. **Staking:** Users stake their underlying assets or yield-bearing assets, which are automatically converted into **SY** tokens.
 2. **Minting:** After staking, **transferable SP tokens** will be minted 1:1 based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
-3. **Splitting:** The split amount of UPT is related to the **staking duration** (i.e., the number of YT minted). This operation will render the original SP non-transferable but will not destroy it, allowing it to remain trackable. The specific calculation method is as follows:
-
-<p align="center"><span class="math">\text{Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
-
-1. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This action will synthesize the UPT with the non-transferable SP back into the original transferable SP.
+3. **Splitting:** The split quantity of UPT is related to the **staking duration** (i.e., the amount of YT minted) and the **Mint-to-Value ratio** (MTV). This operation will render the original SP **non-transferable** but will not destroy it, and it can still be used for tracking. The specific calculation method is as follows:
+   * $$\text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})$$
+   * **MTV** limits **the maximum amount of UPT that can be minted**. For example, when MTV is 95%, the maximum amount of UPT that can be minted is capped at 95% of the value of the staked interest-bearing assets.
+4. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This action will synthesize the UPT with the non-transferable SP back into the original transferable SP.
 
 For example:
 

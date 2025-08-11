@@ -10,11 +10,10 @@ The **Staking Position (SP)** token represents **the redemption right of the pri
 
 1. **Staking:** Users stake their underlying assets or yield-bearing assets, which are automatically converted into **SY** tokens.
 2. **Minting:** Staking will result in the 1:1 minting of **transferable SP (Staking Position) tokens** based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
-3. **Splitting:** Users can split their **SP tokens** into **UPT**. This operation makes the original SP non-transferable but does not destroy it, allowing it to still be tracked. The amount of UPT split is related to the **staking duration** (i.e., the amount of YT minted). The specific calculation method is as follows:
-
-<p align="center"><span class="math">\text{SP Quantity} = \text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})</span></p>
-
-3. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This operation will synthesize the UPT with the non-transferable SP back into the original transferable SP.
+3. **Splitting:** Users can split their SP tokens into UPT. This operation renders the original SP tokens **non-transferable** but does not destroy them, allowing them to remain trackable. The amount of UPT split is related to the **staking duration** (i.e., the number of YT tokens minted) and the **Minting Value Ratio** (MTV). The specific calculation method is as follows:
+   * $$\text{SY Accounting Value} - (\text{YT Quantity} \times \text{YT Redeemable Value})$$
+   * **MTV** limits **the maximum amount of UPT that can be minted**. For example, when MTV is 95%, the maximum amount of UPT that can be minted is capped at 95% of the value of the staked interest-bearing assets.
+4. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This operation will synthesize the UPT with the non-transferable SP back into the original transferable SP.
 
 After the position's lock-up period expires, **a fixed quantity of transferable SP can be burned to redeem a corresponding fixed quantity of the yield-bearing token's principal for that position**. This mechanism allows for the formation of varying fixed interest rates based on market prices and the lock-up expiration time. By holding transferable SP, you can earn fixed interest rate yields denominated in the accounting asset.
 
