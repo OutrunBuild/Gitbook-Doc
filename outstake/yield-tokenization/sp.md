@@ -15,7 +15,7 @@ The **Staking Position (SP)** token represents **the redemption right of the pri
    * **MTV** limits **the maximum amount of UPT that can be minted**. For example, when MTV is 95%, the maximum amount of UPT that can be minted is capped at 95% of the value of the staked interest-bearing assets.
 4. **Synthesizing:** Users retain the right to burn their **UPT** at any time. This operation will synthesize the UPT with the non-transferable SP back into the original transferable SP.
 
-After the position's lock-up period expires, **a fixed quantity of transferable SP can be burned to redeem a corresponding fixed quantity of the yield-bearing token's principal for that position**. This mechanism allows for the formation of varying fixed interest rates based on market prices and the lock-up expiration time. By holding transferable SP, you can earn fixed interest rate yields denominated in the accounting asset.
+After the position's lock-up period expires, **a fixed quantity of transferable SP can be burned to redeem a corresponding fixed quantity of the yield-bearing token's principal for that position**. This mechanism allows for the formation of varying **fixed interest rates** based on market prices and the lock-up expiration time. By holding transferable SP, you can earn **fixed interest rate yields** denominated in the accounting asset.
 
 In general, Yield-bearing Tokens can be roughly classified as follows:
 
