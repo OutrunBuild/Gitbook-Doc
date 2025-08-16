@@ -59,6 +59,7 @@
   * [与 Pump.fun 对比](memeverse/compared-with-pump.fun.md)
 * [去中心化社交（未来）](desocial.md)
 * [FAQ](faq.md)
+* [Outrun 的协同增效与资本效率](outrun-de-xie-tong-zeng-xiao-yu-zi-ben-xiao-l.md)
 * [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
 * [GTM 策略（待定）](gtm-strategy/README.md)
