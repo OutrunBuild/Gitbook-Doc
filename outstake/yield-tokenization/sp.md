@@ -6,7 +6,7 @@ description: Staking Position
 
 The **Staking Position (SP)** token represents **the redemption right of the principal for a locked position upon maturity**. Supported by the [ERC-6909](https://eips.ethereum.org/EIPS/eip-6909) standard, it enables users to transfer partial redemption rights of their position. Holders can sell their SP, effectively achieving a "pre-redemption" operation. The SP contract records the immutable metadata of the position, including the **SY staking amount, constant principal value, SP minted amount, lock-up expiration time, UPT minted amount, and more**.
 
-### Underlying Mechanism
+### **Underlying Mechanism**
 
 1. **Staking:** Users stake their underlying assets or yield-bearing assets, which are automatically converted into **SY** tokens.
 2. **Minting:** Staking will result in the 1:1 minting of **transferable SP (Staking Position) tokens** based on the value of the SY token relative to its accounting asset. For example, if 1 SY-wstETH = 1.1 ETH, staking 1 SY-wstETH will mint 1.1 SP-wstETH.
@@ -29,7 +29,7 @@ _Examples: wstETH, Stone, slisBNB_
 
 **It is important to note**: For reward-bearing non-rebase Yield-bearing Tokens, the quantity of staked Yield-bearing Tokens in the position does not change after the lock-up period expires. However, their value (relative to the **account asset token**'s exchange ratio) will increase with the accumulation of yields. Thus, burning PT does not redeem the same quantity of non-rebase Yield-bearing Tokens as initially staked, instead, it will be slightly less because part of the value is attributed to YT.
 
-### SP Trading Market
+### **SP Trading Market**
 
 Building an **SP (Staking Position) trading market** comes with a very interesting characteristic: even though SP is an ERC-6909 standard token, its trading market doesn't require proactive market making. This is because the nature of SP inherently gives any SP trading market **AMM-like properties**.
 

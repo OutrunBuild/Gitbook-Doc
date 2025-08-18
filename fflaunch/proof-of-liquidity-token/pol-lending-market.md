@@ -11,7 +11,7 @@ The POL lending market is essentially **a UPT lending market that uses the princ
 
 When participating in a genesis event, users can opt to borrow UPT for a **fixed term** (aligned with the liquidity lock-up period of the project) by **paying only interest**. The minted POL tokens are split into PT (principal token) and YT (yield token), with the PT locked in the contract and the YT distributed to the user.
 
-Upon liquidity unlocking and entering the liquidity protection period, the protocol conducts a **global settlement**. This process burns all locked PTs to redeem the genesis principal for debt repayment, with **any remaining tokens allocated as profits to the YT**. Even in the most extreme scenarios, users **only risk losing the paid interest**, while the potential upside remains unlimited.
+Upon liquidity unlocking and entering the [**liquidity protection period**](./#liquidity-protection-period), the protocol conducts a **global settlement**. This process burns all locked PTs to redeem the genesis principal for debt repayment, with **any remaining tokens allocated as profits to the YT**. Even in the most extreme scenarios, users **only risk losing the paid interest**, while the potential upside remains unlimited.
 
 For example:
 

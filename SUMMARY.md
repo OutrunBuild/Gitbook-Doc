@@ -59,6 +59,7 @@
   * [Compared with Pump.fun](memeverse/compared-with-pump.fun.md)
 * [DeSocial (Future)](desocial.md)
 * [FAQ](faq.md)
+* [Growth Flywheel](growth-flywheel.md)
 * [Targets Audience](targets-audience.md)
 * [Business Model](business-model.md)
 * [GTM Strategy (Pending)](gtm-strategy/README.md)

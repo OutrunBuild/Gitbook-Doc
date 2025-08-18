@@ -24,6 +24,10 @@ For example:
 
 The core advantage of this mechanism is that it **enables liquidity to be shared across different yield-bearing tokens that are based on the same underlying asset**. This significantly enhances the liquidity of similar yield-bearing tokens and greatly boosts their composability and network effects.
 
+### **Wrap Stake**
+
+**Wrap Stake** is a direct method for minting UPT, distinct from splitting UPT from SP. It is **not subject to MTV restrictions**, but instead mints UPT at a **1:1** ratio based on the value of the corresponding accounting asset token, with a **0.1%** fee, and **does not mint YT**, meaning the minter **forgoes interest income**.
+
 ### **Solving Liquidity Fragmentation**
 
 For example, in the current Ethereum ecosystem, there are numerous Liquid Staking Tokens (LSTs) such as stETH, rETH, cbETH, etc., each with its own independent liquidity, leading to liquidity fragmentation across different liquidity pools. This not only results in insufficient liquidity for many emerging LSTs but also means that each LST must repeatedly invest significant resources to incentivize and build liquidity, a process that is both challenging and inefficient.
@@ -40,7 +44,7 @@ As UPT, UETH can fundamentally resolve this issue. It integrates the liquidity o
 
 It's important to note that not all yield-bearing assets backed by the same underlying asset can be used to mint UPT. To ensure the robustness and security of the entire ecosystem, OutStake puts potential yield-bearing assets through a series of **strict audits**. These assessments consider crucial factors like **security, stability, and decentralization**.
 
-### Important Considerations:
+#### **Important Considerations:**
 
 **UPT has no expiration date and is a generic ERC20 token. It cannot be directly redeemed for the principal portion of a staked position.** This differs from other protocols in the market. You **must first synthesize UPT into a transferable SP**, and then, after the staked position matures, redeem your principal by burning that SP.
 
