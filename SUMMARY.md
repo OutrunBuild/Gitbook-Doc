@@ -31,6 +31,7 @@
   * [Risk-Free LaunchPad](fflaunch/risk-free-launchpad.md)
   * [Proof Of Liquidity Token](fflaunch/proof-of-liquidity-token/README.md)
     * [POL Lending Market](fflaunch/proof-of-liquidity-token/pol-lending-market.md)
+    * [Trading POL, PT, and YT](fflaunch/proof-of-liquidity-token/trading-pol-pt-and-yt.md)
   * [Benefits for Participants](fflaunch/benefits-for-participants/README.md)
     * [Investor](fflaunch/benefits-for-participants/investor.md)
     * [Project Team](fflaunch/benefits-for-participants/project-team.md)
