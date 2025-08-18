@@ -1,6 +1,7 @@
 ---
-icon: threads
 description: Find yourself
+hidden: true
+icon: threads
 ---
 
 # DeSocial (Future)
