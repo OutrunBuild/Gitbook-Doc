@@ -129,7 +129,7 @@ Outrun's product matrix caters to several key groups within the Web3 ecosystem, 
      * **Project Teams:** Wish to quickly attract community attention and early users, build trust, and find sustainable funding sources and user participation mechanisms. They also want to establish highly sticky and active user communities.
      * **Investors:** Tend to participate in risk-controlled investments where they can preserve their principal even if the project performs poorly, while still achieving high returns. They prefer transparent and fair token issuance processes.
    * **Outrun's Appeal:** Outrun's "**risk-free**" fair launch mechanism fundamentally resolves **rug pull** and **insider trading** issues, providing unprecedented security for both parties. The ability to **preserve principal even if the project performs poorly** attracts a wider range of capital with lower risk appetites.
-4.  **Memecoin Community Core Members & Builders (Memeverse):**
+4. **Memecoin Community Core Members & Builders (Memeverse):**
 
     * **Characteristics:** Not satisfied with pure Memecoin speculation; craves to imbue Memecoins with real value and long-term viability. Desires community ownership, rather than being at the mercy of manipulators without recourse. Possesses passion for community governance, decentralized collaboration, and Web3's social applications.
     * **Behavioral Preferences:** Actively participates in DAO governance, strategizing for community development. Seeks to earn DeFi yields by staking Memecoins. Is committed to transforming Memecoins from speculative tools into vehicles for a "decentralized society" with cultural and practical value, accelerating the mass adoption of DAOs.
