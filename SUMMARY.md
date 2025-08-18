@@ -32,7 +32,7 @@
   * [无风险 LaunchPad](fflaunch/risk-free-launchpad.md)
   * [流动性证明代币](fflaunch/proof-of-liquidity-token/README.md)
     * [POL 借贷市场](fflaunch/proof-of-liquidity-token/pol-lending-market.md)
-    * [交易 POL 代币](fflaunch/proof-of-liquidity-token/jiao-yi-pol-dai-bi.md)
+    * [交易 POL, PT, YT 代币](fflaunch/proof-of-liquidity-token/trading-pol-pt-and-yt.md)
   * [参与方利益](fflaunch/benefits-for-participants/README.md)
     * [投资者](fflaunch/benefits-for-participants/investor.md)
     * [项目团队](fflaunch/benefits-for-participants/project-team.md)

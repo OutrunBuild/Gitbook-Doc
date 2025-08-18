@@ -6,7 +6,7 @@
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-* **OutStake** 是 Outrun 生态系统的**收益率代币化**和**稳定币（**[**UPT**](outstake/yield-tokenization/upt/)**）**&#x57FA;础设施，是最底层的模块。UPT 作为 Outrun 生态系统的**血液**，贯穿所有模块，连接整个系统。
+* **OutStake** 是 Outrun 生态系统的**收益率代币化**和**稳定币** 基础设施，是最底层的模块。UPT 作为 Outrun 生态系统的**血液**，贯穿所有模块，连接整个系统。
 * **OutSwap** 是 Outrun 生态系统的**流动性枢纽**，为 OutStake、FFLaunch 和 Memeverse 发行的资产提供高效流动性支持，堪称生态系统的**心脏**。
 * **FFLaunch** 和 **Memeverse** 是 Outrun 生态系统的**流量入口**与**资产发行平台**，位于生态最上层，是用户活跃度最高的区域，驱动增长飞轮的强劲**引擎**。
 
@@ -16,22 +16,22 @@
 
 ### **FFLaunch (Memeverse) 对 OutStake 的增强**
 
-用户在 **FFLaunch** 或 **Memeverse** 模块**参与创世**或**交易代币**时，系统通过 **Simple Stake** 自动将**底层资产**（如 USDT、USDC、ETH、BNB 等）以 **1:1** 的汇率无缝转换为对应的 **UPT 稳定币**（如 UUSD、UETH、UBNB 等）。
+用户在 **FFLaunch** 或 **Memeverse** 模块**参与创世**或**交易代币**时，系统通过 [**Wrap Stake**](outstake/yield-tokenization/upt/#wrap-stake) 自动将**底层资产**（如 USDT、USDC、ETH、BNB 等）以 **1:1** 的汇率无缝转换为对应的 **UPT 稳定币**（如 UUSD、UETH、UBNB 等）。
 
-创世结束后在 **OutSwap** 上部署的流动性池采用 _**项目代币 (Memecoin) / UPT**_ 交易对形式，而使用底层资产交易代币时，系统会自动比较 OutSwap 与 Simple Stake 的汇率，选择最优路径。
+创世结束后在 **OutSwap** 上部署的流动性池采用 _**项目代币 (Memecoin) / UPT**_ 交易对形式，而使用底层资产交易代币时，系统会自动比较 OutSwap 与 Wrap Stake 的汇率，选择最优路径。
 
-通过 Simple Stake 将底层资产存入 OutStake 模块，仅铸造 UPT 而不会铸造 YT 代币。这意味着底层资产在集成的生息资产协议中产生的利息将分配给其他 YT 代币持有者，从而提升对应市场的 [**Implied Real APY**](outstake/glossary/implied-real-apy.md)。
+通过 Wrap Stake 将底层资产存入 OutStake 模块，仅铸造 UPT 而不会铸造 YT 代币。这意味着底层资产在集成的生息资产协议中产生的利息将**分配给其他 YT 代币持有者**，从而提升对应市场的 [**Implied Real APY**](outstake/glossary/implied-real-apy.md)。
 
 举个例子：
 
-1. 假设当前 sUSDS 的 APY 为 _**10%**_，sUSDS 相对于 USDC 的汇率为 _**1:1**_（方便理解，汇率对最终计算结果无影响），并且其在 OutStake 上的 sUSDS Market 没有任何人参与 Stake，TVL 为 **0**。
-2. 此时 Memeverse 的用户们在 Memeverse 参与创世，一共存入了 _**1,000,000 USDC**_，这些 USDC 通过 OutStake 模块的 Simple Stake 转换成了 _**1,000,000 UUSD**_。
+1. 假设当前 sUSDS 的 APY 为 _**10%**_，sUSDS 相对于 USDC 的汇率为 _**1:1**_（方便理解，汇率对最终计算结果无影响），并且其在 OutStake 上的 sUSDS Market 没有任何人参与 Stake，TVL 为 _**0**_。
+2. 此时 Memeverse 的用户们在 Memeverse 参与创世，一共存入了 _**1,000,000 USDC**_，这些 USDC 通过 OutStake 模块的 Wrap Stake 转换成了 _**1,000,000 UUSD**_。
 3. 根据 Implied Real APY 的[**计算方法**](outstake/glossary/implied-real-apy.md)，我们可以计算出 sUSDS Market 当前的 Implied Real APY 为 _**3,650,000,000%**_，这绝对是一个吸引人的数字，立刻就会吸引有其他用户前往 OutStake 进行 Stake。
-4. 我们进一步计算，当 **Simple Stake TVL** 固定为 _**1,000,000**_ **sUSDS** 时，根据 sUSDS Market 里通过 **Stake** 存入的资产的数量计算出不同的 Implied Real APY，如下表所示：
+4.  我们进一步计算，当 **Wrap Stake TVL** 固定为 _**1,000,000**_ **sUSDS** 时，根据 sUSDS Market 里通过 **Stake** 存入的资产的数量计算出不同的 Implied Real APY，如下表所示：
 
-<table data-full-width="true"><thead><tr><th width="219.2855224609375" align="center">Stake TVL (1 Year Lock-in )</th><th align="center" valign="middle">Implied Real APY</th><th align="center" valign="top">Boost rate</th></tr></thead><tbody><tr><td align="center">0 <strong>sUSDS</strong></td><td align="center" valign="middle"><em><strong>3,650,000,000%</strong></em></td><td align="center" valign="top"><em><strong>3,650,000,00%</strong></em></td></tr><tr><td align="center"><em>1,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><em><strong>20%</strong></em></td><td align="center" valign="top"><strong>100%</strong></td></tr><tr><td align="center"><em>2,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><strong>15%</strong></td><td align="center" valign="top"><strong>50%</strong></td></tr><tr><td align="center"><em>3,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><strong>13.33%</strong></td><td align="center" valign="top"><strong>33.33%</strong></td></tr><tr><td align="center"><em>4,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><strong>12.5%</strong></td><td align="center" valign="top"><strong>25%</strong></td></tr></tbody></table>
+    <table data-full-width="true"><thead><tr><th width="219.2855224609375" align="center">Stake TVL (1 Year Lock-in )</th><th align="center" valign="middle">Implied Real APY</th><th align="center" valign="top">Boost rate</th></tr></thead><tbody><tr><td align="center">0 <strong>sUSDS</strong></td><td align="center" valign="middle"><em><strong>3,650,000,000%</strong></em></td><td align="center" valign="top"><em><strong>3,650,000,00%</strong></em></td></tr><tr><td align="center"><em>1,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><em><strong>20%</strong></em></td><td align="center" valign="top"><strong>100%</strong></td></tr><tr><td align="center"><em>2,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><strong>15%</strong></td><td align="center" valign="top"><strong>50%</strong></td></tr><tr><td align="center"><em>3,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><strong>13.33%</strong></td><td align="center" valign="top"><strong>33.33%</strong></td></tr><tr><td align="center"><em>4,000,000</em> <strong>sUSDS</strong></td><td align="center" valign="middle"><strong>12.5%</strong></td><td align="center" valign="top"><strong>25%</strong></td></tr></tbody></table>
 
-从上面的表格中，我们可以大致预测，每 **1** 单位 **Simple Stake TVL** 可以吸引额外 **3 - 4** 单位的 **Stake TVL**，而更多的 TVL 则会铸造更多的 **UPT** 稳定币，为 Outrun 生态系统带来更多的流动性。
+从上面的表格中，我们可以大致预测，每 **1 单位 Wrap  Stake TVL** 可以吸引额外 **3 - 4 单位的 Stake TVL**，而更多的 TVL 则会铸造更多的 **UPT** 稳定币，为 Outrun 生态系统带来更多的流动性。
 
 Outrun 生态系统通过 Memeverse 和 FFLaunch 这两个流量入口，就能够自然驱动 OutStake 与 OutSwap 模块的增长，所以早期我们的增长重点也是在 Memeverse 和 FFLaunch 这两个模块。
 
@@ -43,7 +43,7 @@ FFLaunch 和 Memeverse 使 Outrun 生态系统具有**极高的资本效率**。
 
 以 FFLaunch 举例
 
-* 初始  **Simple Stake**：用户存入 **150 USDC**，参与 FFLaunch 创世，使用底层 OutStake 模块铸造 **150 UUSD**。
+* 初始  **Wrap Stake**：用户存入 **150 USDC**，参与 FFLaunch 创世，使用底层 OutStake 模块铸造 **150 UUSD**。
 * 创世资金分为两部分：
   * **100 UUSD** 与价值 **100 UUSD** 的**项目代币**组成交易对，铸造价值 **200 UUSD** 的 [**POL**](fflaunch/proof-of-liquidity-token/) 代币。
   * **50 UUSD** 与价值 **50 UUSD** 的 POL 代币组成另一个交易对，创造价值 **100 UUSD** 的流动性。
@@ -53,7 +53,7 @@ FFLaunch 和 Memeverse 使 Outrun 生态系统具有**极高的资本效率**。
   * 部署在 **OutSwap** 模块的价值 **100 UUSD** 的“**POL代币 / UUSD**” 交易对流动性。
   * 用户持有的价值 **150 UUSD** 的 POL 代币。
 * 除此之外，还有几种资本杠杆
-  * 前面讲过的 **Simple Stake** 的资金吸引到的额外 3 - 4 倍的 OutStake TVL，并且同时铸造额外 3 - 4 倍的 UUSD。
+  * 前面讲过的 **Wrap Stake** 的资金吸引到的额外 3 - 4 倍的 OutStake TVL，并且同时铸造额外 3 - 4 倍的 UUSD。
   * 随着二级市场交易，项目代币价格上涨，POL 代币的价值以及部署在 OutSwap 模块上的流动性也会上涨。
   * POL 代币进一步拆分成 **PT** 和 **YT** 代币。
 
@@ -61,9 +61,9 @@ FFLaunch 和 Memeverse 使 Outrun 生态系统具有**极高的资本效率**。
 
 ***
 
-### **杠杆创世模块：Outrun 增长飞轮的加速器**
+### **POL 借贷市场：Outrun 增长飞轮的加速器**
 
-[**杠杆创世模块**](outrun-de-zeng-zhang-fei-lun.md#gang-gan-chuang-shi-mo-kuai)允许用户通过支付少量利息借入 UPT 参与 FFLaunch 或 Memeverse 的创世活动，进一步放大 Outrun 生态系统的资本杠杆与流量杠杆。
+[**POL 借贷市场**](fflaunch/proof-of-liquidity-token/pol-lending-market.md)允许用户通过支付少量利息借入 UPT 参与 FFLaunch 或 Memeverse 的创世活动，进一步放大 Outrun 生态系统的资本杠杆与流量杠杆。
 
 * 资本效率的极致提升：
   * 杠杆创世模块通过低成本的杠杆机制，降低了用户参与创世的门槛，吸引更多用户参与 Outrun 生态。这不仅增加了流动性，还通过网络效应增强了生态系统的粘性。
