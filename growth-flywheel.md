@@ -34,3 +34,61 @@ For example:
 From the table above, we can roughly predict that every **1 unit of Wrap Stake TVL** can attract an additional **3–4 units of Stake TVL**, and more TVL will lead to the minting of more **UPT** stablecoins, bringing greater liquidity to the Outrun ecosystem.
 
 The Outrun ecosystem, through its two traffic entry points, Memeverse and FFLaunch, can naturally drive the growth of the OutStake and OutSwap modules. Therefore, our early growth focus is on the Memeverse and FFLaunch modules.
+
+***
+
+### **Capital Leverage of FFLaunch (Memeverse)**&#xD;
+
+FFLaunch and Memeverse enable the Outrun ecosystem to achieve **extremely high capital efficiency**.
+
+Example with FFLaunch
+
+* Initial **Wrap Stake**: A user deposits **150 USDC** to participate in the FFLaunch genesis, minting **150 UUSD** through the underlying **OutStake** module.
+* The genesis funds are divided into two parts:
+  * **100 UUSD** is paired with **Project tokens** worth **100 UUSD** to form a trading pair, minting POL tokens worth **200 UUSD**.
+  * **50 UUSD** is paired with **POL tokens** worth **50 UUSD** to form another trading pair, creating liquidity worth **100 UUSD**.
+* In the end, the genesis user receives POL tokens worth **150 UUSD**, and the entire process generates a **TVL** and **ecosystem assets** worth **600 UUSD**:
+  * **150 USDC** staked in the **OutStake** module.
+  * Liquidity of a “**Project token / UUSD**” trading pair worth **200 UUSD** deployed in the **OutSwap** module.
+  * Liquidity of a “**POL token / UUSD**” trading pair worth **100 UUSD** deployed in the **OutSwap** module.
+  * POL tokens worth **150 UUSD** held by the user.
+* Additional Forms of Capital Leverage:
+  * As previously mentioned, **Wrap Stake** funds attract an additional **3–4 times** the OutStake TVL, while simultaneously minting **3–4 times** more UUSD.
+  * As secondary market trading drives up the price of project tokens, the value of POL tokens and the liquidity deployed in the OutSwap module also increases.
+  * POL tokens can be further split into PT and YT tokens.
+
+Ultimately, the initial 150 USDC capital is amplified by more than **10 times**, efficiently utilized within the Outrun ecosystem, creating substantial additional value.
+
+***
+
+### **POL Lending Market: The Accelerator of Outrun’s Growth Flywheel**
+
+[**POL lending market**](fflaunch/proof-of-liquidity-token/pol-lending-market.md) allows users to borrow UPT by paying a small amount of interest to participate in FFLaunch or Memeverse genesis activities, further amplifying the capital leverage and traffic leverage of the Outrun ecosystem.
+
+*  **Maximized Capital Efficiency**:
+  * The POL lending market, through its low-cost leverage mechanism, lowers the entry barrier for users participating in the genesis of the Outrun ecosystem, attracting more users to engage. This not only increases liquidity but also enhances ecosystem stickiness through network effects.
+  * The UPT issuance mechanism enables Outrun to directly create capital without external dependencies, akin to a central bank’s currency creation capability, but achieved in a decentralized manner.&#x20;
+* **Increased UPT Adoption**:
+  * UPT serves as the core store of value and medium of exchange within the Outrun ecosystem. The POL lending market significantly boosts UPT adoption, creating higher Total Value Locked (TVL). A high adoption rate of UPT strengthens the Outrun ecosystem’s resilience and market competitiveness. As more projects and users choose UPT as their preferred stablecoin, Outrun will form a value network centered around UPT.&#x20;
+* **Building a Moat**:
+  * Through the innovative POL token design and liquidation-free lending mechanism, the POL lending market creates a unique value proposition, making Outrun stand out in the highly competitive DeFi market. This differentiated advantage attracts more projects and users, forming a strong network effect. As the use cases and demand for UPT continue to grow, Outrun will establish a self-reinforcing ecosystem that is difficult for competitors to replicate.
+
+***
+
+### **OutStake's Leveraged Yield Farming**
+
+**Traditional leveraged yield farming** essentially involves profiting from the **interest rate spread**, commonly known as "**looping loans**": users collateralize yield-bearing assets to borrow funds, purchase more yield-bearing assets, and repeat the cycle. As long as the yield from the assets exceeds the borrowing interest rate, users can continuously earn the spread, making it a typical arbitrage strategy. However, this approach carries significant risks and drawbacks:
+
+* **Liquidation Risk**: High leverage can amplify profits, but a slight market downturn may trigger **liquidation**, potentially wiping out assets instantly, requiring careful control of leverage levels.
+* **Interest Rate Volatility Risk**: The spread between borrowing rates and yield-bearing asset returns is **unpredictable,** today's **50%** leverage profit rate could plummet to **-50%** tomorrow, and adjusting positions incurs high transaction and gas fees.
+* **Low Capital Efficiency**: Leveraged yields are often used to cover interest payments, resulting in low net returns.
+
+Considering these factors, traditional leveraged yield farming struggles to sustain high returns over the long term and carries the risk of principal loss, a reality many participants have experienced firsthand.
+
+However, Outrun effectively addresses the risks and shortcomings of traditional methods through its innovative OutStake module and UPT stablecoin, bringing revolutionary changes to leveraged yield farming:
+
+* **Zero Liquidation Risk**: Without relying on third-party lending protocols, users can directly mint UPT stablecoins to purchase more yield-bearing assets and loop stake, completely eliminating liquidation risk.
+* **No Borrowing Interest**: Users are free from paying high loan interest rates and do not need to constantly monitor interest rate spreads, ensuring consistently positive returns.
+* **Maximized Capital Efficiency**: Fully unleashing the potential of funds, every cent is utilized to greater effect, with all profits belonging to the user.
+
+Leveraged yield farming significantly enhances the TVL of the Outrun ecosystem while optimizing the supply of UPT stablecoins. Outrun dynamically balances UPT supply with the ecosystem’s economic activity needs by flexibly adjusting the UPT minting ratio and combining it with open market operations. This mechanism is akin to moderate inflation injecting vitality into an economy, ensuring maximum liquidity and user participation while maintaining the ecosystem’s stability and sustainable growth.
