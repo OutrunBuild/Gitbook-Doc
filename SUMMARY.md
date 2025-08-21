@@ -63,4 +63,6 @@
 * [Targets Audience](targets-audience.md)
 * [Business Model](business-model.md)
 * [GTM Strategy (Pending)](gtm-strategy/README.md)
+  * [Testnet Cold-Start Strategy](gtm-strategy/testnet-cold-start-strategy.md)
+  * [Mainnet GTM Strategy](gtm-strategy/mainnet-gtm-strategy.md)
   * [Points Incentive Program](gtm-strategy/points-incentive-program.md)
