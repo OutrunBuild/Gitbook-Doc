@@ -1,4 +1,4 @@
-# Outrun 主网后 GTM 策略
+# Outrun 主网 GTM 策略
 
 ## 执行摘要
 

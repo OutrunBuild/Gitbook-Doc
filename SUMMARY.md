@@ -64,4 +64,6 @@
 * [Outrun 的目标用户](targets-audience.md)
 * [Outrun 的商业模式](business-model.md)
 * [GTM 策略（待定）](gtm-strategy/README.md)
+  * [测试网冷启动策略](gtm-strategy/testnet-cold-start-strategy.md)
+  * [主网 GTM 策略](gtm-strategy/mainnet-gtm-strategy.md)
   * [积分激励计划](gtm-strategy/points-incentive-program.md)
