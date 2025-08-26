@@ -20,11 +20,11 @@ Outrun 打造了一个独特的多模块闭环的生态系统，通过模块化�
 
 ### **增长飞轮**
 
-[https://outrun.gitbook.io/doc/zh/growth-flywheel](https://outrun.gitbook.io/doc/zh/growth-flywheel)
+[**跳转链接**](introduction.md#zeng-zhang-fei-lun)
 
 ### **商业模式**
 
-[https://outrun.gitbook.io/doc/zh/business-model](https://outrun.gitbook.io/doc/zh/business-model)
+[**跳转链接**](introduction.md#shang-ye-mo-shi)
 
 ### **总结**
 
