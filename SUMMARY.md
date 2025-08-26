@@ -67,4 +67,4 @@
   * [测试网冷启动策略](gtm-strategy/testnet-cold-start-strategy.md)
   * [主网 GTM 策略](gtm-strategy/mainnet-gtm-strategy.md)
   * [积分激励计划](gtm-strategy/points-incentive-program.md)
-* [Outrun 的简单介绍](outrun-de-jian-dan-jie-shao.md)
+* [Outrun 的简单介绍](simplified-introduction.md)
