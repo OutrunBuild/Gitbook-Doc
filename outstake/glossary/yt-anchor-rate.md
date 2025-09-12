@@ -24,7 +24,7 @@ Therefore, the YT anchor rate can also be calculated using the following formula
 #### **Characteristics of the YT Anchor Rate**
 
 1. **Starts from Zero and Grows Over Time:**
-   * When YT is first minted, its redeemable value is zero. As time progresses, the interest earnings accumulated by its underlying SY tokens continuously flow into the Yield Pool, causing the anchor rate of each YT to gradually increase from zero.
+   * When YT is first minted, its redeemable value is zero. As time progresses, the interest earnings accumulated by its underlying SY tokens continuously flow into the Yield Pool, causing the anchor rate of each YT to gradually increase from zero. Note: "first minting" refers to the first time the entire market mints YT, rather than each user's first minting of YT. If a user mints YT after the market has been deployed for some time, then its initial anchored interest rate is not zero.
    * Theoretically, the upper limit of this anchor rate’s growth aligns with the actual interest rate of the yield-bearing asset, so the YT anchor rate will gradually converge toward the actual interest rate of the yield-bearing asset.
 2. **Potential to Exceed the Actual Interest Rate Cap:**
    * This is a particularly interesting feature of the YT mechanism. Typically, we expect the YT anchor rate to be “anchored” to the actual interest rate of the underlying yield-bearing asset, meaning its growth would stop once it reaches the actual interest rate.
