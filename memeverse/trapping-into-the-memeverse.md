@@ -18,7 +18,6 @@ Memeverse 基于 **LayerZero** 构建，用户可以选择同时在多个区块�
 
 * **独一无二的 Symbol 保证稀缺性**： 每个 Memecoin 的 Symbol 在全链 Memeverse 中都是**独一无二**的，这确保了在命名上的稀缺性。这可以帮助类似于**新闻交易**产生的 Memecoin 在市场上有**更强的辨识度和吸引力**。
 * **FFLaunch 方式的启动**： Memeverse 通过 FFLaunch 的方式启动，旨在避免传统 Memecoin 发行中常见的**欺诈**、**老鼠仓**和 **Rug Pull** 等风险。这种方式能够确保所有参与者处于同一起跑线上，减少了参与者的风险，为他们提供了一个相对安全的参与方式。
-* **捕获 OutStake 产生的质押收益**： Memeverse 允许用户质押生息代币铸造 UPT，同时获得 **OutStake** 产生的利息收益，这提高了资金的利用率，让投资者在参与 Memecoin 的玩法同时还能参与 DeFi 质押。这种机制不仅吸引了新手投资者参与 **DeFi**，还为 **DeFi** 生态带来了更多潜在用户。
 * **Memecoin 质押以及再质押**： Memecoin 持有者可以将代币存入 **Memecoin 收益金库**从而铸造 ERC4626 标准的 Memecoin 生息代币，其价值会随时间不断积累，同时还可以将 Memecoin 生息代币再次质押锁定到 OutStake，从而获取更多的收益以及可组合性。
 * **Memecoin DAO 治理**：Memecoin DAO 国库可以从锁定的流动性产生的**做市收益**中获得持续的财政收入，为 Memecoin 社区的去中心化治理提供经济支持，同时社区成员可以通过质押 Memecoin 参与 DAO 治理（同时获得 Staking 收益），投票决定国库资金如何使用（如支持公共事业、DeSci、AI、风险投资、举办生态黑客松、开发实用程序、IP 打造、Meme 文化营销活动等等）从而增强生态影响力与共识，亦或者提高生态收入。
 * **Memeverse 推广服务**：Memeverse 允许用户为 Memecoin 生成**一键直达推荐链接**，点击链接会直达 Memecoin 详情页面，当被推荐者使用链接交易时，推荐者将会获得来自协议费的**返佣**。

@@ -55,7 +55,6 @@
     * [大众创业者的无限可能](memeverse/endgame-of-memecoin/infinite-possibilities-of-mass-entrepreneurs.md)
     * [改变并占领用户心智](memeverse/endgame-of-memecoin/transform-and-capture-consumer-mindset.md)
   * [事件生命周期](memeverse/event-lifecycle/README.md)
-  * [推广服务](memeverse/referral-service.md)
   * [Memeverse 对 Outrun 生态系统的影响](memeverse/impact-on-outrun-ecosystem.md)
   * [与 Pump.fun 对比](memeverse/compared-with-pump.fun.md)
 * [去中心化社交（未来）](desocial.md)

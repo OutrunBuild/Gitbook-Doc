@@ -1,6 +1,5 @@
 ---
 description: 找到你存在的地方
-hidden: true
 icon: threads
 ---
 
