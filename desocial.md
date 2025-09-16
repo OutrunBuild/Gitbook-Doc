@@ -1,6 +1,5 @@
 ---
 description: Find yourself
-hidden: true
 icon: threads
 ---
 

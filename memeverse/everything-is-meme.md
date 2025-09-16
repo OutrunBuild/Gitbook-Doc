@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Everything is meme
 
 ### Everything is Memecoin

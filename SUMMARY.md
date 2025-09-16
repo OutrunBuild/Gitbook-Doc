@@ -53,7 +53,6 @@
     * [From onchain to real world](memeverse/the-endgame-of-memecoin/from-onchain-to-real-world.md)
     * [The Infinite Possibilities Of Mass Entrepreneurs](memeverse/the-endgame-of-memecoin/the-infinite-possibilities-of-mass-entrepreneurs.md)
     * [Transform and Capture User Mindset](memeverse/the-endgame-of-memecoin/transform-and-capture-user-mindset.md)
-  * [Referral service](memeverse/referral-service.md)
   * [Event lifecycle](memeverse/event-lifecycle.md)
   * [Impact of Memeverse on the Outrun Ecosystem](memeverse/impact-on-outrun-ecosystem.md)
   * [Compared with Pump.fun](memeverse/compared-with-pump.fun.md)
