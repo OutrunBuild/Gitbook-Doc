@@ -2,7 +2,7 @@
 
 The market features two initial trading pairs: **POL / UPT** and **PT / POL**.
 
-After the FFLaunch Genesis phase ends, **1/3** of the genesis funds **not borrowed through the POL lending market** will form a trading pair with **1/4** of the POL tokens **not related to the POL lending market**. This mechanism provides the most direct trading pathway for POL tokens.
+After the FFLaunch Genesis phase ends, **1/3** of the **UPT** genesis funds **not borrowed through the POL lending market** will form a trading pair with **1/4** of the **POL** tokens **not related to the POL lending market**. This mechanism provides the most direct trading pathway for POL tokens.
 
 Since POL tokens can be split into PT and YT, trading of PT and YT occurs through the **PT / POL** liquidity pool and **flash swap**, respectively. Based on the fact that PT and YT can be minted from the underlying POL, their price relationship can be expressed as follows:
 

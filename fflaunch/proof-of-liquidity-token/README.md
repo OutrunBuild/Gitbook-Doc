@@ -12,7 +12,9 @@ POL tokens are essentially **specially packaged LP** tokens, with their value un
 
 This is why FFLaunch is considered a “**risk-free**” LaunchPad: **even if the project token’s price drops to zero, genesis users can still redeem their initially deposited UPT**, shielding them from the price volatility of the paired token.
 
-Upon deeper analysis, POL tokens can be recognized as a form of **yield-bearing asset**, where **the UPT contributed during the genesis stage** serves as the principal, and the yield is the **total liquidity value redeemed at maturity minus the principal**. Consequently, POL tokens can be divided into two components: **PT** (principal token) and **YT** (yield token). Unlike OutStake, FFLaunch’s POL tokens feature a **uniform maturity date**, removing the option for customizable lock-up periods and thus simplifying the YT model.
+Upon deeper analysis, POL tokens can be recognized as a form of **yield-bearing asset**, where **the UPT contributed during the genesis stage** serves as the principal, and the yield is the **total liquidity value redeemed at maturity minus the principal**. Consequently, POL tokens can be divided into two components: **PT** (principal token) and **YT** (yield token).&#x20;
+
+Unlike OutStake's original model, FFLaunch's POL tokens have a **uniform expiration date**, eliminating custom lock-up period options, thus simplifying the yield model.
 
 ## Liquidity Protection Period
 
