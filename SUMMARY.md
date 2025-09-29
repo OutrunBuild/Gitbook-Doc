@@ -66,3 +66,4 @@
   * [Testnet Cold-Start Strategy](gtm-strategy/testnet-cold-start-strategy.md)
   * [Mainnet GTM Strategy](gtm-strategy/mainnet-gtm-strategy.md)
   * [Points Incentive Program](gtm-strategy/points-incentive-program.md)
+* [Speech Script](speech-script.md)
