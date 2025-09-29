@@ -22,4 +22,4 @@ Our team members come from JD.com, Tencent, and Crypto.com, with extensive exper
 
 This is the complete Outrun ecosystem, composed of multiple interconnected modules. If you're curious about how we integrate Memecoin, Low Risk DeFi, and DAO. Even the most conservative investors can benefit from the development of the Memecoin ecosystem. After the Demo, we can dive deeper into this.
 
-Finally, here are some of our additional information .
+Finally, here are some of our additional information.
