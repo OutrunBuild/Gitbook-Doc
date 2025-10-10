@@ -4,11 +4,12 @@
 
 First, take a look at the **module architecture diagram** of the Outrun ecosystem:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Outrun架构图.png" alt=""><figcaption></figcaption></figure>
 
-* **OutStake** is the **yield tokenization and stablecoin infrastructure** of the Outrun ecosystem, serving as the foundational module. UPT, as the **lifeblood** of the Outrun ecosystem, flows through all modules, connecting the entire system.
+* **OutStake** is the **yield tokenization and stablecoin infrastructure** of the Outrun ecosystem, serving as the foundational module. UPT Stablecoin, as the **lifeblood** of the Outrun ecosystem, flows through all modules, connecting the entire system.
 * **OutSwap** is the **liquidity hub** of the Outrun ecosystem, providing efficient liquidity support for assets issued by OutStake, FFLaunch, and Memeverse, acting as the **heart** of the ecosystem.
 * **FFLaunch** and **Memeverse** are the **traffic entry points** and **asset issuance platforms** of the Outrun ecosystem, located at the top layer, are the areas with the highest user activity, and serve as **powerful engines** driving the growth flywheel.
+* **POL Lend** is a specialized **CDP (Collateralized Debt Position)** module, distinct from **MakerDAO**. By integrating the [**POL token**](fflaunch/proof-of-liquidity-token/) with **yield tokenization engine**, it enables users to conduct "**uncollateralized**" borrowing by **paying only interest**, thereby allowing them to autonomously "**create efficient capital out of thin air**" like a central bank, greatly enhancing the liquidity and capital efficiency of the Outrun ecosystem.
 
 Next, we will deeply analyze how Outrun achieves synergistic effects through its unique multi-module closed-loop ecosystem.
 
