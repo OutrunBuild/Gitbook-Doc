@@ -4,11 +4,12 @@
 
 先看一下 Outrun 生态系统的模块架构图：
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Outrun架构图.png" alt=""><figcaption></figcaption></figure>
 
-* **OutStake** 是 Outrun 生态系统的**收益率代币化**和**稳定币** 基础设施，是最底层的模块。UPT 作为 Outrun 生态系统的**血液**，贯穿所有模块，连接整个系统。
+* **OutStake** 是 Outrun 生态系统的**收益率代币化**和**稳定币**基础设施，是最底层的模块。UPT 稳定币作为 Outrun 生态系统的**血液**，贯穿所有模块，连接整个系统。
 * **OutSwap** 是 Outrun 生态系统的**流动性枢纽**，为 OutStake、FFLaunch 和 Memeverse 发行的资产提供高效流动性支持，堪称生态系统的**心脏**。
-* **FFLaunch** 和 **Memeverse** 是 Outrun 生态系统的**流量入口**与**资产发行平台**，位于生态最上层，是用户活跃度最高的区域，驱动增长飞轮的强劲**引擎**。
+* **FFLaunch** 和 **Memeverse** 是 Outrun 生态系统的**流量入口**与**资产发行平台**，位于生态最上层，是用户活跃度最高的区域，是驱动增长飞轮的强劲**引擎**。
+* **POL Lend** 是一个特殊的 **CDP(抵押债务头寸) 模块**，不同于 MakerDAO，它通过集成 **POL 代币**与**收益代币化引擎**，允许用户针对 FFLaunch 和 Memeverse 进行“**无抵押**”的借款，极大地提高了 Outrun 生态系统地流动性与资本杠杆。
 
 接下来，我们将深入剖析 Outrun 如何通过其独特的多模块闭环生态实现协同增效。
 
